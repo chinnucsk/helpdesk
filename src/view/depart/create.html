@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block tite %}New departs{% endblock %}
+
+{% block content %}
+      <form method="post">
+            <table>
+               <tr><td>Наименование</td>
+                  <td><input type="text" id="name" name="name"
+                      size="45" maxlength="255"/></td>
+               </tr>
+               <tr><td>Описание</td>
+                  <td><input type="text" id="note" name="note"
+                      size="45" maxlength="255"/></td>
+               </tr>
+            </table>
+            <button type="submit">Submit</button>
+      </form>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Edit depart{% endblock %}
+
+{% block content %}
+      <form method="post">
+         <header></header>
+            <table>
+            {% if departs %}
+               <tr><td>Наименование</td>
+                  <td><input type="text" id="name" name="name"
+                      size="45" maxlength="255" value="{{departs.name}}"/></td>
+               </tr>
+               <tr><td>Описание</td>
+                  <td><input type="text" id="note" name="note"
+                      size="45" maxlength="255" value="{{departs.note}}"/></td>
+               </tr>
+            {% endif %}
+            </table>
+            <button type="submit">Submit</button>
+      </form>
+{% endblock %}

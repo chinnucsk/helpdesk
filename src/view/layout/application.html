@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="{{ _base_url }}/static/stylesheets/application.css?1298394796" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" charset="utf-8" />
+
+    <title>{% block title %}Title -{% endblock %}</title>
+    {% block res %}{% endblock %}
+</head>
+<body>
+   <header>
+      {% if opeator %}
+          Вы работаете от имени, {{operator.name}}
+          (<a href="/user/logout">Выход</a>)
+          <br />
+      {% endif %}
+      Адрес вашего компьютера: {{ip}}
+   </header>
+   <nav>
+       <ul class="nav">
+           <li class="nav"><a href="/">Задания отдела</a></li>
+           <li class="nav"><a href="/address/index">Адреса</a></li>
+           <li class="nav"><a href="/request/index">Задания</a></li>
+           <li class="nav"><a href="/depart/index">Отделы</a></li>
+           <li class="nav"><a href="/operator/login">Регистрация</a></li>
+           <li class="nav"><a href="/assistant/index">Работники</a></li>
+           <li class="nav"><a href="/admin">Admin</a></li>
+       </ul>
+   </nav>
+   <section>
+       {% block content %}{% endblock %}
+   </section>
+   <footer>
+       {% block footer %}{% endblock %}
+   </footer>
+
+</body>
+</html>

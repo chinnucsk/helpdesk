@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Request{% endblock %}
+
+{% block content %}
+
+           <li class="nav1"><a href="/request/create">Добавить</a></li>
+
+          <table>
+      {% if requests %}
+          <tr>
+              <th>Отдел</th>
+              <th>Пользователь</th>
+              <th>Срочность</th>
+              <th>Дата созд.</th>
+              <th>Дата прин.</th>
+              <th>Дата закр.</th>
+              <th>Описание</th>
+              <th>Операции</th>
+          </tr>
+          {% for request in requests %}
+          <tr>
+              <td>{{request.depart.name}}</td>
+              <td>{{request.cl_user.name}}</td>
+              <td>{{request.id_order}}</td>
+              <td>{% include "./main/date.txt" with date=request.creation_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.worker_in_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.close_time %}</td>
+              <td>{{request.note}}</td>
+              <td align="center">
+              {% if request.close_time|date:"Y" < 2011 %}
+                  <a href=/request/set_close/{{request.id}}>Подтвердить</a>
+              {% endif %}
+                  <a href=/request/show/{{request.id}}>Показать</a>
+          </tr>
+          {% endfor %}
+         
+      {% else %}
+          <b> No request. </b>
+      {% endif %}
+         </table>
+         {% if requests %}
+             <br />
+         Number of request: {{count}}
+         {% endif %}
+{% endblock %}

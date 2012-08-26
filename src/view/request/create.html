@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block tite %}New request{% endblock %}
+
+{% block content %}
+Новое задание.
+
+      <form method="post">
+            <table>
+                 <tr><td>Отдел</td>
+               <td align="left" >
+                    {% include "./depart/sel_departs.html" %}
+               </td>
+
+               <tr><td>Срочность</td>
+                  <td align="left">
+                     {% include "./request/order.html" %}
+                      </td>
+               </tr>
+               <tr><td>Описание</td>
+                  <td><input type="text" id="note" name="note"
+                      size="45" maxlength="255"/></td>
+               </tr>
+            </table>
+            <button type="submit">Submit</button>
+      </form>
+{% endblock %}

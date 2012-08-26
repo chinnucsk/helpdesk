@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Request{% endblock %}
+
+{% block content %}
+
+<header>
+   <nav1>
+       <ul class="nav1">
+        Отчет по заданиям 01.
+       </ul>
+   </nav1>
+
+</header>
+          <table>
+      {% if requests %}
+          <tr>
+              <th>Номер</th>
+              <th>Автор</th>
+              <th>Статус</th>
+              <th>Отдел</th>
+              <th>Исполнитель</th>
+              <th>Важность</th>
+              <th>Дата пост.</th>
+              <th>Дата прин.</th>
+              <th>Дата испол.</th>
+              <th>Дата подтв.</th>
+              <th>Дата измен.</th>
+              <th>Описание</th>
+              <th>Выполнено за</th>
+          </tr>
+          {% for request in requests %}
+          <tr>
+              <td>{{request.id}}</td>
+              <td>{{request.cl_user.name}}</td>
+              <td>{{request.status}}</td>
+              <td>{{request.depart.name}}</td>
+              <td>{{request.id_worker}}</td>
+              <td>{{request.id_order}}</td>
+              <td>{% include "./main/date.txt" with date=request.creation_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.worker_in_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.worker_out_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.close_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.change_time %}</td>
+              <td>{{request.note}}</td>
+
+              {% include "./request/user.html" %}
+              <td> {# {{request.creation_time|timesince:request.close_time}} #} </td>
+          </tr>
+          {% endfor %}
+      {% else %}
+          <b> Список заданий пуст. </b>
+      {% endif %}
+         </table>
+         {% if requests %}
+             <br />
+         Всего заданий: {{count}}
+         {% endif %}
+{% endblock %}

@@ -1,0 +1,7 @@
+{% for comm in request.comments %}
+    <tr><td>{{comm.note}}</td>
+        <td>{{comm.cl_user.name}}</td>
+        <td>{% include "./main/date.txt" with date=comm.creation_time %}</td>
+    </tr>
+    <tr></tr>
+{% endfor %}

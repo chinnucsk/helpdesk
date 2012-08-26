@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} View depart {% endblock %}
+
+{% block content %}
+            <table>
+            {% if departs %}
+               <tr><td>Наименование</td>
+                  <td>{{departs.name}}</td>
+               </tr>
+               <tr><td>Описание</td>
+                  <td>{{departs.note}}</td>
+               </tr>
+               <tr><td>Пользователи</td>
+                  <td>{{operator}}</td>
+               </tr>
+               <tr><td>Дата создания</td>
+                  <td>{{departs.creation_time|date:"j N Y, H:i"}}</td>
+               </tr>
+               <tr><td>Дата изменения</td>
+                  <td>{{departs.change_time|date:"j N Y, H:i"}}</td>
+               </tr>
+            {% endif %}
+            </table>
+{% endblock %}

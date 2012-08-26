@@ -1,0 +1,11 @@
+{% if departs %}
+    <select id="depart_id" name="depart_id">
+    {% for depart in departs %}
+        {% if depart.id == id_depart %}
+          <option selected value = {{depart.id}}>{{ depart.name }}</option>
+        {% else %}
+          <option value = {{depart.id}}>{{ depart.name }}</option>
+        {% endif %}
+    {% endfor %}
+    </select>
+{% endif %}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>{% block title %}Help desk.{% endblock %}</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link href="{{ _base_url }}/static/stylesheets/application.css?1298394796" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/static/css/style1.css" type="text/css" charset="utf-8" />
+
+
+</head>
+<body>
+<header><h3>HD:2semia</h3>
+{% if cl_user %}
+Текущий пользователь: {{ cl_user.name }}
+{% endif %}
+
+</header>
+<nav>
+  <ul>
+        <li><a href="/">Home</></li>
+        <li><a href="/chat">Chat</></li>
+    {% if cl_user %}
+        <li><a href="/main/depart_request">Задания отдела</a></li>
+        <li><a href="/main/user_request">Мои задания</a></li>
+        {% if cl_user.name == "admin" %}
+            <li><a href="/depart/index">Отделы</a></li>
+            <li><a href="/request/index">Задания</a></li>
+            <li><a href="/about">О прогамме</a></li>
+            <li><a href="/user/register">Регистрация</a></li>
+            <li><a href="/request/report01">Отчет 01</a></li>
+        {% endif %}
+    {% else %}
+        <li><a href="/user/login">Login</a></li>
+    {% endif %}
+    {% if cl_user %}
+        <li><a href="/user/logout">выйти</a></li>
+    {% endif %}
+
+  </ul>
+</nav>
+{% block content %}{% endblock %}
+</body>
+</html>

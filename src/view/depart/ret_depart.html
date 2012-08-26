@@ -1,0 +1,7 @@
+{% if departs %}
+    {% for depart in departs %}
+        {% if depart.id == id_depart %}
+            {{ depart.name }}
+        {% endif %}
+    {% endfor %}
+{% endif %}

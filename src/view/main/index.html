@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Help desk.{% endblock %}
+
+{% block content %}
+<h1>Welcome to Help desk!</h1>
+{% if cl_user %}
+<p>Glad you could stop by, {{ cl_user.username }}.</p>
+{% endif %}
+<p>Cl is a Chicago Boss sample project that displays PostgreSQL usage, basic templating, user registration/login, and bcrypt (using <a href="https://github.com/mrinalwadhwa/erlang-bcrypt">erlang-bcrypt</a>).</p>
+{% if not cl_user %}
+<p>You should <a href="/user/register">register</a>, it will be fun.</p>
+{% endif %}
+{% endblock %}
+

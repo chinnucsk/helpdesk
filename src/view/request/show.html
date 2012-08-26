@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %} Show request {% endblock %}
+
+{% block content %}
+            <table border="1">
+            {% if request %}
+               <tr><td>Отдел</td>
+                  <td>{{request.depart.name}}</td>
+               </tr>
+               <tr><td>Срочность</td>
+                  <td>{{request.id_order}}</td>
+               </tr>
+               <tr><td>Статус</td>
+                  <td>{{request.status}}</td>
+               </tr>
+               <tr><td>Описание</td>
+                  <td>{{request.note}}</td>
+               </tr>
+               <tr><td>Создатель</td>
+                  <td>{{request.cl_user_id}}</td>
+               </tr>
+               {% if users %}
+                   {% for user in users %}
+                       {% if request.user == user.id %}
+               <tr><td>Пользователь</td>
+                  <td>{{user.name}}</td>
+               </tr>
+                       {% endif %}
+                   {% endfor %}
+               {% endif %}
+               <tr><td>Дата создания</td>
+                  <td>{% include "./main/date.txt" with date=request.creation_time %}</td>
+               </tr>
+               <tr><td>Дата изменения</td>
+                  <td>{% include "./main/date.txt" with date=request.change_time %}</td>
+               </tr>
+               <tr><td>Дата прин.</td>
+                  <td>{%  include "./main/date.txt" with date=request.worker_in_time %}</td>
+               </tr>
+               <tr><td>Дата испол.</td>
+                  <td>{%  include "./main/date.txt" with date=request.worker_out_time %}</td>
+               </tr>
+               <tr><td>Дата подтв.</td>
+                  <td>{% include "./main/date.txt" with date=request.close_time %}</td>
+               </tr>
+            {% endif %}
+            </table>
+            <li>Комментарии</li>
+            <table border="1">
+            {% include "./request/show_comments.txt" with comments=request.comments %}
+            </table>
+
+            {% include "./request/add_comments.txt" %}
+
+
+{% endblock %}

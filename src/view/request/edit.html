@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Edit request{% endblock %}
+
+{% block content %}
+      <form method="post">
+         <header></header>
+            <table>
+            {% if request %}
+               <tr><td>Создатель</td>
+                  <td><input type="text" id="cl_user_id" name="cl_user_id"
+                      size="45" maxlength="255" value="{{request.cl_user_id}}"/></td>
+               </tr>
+               <tr><td>Статус</td>
+                  <td><input type="text" id="status" name="status"
+                      size="45" maxlength="255" value="{{request.status}}"/></td>
+               </tr>
+               <tr><td>Отдел</td>
+                  <td>
+                  {% include "./depart/sel_departs.html" with id_depart=request.depart_id %}
+                  </td>
+               </tr>
+               <tr><td>Исполнитель</td>
+                  <td><input type="text" id="id_worker" name="id_worker"
+                      size="45" maxlength="255" value="{{request.id_worker}}"/></td>
+               </tr>
+               <tr><td>Срочность</td>
+                  <td><input type="text" id="id_order" name="id_order"
+                      size="45" maxlength="255" value="{{request.id_order}}"/></td>
+               </tr>
+               <tr><td>Описание</td>
+                  <td><input type="text" id="note" name="note"
+                      size="45" maxlength="255" value="{{request.note}}"/></td>
+               </tr>
+            {% endif %}
+            </table>
+            <button type="submit">Submit</button>
+
+      </form>
+{% endblock %}

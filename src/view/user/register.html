@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Cl: Register{% endblock %}
+
+{% block content %}
+<h1>Register</h1>
+{% if error %}
+<h5 style="color:#FF0000;">{{ error }}</h5>
+{% endif %}
+<form method="post">
+Username:<br />
+<input name="name" /><br /><br />
+Email: <br />
+<input name="email" /><br /><br />
+Password:<br />
+<input name="password" type="password" /><br />
+Отдел<br />
+{% include "./depart/sel_departs.html" with id_depart = "depart-4" %}<br />
+<br />
+
+<input type="submit" value="Register" />
+</form>
+{% endblock %}
+

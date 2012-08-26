@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Departs{% endblock %}
+
+{% block content %}
+
+<header>
+   <nav1>
+       <ul class="nav1">
+       Список отделов.
+           <li class="nav1"><a href="/depart/create">Добавить</a></li>
+       </ul>
+   </nav1>
+
+</header>
+          <table>
+      {% if departs %}
+          <tr>
+              <th>Наименование</th>
+              <th>Описание</th>
+              <th>Дата созд./измен.</th>
+              <th>Пользователи</th>
+              <th>Операции</th>
+          </tr>
+          {% for depart in departs %}
+          <tr>
+              <td>{{depart.name}}</td>
+              <td>{{depart.note}}</td>
+              <td>{{depart.creation_time|date:"j N Y, H:i" }}
+                  {{depart.change_time|date:"j N Y, H:i" }}</td>
+              <td>
+                 {% for user in depart.cl_users %}
+                     {{ user.name }},
+                 {% endfor %}
+             </td>
+              <td align="center">
+                  <a href=/depart/show/{{depart.id}}>Показать</a>
+                  <a href=/depart/edit/{{depart.id}}>Изменить</a>
+                  <a href=/depart/delete/{{depart.id}}>Удалить</a></td>
+          </tr>
+          {% endfor %}
+         
+      {% else %}
+          <b> Список отделов пуст. </b>
+      {% endif %}
+         </table>
+         {% if departs %}
+             <br />
+         Всего отделов: {{count}}
+         {% endif %}
+{% endblock %}
