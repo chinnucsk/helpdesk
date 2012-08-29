@@ -114,8 +114,39 @@ set_close('POST', [Id], Person) ->
                               %%{note, Req:post_param("note")},
                               %%{creation_time, Req:post_param("creation_time")},
                               %%{worker_in_time, erlang:localtime()},
-                              {worker_out_time,  erlang:localtime()},
+                              %%{worker_out_time,  erlang:localtime()},
                               {close_time, erlang:localtime()},
+                              {change_time,erlang:localtime()}]),
+    case NewRequest:save() of
+        {ok, SavedAddress} ->
+            {redirect,[{action, "../main/user_request"}]};
+        {error, Reason} ->
+                Reason
+    end.
+
+set_complit('GET', [Id], Person) ->
+    Request = boss_db:find(Id),
+    Departs = boss_db:find(depart, []),
+    {ok, [
+            {departs, Departs},
+            {request, Request},
+            {ip, Req:peer_ip()},
+            {cl_user, Person}
+         ]};
+set_complit('POST', [Id], Person) ->
+    Request = boss_db:find(Id),
+    ClUser = boss_db:find(Person),
+    NewRequest = Request:set([
+                              %%{cl_user_id, Req:post_param("cl_user_id") },
+                              {status, Req:post_param("status")},
+                              %%{depart_id, Req:post_param("depart_id")},
+                              %%{id_worker, Req:post_param("id_worker")},
+                              %%{id_order, Req:post_param("id_order")},
+                              %%{note, Req:post_param("note")},
+                              %%{creation_time, Req:post_param("creation_time")},
+                              %%{worker_in_time, erlang:localtime()},
+                              {worker_out_time,  erlang:localtime()},
+                              %%{close_time, erlang:localtime()},
                               {change_time,erlang:localtime()}]),
     case NewRequest:save() of
         {ok, SavedAddress} ->

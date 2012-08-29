@@ -2,6 +2,7 @@
 [Id,
  IntTest,
  StrTest::string(),
- DateTestTime]
+ DateTestTime,
+ BirthDate::datetime()]
 ).
 -compile(export_all).

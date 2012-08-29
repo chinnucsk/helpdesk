@@ -14,6 +14,7 @@
               <th>Срочность</th>
               <th>Дата созд.</th>
               <th>Дата прин.</th>
+              <th>Дата испол.</th>
               <th>Дата закр.</th>
               <th>Описание</th>
               <th>Операции</th>
@@ -25,6 +26,7 @@
               <td>{{request.id_order}}</td>
               <td>{% include "./main/date.txt" with date=request.creation_time %}</td>
               <td>{% include "./main/date.txt" with date=request.worker_in_time %}</td>
+              <td>{% include "./main/date.txt" with date=request.worker_out_time %}</td>
               <td>{% include "./main/date.txt" with date=request.close_time %}</td>
               <td>{{request.note}}</td>
               <td align="center">
