@@ -6,10 +6,20 @@
 % return a list of WatchIDs that should be cancelled in the stop
 % function below (stop is executed if the script is ever reloaded).
 init() ->
+    {ok, MemberId} = boss_news:watch("depart-*.name",
+                        fun(updated, {Depart, 'name', OldName, NewName}) ->
+                            error_logger:info_msg("Depart's name change from ~p to ~p", [OldName, NewName])
+                        end),
+
     {ok, []}.
 
 stop(ListOfWatchIDs) ->
     lists:map(fun boss_news:cancel_watch/1, ListOfWatchIDs).
+
+%%boss_news:watch("depart-*.name",
+%%    fun(updated, {Depart, 'name', OldName, NewName}) ->
+%%                error_logger:info_msg("Depart's name change from ~p to ~p", [OldName, NewName])
+%%    end).
 
 %%%%%%%%%%% Ideas
 %    boss_news:watch("user-42.*",

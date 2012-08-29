@@ -23,6 +23,7 @@ create('POST', [], Person) ->
     %%Id = "",
     ClUserId = Person:id(),
     DepartId = Req:post_param("depart_id"),
+    Status = "New",
     IdWorker = "",
     IdOrder = Req:post_param("id_order"),
     CreationTime = erlang:localtime(),
@@ -32,7 +33,7 @@ create('POST', [], Person) ->
     ChangeTime = erlang:localtime(),
     Note = Req:post_param("note"),
 
-    NewRequest = request:new(id, ClUserId, Req:post_param("status"), DepartId, IdWorker, IdOrder, CreationTime, WorkerInTime, WorkerOutTime, CloseTime, ChangeTime, Note),
+    NewRequest = request:new(id, ClUserId, Status, DepartId, IdWorker, IdOrder, CreationTime, WorkerInTime, WorkerOutTime, CloseTime, ChangeTime, Note),
 
     case NewRequest:save() of
         {ok, SavedAddress} ->
@@ -76,7 +77,7 @@ set_worker('POST', [Id], Person) ->
     ClUser = boss_db:find(Person),
     NewRequest = Request:set([
                               %%{cl_user_id, Req:post_param("cl_user_id") },
-                              {status, Req:post_param("status")},
+                              {status, "InWorks"},
                               %%{depart_id, Req:post_param("depart_id")},
                               {id_worker, Req:post_param("id_worker")},
                               %%{id_order, Req:post_param("id_order")},
@@ -88,7 +89,7 @@ set_worker('POST', [Id], Person) ->
                               {change_time,erlang:localtime()}]),
     case NewRequest:save() of
         {ok, SavedAddress} ->
-            {redirect,[{action, "../main/set_worker"}]};
+            {redirect,[{action, "../main/depart_request"}]};
         {error, Reason} ->
                 Reason
     end.
@@ -107,7 +108,7 @@ set_close('POST', [Id], Person) ->
     ClUser = boss_db:find(Person),
     NewRequest = Request:set([
                               %%{cl_user_id, Req:post_param("cl_user_id") },
-                              {status, Req:post_param("status")},
+                              {status, "Close"},
                               %%{depart_id, Req:post_param("depart_id")},
                               %%{id_worker, Req:post_param("id_worker")},
                               %%{id_order, Req:post_param("id_order")},
@@ -138,7 +139,7 @@ set_complit('POST', [Id], Person) ->
     ClUser = boss_db:find(Person),
     NewRequest = Request:set([
                               %%{cl_user_id, Req:post_param("cl_user_id") },
-                              {status, Req:post_param("status")},
+                              {status, "Complite"},
                               %%{depart_id, Req:post_param("depart_id")},
                               %%{id_worker, Req:post_param("id_worker")},
                               %%{id_order, Req:post_param("id_order")},
@@ -150,7 +151,7 @@ set_complit('POST', [Id], Person) ->
                               {change_time,erlang:localtime()}]),
     case NewRequest:save() of
         {ok, SavedAddress} ->
-            {redirect,[{action, "../main/user_request"}]};
+            {redirect,[{action, "../main/depart_request"}]};
         {error, Reason} ->
                 Reason
     end.

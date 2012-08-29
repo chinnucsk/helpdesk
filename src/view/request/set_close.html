@@ -8,7 +8,7 @@
             <table border="1">
             {% if request %}
                <tr><td>Отдел</td>
-                  <td>{% include "./depart/ret_depart.html" with id_depart=request.depart %}</td>
+                  <td>{{request.depart.name}}</td>
                </tr>
                <tr><td>Срочность</td>
                   <td>{{request.id_order}}</td>
@@ -21,7 +21,7 @@
                </tr>
 
                <tr><td>Создатель</td>
-                  <td>{{request.cl_user_id}}</td>
+                  <td>{{request.cl_user.name}}</td>
 
                <tr><td>Исполнитель</td>
                   <td>{{request.id_worker}}</td>
@@ -56,15 +56,7 @@
             </table>
             <li>Комментарии</li>
             <table border="1">
-            {% if comments %}
-                {% for comm in comments %}
-                    <tr><td>{{comm.note}}</td>
-                        <td>{{comm.cl_user_id}}</td>
-                        <td>{{comm.creation_time|date}}</td>
-                    </tr>
-                    <tr></tr>
-                {% endfor %}
-            {% endif %}
+            {% include "./request/show_comments.txt" with comments=request.comments %}
             </table>
         <button type="submit">Submit</button>
 </form>

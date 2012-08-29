@@ -30,19 +30,23 @@
               <td>{% include "./main/date.txt" with date=request.close_time %}</td>
               <td>{{request.note}}</td>
               <td align="center">
+              {% if request.worker_out_time|date:"Y" < 2011 %}
+              <a href=''>Подвтердить</a>
+              {% else %}
               {% if request.close_time|date:"Y" < 2011 %}
                   <a href=/request/set_close/{{request.id}}>Подтвердить</a>
+              {% endif %}
               {% endif %}
                   <a href=/request/show/{{request.id}}>Показать</a>
           </tr>
           {% endfor %}
          
       {% else %}
-          <b> No request. </b>
+          <b> Заданий нет. </b>
       {% endif %}
          </table>
          {% if requests %}
              <br />
-         Number of request: {{count}}
+         Количество заданий: {{count}}
          {% endif %}
 {% endblock %}
