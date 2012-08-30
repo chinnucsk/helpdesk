@@ -19,12 +19,32 @@ depart_request('GET', [], ClUser) ->
     end,
   {ok, [{cl_user, ClUser}, {requests, Requests},
         {count, boss_db:count(request,[{depart_id, ClUser:depart_id()}])}
+       ]};
+
+depart_request('GET', ["tag_order", Tag_order], ClUser) ->
+    case ClUser == undefined of
+        false ->
+            Requests = boss_db:find(request, [{depart_id, ClUser:depart_id()}],[{order_by, list_to_atom(Tag_order)}]);
+        true ->
+            Requests = boss_db:find(request, [])
+    end,
+  {ok, [{cl_user, ClUser}, {requests, Requests},
+        {count, boss_db:count(request,[{depart_id, ClUser:depart_id()}])}
        ]}.
 
 user_request('GET', [], ClUser) ->
     case ClUser == undefined of
         false ->
             Requests = boss_db:find(request, [{cl_user_id, ClUser:id()}],[{order_by, close_time}]);
+        true ->
+            Requests = boss_db:find(request, [])
+    end,
+  {ok, [{cl_user, ClUser}, {requests, Requests},{count, boss_db:count(request,[{cl_user_id, ClUser:id()}])}]};
+
+user_request('GET', ["tag_order", Tag_order], ClUser) ->
+    case ClUser == undefined of
+        false ->
+            Requests = boss_db:find(request, [{cl_user_id, ClUser:id()}],[{order_by, list_to_atom(Tag_order)}]);
         true ->
             Requests = boss_db:find(request, [])
     end,

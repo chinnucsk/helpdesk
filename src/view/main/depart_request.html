@@ -7,13 +7,13 @@
       {% if requests %}
           <tr>
               <th>Отдел</th>
-              <th>Пользователь</th>
-              <th>Срочность</th>
-              <th>Дата созд.</th>
-              <th>Дата прин.</th>
-              <th>Дата испол.</th>
-              <th>Дата подтв.</th>
-              <th>Описание</th>
+              <th><a href="{% url action="depart_request" tag_order="cl_user_id" %}">Пользователь</a></th>
+              <th><a href="{% url action="depart_request" tag_order="id_order" %}">Срочность</a></th>
+              <th><a href="{% url action="depart_request" tag_order="creation_time" %}">Дата созд.</a></th>
+              <th><a href="{% url action="depart_request" tag_order="worker_in_time" %}">Дата прин.</a></th>
+              <th><a href="{% url action="depart_request" tag_order="worker_out_time" %}">Дата испол.</a></th>
+              <th><a href="{% url action="depart_request" tag_order="close_time" %}">Дата подтв.</a></th>
+              <th><a href="{% url action="depart_request" tag_order="note" %}">Описание</a></th>
               <th>Операции</th>
           </tr>
           {% for request in requests %}
