@@ -9,6 +9,19 @@
 * * * * * * * * { outline: 1px solid blue; }
 */
 
+table { 
+    /*width: 100%; Ширина таблицы */
+    border-spacing: 0; /* Расстояние между ячейками */
+   }
+   tr:nth-child(2n) {
+    background: Gainsboro; /*#f0f0f0;  Цвет фона */
+   } 
+   tr:nth-child(1) {
+    background:  DarkGray; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+   } 
+
+
 th,td {
 	width: 150px;
 	height: 20px;
