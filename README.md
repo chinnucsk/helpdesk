@@ -1,9 +1,9 @@
-<li>04/09/2012</li>
-Изменено оформление отображения таблиц.
+<li>04/09/2012</li><br />
+Изменено оформление отображения таблиц.<br />
 Добавленны таблички для Gnokii, SMSD plugin for MySQL storage backend<br />
-    Отправка SMS
-    insert into outbox (number,text) values('+7XXXXXXXXXX', 'My SMS, test!');
-Добавлен пункт отмены выполненной заявки.
+    Отправка SMS<br />
+    insert into outbox (number,text) values('+7XXXXXXXXXX', 'My SMS, test!');<br />
+Добавлен пункт отмены выполненной заявки.<br />
 
-30/08/2012
-Добавленна сортировка в заданиях по убыванию.
+<li>30/08/2012</li><br />
+Добавленна сортировка в заданиях по убыванию.<br />
