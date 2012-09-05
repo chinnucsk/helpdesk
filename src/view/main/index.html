@@ -3,13 +3,20 @@
 {% block title %}Help desk.{% endblock %}
 
 {% block content %}
-<h1>Welcome to Help desk!</h1>
+<h2>Welcome to Help desk!</h2>
+
+
+
 {% if cl_user %}
-<p>Glad you could stop by, {{ cl_user.username }}.</p>
+
+{% if all_request %}
+В базе {{ all_request }} заданий, в том числе {{ all_request_close }} выполненных.
+{% endif %}
+
 {% endif %}
 <p></p>
 {% if not cl_user %}
-<p>You should <a href="/user/register">register</a>, it will be fun.</p>
+<p>Для входа выбрать LOGIN</p>
 {% endif %}
 {% endblock %}
 

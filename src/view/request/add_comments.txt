@@ -1,5 +1,5 @@
 <form method="post">
-   </tr>
+<br />
    <tr><td>Новый комментарий</td>
        <td><input type="text" id="comm_note" name="comm_note"
             size="60" maxlength="255" /></td>

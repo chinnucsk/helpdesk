@@ -14,16 +14,18 @@
 
 </head>
 <body>
-<header><h3>SOS</h3>
+<header><h3>HD:semia</h3>
 {% if cl_user %}
 Текущий пользователь: {{ cl_user.name }}
+{% endif %}
+{% if ip %}
+, ваш адресс: {{ ip }}
 {% endif %}
 
 </header>
 <nav>
   <ul>
-        <li><a href="/">Home</></li>
-        <li><a href="/chat">Chat</></li>
+        <li><a href="/">Home</a></li>
     {% if cl_user %}
         <li><a href="/main/depart_request">Задания отдела</a></li>
         <li><a href="/main/user_request">Мои задания</a></li>

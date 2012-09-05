@@ -7,6 +7,7 @@
       {% if requests %}
           <tr>
               <th>Отдел</th>
+              <th><a href="{% url action="depart_request" tag_order="status" %}">статус</a></th>
               <th><a href="{% url action="depart_request" tag_order="cl_user_id" %}">Пользователь</a></th>
               <th><a href="{% url action="depart_request" tag_order="id_order" %}">Срочность</a></th>
               <th><a href="{% url action="depart_request" tag_order="creation_time" %}">Дата созд.</a></th>
@@ -19,6 +20,11 @@
           {% for request in requests %}
           <tr>
               <td>{{request.depart.name}}</td>
+              <td>{% if request.status == "Discarded" %}
+                     <font color="red">Отвергнуто</font>
+                  {% else %}
+                     {{ request.status }}
+                  {% endif %}</td>
               <td>{{request.cl_user.name}}</td>
               <td>{{request.id_order}}</td>
               <td>{% include "./main/date.txt" with date=request.creation_time %}</td>

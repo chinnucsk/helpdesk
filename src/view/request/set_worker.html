@@ -5,6 +5,11 @@
 {% block content %}
 <form method ="post">
             <table border="1">
+             <tr>
+               <td>Поле</td>
+               <td>Значение</td>
+             </tr>
+
             {% if request %}
                <tr><td>Отдел</td>
                   <td>{{request.depart.name}}</td>

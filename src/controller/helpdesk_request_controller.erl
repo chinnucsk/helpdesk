@@ -156,6 +156,43 @@ set_complit('POST', [Id], Person) ->
                 Reason
     end.
 
+set_discarded('GET', [Id], Person) ->
+    Request = boss_db:find(Id),
+    Departs = boss_db:find(depart, []),
+    {ok, [
+            {departs, Departs},
+            {request, Request},
+            {ip, Req:peer_ip()},
+            {cl_user, Person}
+         ]};
+set_discarded('POST', [Id], Person) ->
+    Request = boss_db:find(Id),
+    ClUser = boss_db:find(Person),
+    NewRequest = Request:set([
+                              %%{cl_user_id, Req:post_param("cl_user_id") },
+                              {status, "Discarded"},
+                              %%{depart_id, Req:post_param("depart_id")},
+                              %%{id_worker, Req:post_param("id_worker")},
+                              %%{id_order, Req:post_param("id_order")},
+                              %%{note, Req:post_param("note")},
+                              %%{creation_time, Req:post_param("creation_time")},
+                              %%{worker_in_time, erlang:localtime()},
+                              {worker_out_time, ""},
+                              %%{close_time, erlang:localtime()},
+                              {change_time,erlang:localtime()}]),
+    {{Year, Month, Day}, {Hour, Min, Sec}} = Request:worker_out_time(),
+    Note = "Discarded request",
+    NewComment = comment:new(id, Request:id(), Note, Person:id(), Person:depart_id(), erlang:now(),erlang:now()),
+    NewComment:save(),
+
+
+    case NewRequest:save() of
+        {ok, SavedAddress} ->
+            {redirect,[{action, "../main/depart_request"}]};
+        {error, Reason} ->
+                Reason
+    end.
+
 show('GET', [Id], Person) ->
     Request = boss_db:find(Id),
     Users = boss_db:find(cl_user,[]),

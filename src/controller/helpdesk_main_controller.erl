@@ -5,7 +5,10 @@ before_(_) ->
     user_lib:require_login(Req).
 
 index('GET', [], ClUser) ->
-  {ok, [{cl_user, ClUser}]}.
+  {ok, [{cl_user, ClUser},
+        {ip,Req:peer_ip()},
+        {all_request, boss_db:count(request)},
+        {all_request_close, boss_db:count(request,[{status, "Close"}])}]}.
 
 targetplan('GET', [], ClUser) ->
   {ok, [{cl_user, ClUser}]}.
