@@ -188,7 +188,7 @@ set_discarded('POST', [Id], Person) ->
 
     case NewRequest:save() of
         {ok, SavedAddress} ->
-            {redirect,[{action, "../main/depart_request"}]};
+            {redirect,[{action, "../main/user_request"}]};
         {error, Reason} ->
                 Reason
     end.

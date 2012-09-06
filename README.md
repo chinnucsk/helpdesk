@@ -1,3 +1,4 @@
+
 <li>04/09/2012</li><br />
 Изменено оформление отображения таблиц.<br />
 Добавленны таблички для Gnokii, SMSD plugin for MySQL storage backend<br />

@@ -5,6 +5,9 @@
 {% block content %}
 
            <li class="nav1"><a href="/request/create">Добавить</a></li>
+         {% if requests %}
+              Количество заданий - {{count_user_request}}, не закрытых - {{count_user_request_noclose}}, новых - {{count_user_request_new}}.
+         {% endif %}
 
           <table>
       {% if requests %}
@@ -34,10 +37,9 @@
               <td>{% include "./main/date.txt" with date=request.worker_in_time %}</td>
               <td>{% include "./main/date.txt" with date=request.worker_out_time %}</td>
               <td>{% include "./main/date.txt" with date=request.close_time %}</td>
-              <td>{{request.note}}</td>
+              <td>{{request.note|truncatechars:50}}</td>
               <td align="center">
               {% if request.worker_out_time|date:"Y" < 2011 %}
-              <a href=''>Подвтердить</a>
               {% else %}
               {% if request.close_time|date:"Y" < 2011 %}
                   <a href=/request/set_close/{{request.id}}>Подтвердить</a>
@@ -52,8 +54,4 @@
           <b> Заданий нет. </b>
       {% endif %}
          </table>
-         {% if requests %}
-             <br />
-         Количество заданий: {{count}}
-         {% endif %}
 {% endblock %}
