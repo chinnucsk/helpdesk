@@ -1,0 +1,77 @@
+
+=INFO REPORT==== 20-Aug-2012::17:39:30 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 20-Aug-2012::17:39:30 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 20-Aug-2012::17:39:30 ===
+SSL:[]
+
+=INFO REPORT==== 20-Aug-2012::17:39:30 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::17:39:30 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::17:39:34 ===
+GET /admin/model/model/request [cb_admin] 200 26ms
+
+=INFO REPORT==== 20-Aug-2012::17:39:34 ===
+POST /admin/model/watch [cb_admin] 200 3ms
+
+=ERROR REPORT==== 20-Aug-2012::17:39:35 ===
+{undef,[{undefined,attributes,[]},
+        {cb_admin_model_controller,show,4},
+        {boss_web_controller,execute_action,5},
+        {boss_web_controller,process_request,5},
+        {timer,tc,3},
+        {boss_web_controller,handle_request,3},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::17:39:35 ===
+GET /admin/model/show/cl_user-1 [cb_admin] 500 7ms
+
+=INFO REPORT==== 20-Aug-2012::17:39:37 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 20-Aug-2012::17:39:39 ===
+{undef,[{undefined,attributes,[]},
+        {cb_admin_model_controller,show,4},
+        {boss_web_controller,execute_action,5},
+        {boss_web_controller,process_request,5},
+        {timer,tc,3},
+        {boss_web_controller,handle_request,3},
+        {mochiweb_http,headers,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::17:39:39 ===
+GET /admin/model/show/cl_user-1 [cb_admin] 500 7ms
+
+=INFO REPORT==== 20-Aug-2012::17:39:41 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::17:39:42 ===
+GET /admin/model/model/cl_user [cb_admin] 200 6ms
+
+=INFO REPORT==== 20-Aug-2012::17:39:43 ===
+GET /admin/model/create/cl_user [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::17:39:54 ===
+POST /admin/model/create/cl_user [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::17:40:04 ===
+GET /admin/model/events/1345462774032740 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::17:40:07 ===
+GET /admin/model/events/1345462774032740 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::17:40:11 ===
+GET /admin/model/events/1345462774032740 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::17:40:42 ===
+POST /admin/model/create/cl_user [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::17:40:43 ===
+POST /admin/model/create/cl_user [cb_admin] 200 3ms

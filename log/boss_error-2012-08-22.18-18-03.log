@@ -1,0 +1,94 @@
+
+=INFO REPORT==== 22-Aug-2012::18:18:03 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 22-Aug-2012::18:18:03 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 22-Aug-2012::18:18:03 ===
+SSL:[]
+
+=INFO REPORT==== 22-Aug-2012::18:18:03 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:18:04 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:18:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:18:07 ===
+{function_clause,[{erlydtl_runtime,init_counter_stats,[undefined,undefined]},
+                  {helpdesk_view_request_show_html,render_internal,4},
+                  {helpdesk_view_request_show_html,render,2},
+                  {boss_web_controller,render_view,6},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:18:07 ===
+GET /request/show/request-21 [helpdesk] 500 327ms
+
+=INFO REPORT==== 22-Aug-2012::18:18:08 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:18:09 ===
+{function_clause,[{erlydtl_runtime,init_counter_stats,[undefined,undefined]},
+                  {helpdesk_view_request_show_html,render_internal,4},
+                  {helpdesk_view_request_show_html,render,2},
+                  {boss_web_controller,render_view,6},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:18:09 ===
+GET /request/show/request-21 [helpdesk] 500 331ms
+
+=INFO REPORT==== 22-Aug-2012::18:18:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:18:10 ===
+{function_clause,[{erlydtl_runtime,init_counter_stats,[undefined,undefined]},
+                  {helpdesk_view_request_show_html,render_internal,4},
+                  {helpdesk_view_request_show_html,render,2},
+                  {boss_web_controller,render_view,6},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:18:10 ===
+GET /request/show/request-21 [helpdesk] 500 321ms
+
+=INFO REPORT==== 22-Aug-2012::18:18:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:18:17 ===
+GET /request/index [helpdesk] 200 341ms
+
+=INFO REPORT==== 22-Aug-2012::18:18:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:18:20 ===
+{function_clause,[{erlydtl_runtime,init_counter_stats,[undefined,undefined]},
+                  {helpdesk_view_request_show_html,render_internal,4},
+                  {helpdesk_view_request_show_html,render,2},
+                  {boss_web_controller,render_view,6},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:18:20 ===
+GET /request/show/request-21 [helpdesk] 500 310ms
+
+=INFO REPORT==== 22-Aug-2012::18:18:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 3ms
+
+=INFO REPORT==== 22-Aug-2012::18:19:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:19:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms

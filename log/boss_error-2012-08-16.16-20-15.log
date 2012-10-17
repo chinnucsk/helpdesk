@@ -1,0 +1,90 @@
+
+=INFO REPORT==== 16-Aug-2012::16:20:15 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::16:20:16 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::16:20:16 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::16:20:16 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::16:20:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::16:20:19 ===
+GET /admin/model/model [cb_admin] 200 16ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:20 ===
+GET /admin/model/model/depart [cb_admin] 200 182ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:21 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:22 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 43ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:22 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:24 ===
+GET /admin/model/edit/depart-2 [cb_admin] 200 9ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:27 ===
+POST /admin/model/edit/depart-2 [cb_admin] 302 31ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:27 ===
+GET /admin/model/events/1345112422264174 [cb_admin] 200 5420ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:27 ===
+GET /admin/model/events/1345112420882593 [cb_admin] 200 6784ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:27 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 6ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:28 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:58 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:20:58 ===
+GET /admin/model/events/1345112427858246 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::16:21:28 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:21:28 ===
+GET /admin/model/events/1345112428073679 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::16:21:58 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:21:58 ===
+GET /admin/model/events/1345112458081065 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::16:22:28 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:22:28 ===
+GET /admin/model/events/1345112488140005 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::16:22:58 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:22:58 ===
+GET /admin/model/events/1345112518192230 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::16:23:28 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:23:28 ===
+GET /admin/model/events/1345112548239287 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::16:23:58 ===
+POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:23:58 ===
+GET /admin/model/events/1345112578290249 [cb_admin] 200 30001ms

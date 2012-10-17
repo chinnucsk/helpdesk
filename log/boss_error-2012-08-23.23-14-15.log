@@ -1,0 +1,125 @@
+
+=INFO REPORT==== 23-Aug-2012::23:14:15 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 23-Aug-2012::23:14:15 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 23-Aug-2012::23:14:15 ===
+SSL:[]
+
+=INFO REPORT==== 23-Aug-2012::23:14:15 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:20 ===
+GET /main/depart_request [helpdesk] 200 323ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:21 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:21 ===
+GET /main/depart_request [helpdesk] 200 411ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:23 ===
+GET /chat [helpdesk] 200 373ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:25 ===
+GET /chat/live/public [helpdesk] 200 360ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:28 ===
+GET /chat/login/qwe [helpdesk] 200 356ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:29 ===
+GET /chat/receive_chat/public/0 [helpdesk] 200 354ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:29 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:31 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 23-Aug-2012::23:14:32 ===
+{function_clause,
+    [{helpdesk_main_controller,nope,
+         ['DELETE',[],
+          {helpdesk_main_controller,
+              {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                  {mochiweb_request,#Port<0.21636>,'DELETE',"/login/qwe",
+                      {1,1},
+                      {11,
+                       {"host",
+                        {'Host',"localhost:8001"},
+                        {"connection",
+                         {'Connection',"keep-alive"},
+                         {"accept",
+                          {'Accept',"*/*"},
+                          nil,
+                          {"accept-encoding",
+                           {'Accept-Encoding',"gzip,deflate,sdch"},
+                           {"accept-charset",
+                            {'Accept-Charset',
+                                "windows-1251,utf-8;q=0.7,*;q=0.3"},
+                            nil,nil},
+                           {"accept-language",
+                            {'Accept-Language',
+                                "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"},
+                            nil,nil}}},
+                         {"cookie",
+                          {'Cookie',
+                              "cl_user_id=cl_user-1; session_id=afec1df47bfc91f35a00df7ccb100300; _boss_session=81fc90f11590810a20564882dc33520d5e63031e"},
+                          nil,nil}},
+                        {"origin",
+                         {"Origin","http://localhost:8001"},
+                         nil,
+                         {"x-requested-with",
+                          {"X-Requested-With","XMLHttpRequest"},
+                          {"user-agent",
+                           {'User-Agent',
+                               "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.19 (KHTML, like Gecko) Ubuntu/12.04 Chromium/18.0.1025.168 Chrome/18.0.1025.168 Safari/535.19"},
+                           {"referer",
+                            {'Referer',
+                                "http://localhost:8001/chat/live/public"},
+                            nil,nil},
+                           nil},
+                          nil}}}}},
+                  false,[],[],none}}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_not_found,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 23-Aug-2012::23:14:32 ===
+DELETE /login/qwe [helpdesk] 500 365ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:35 ===
+GET /chat [helpdesk] 200 362ms
+
+=INFO REPORT==== 23-Aug-2012::23:14:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::23:14:38 ===
+GET /main/depart_request [helpdesk] 200 387ms

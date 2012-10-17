@@ -1,0 +1,105 @@
+
+=INFO REPORT==== 20-Aug-2012::16:13:49 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 20-Aug-2012::16:13:49 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 20-Aug-2012::16:13:49 ===
+SSL:[]
+
+=INFO REPORT==== 20-Aug-2012::16:13:49 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::16:13:49 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::16:13:58 ===
+GET /admin/model/model [cb_admin] 200 15ms
+
+=INFO REPORT==== 20-Aug-2012::16:13:59 ===
+GET /admin/model/model/depart [cb_admin] 200 14ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:01 ===
+GET /admin/model/create/depart [cb_admin] 200 3ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:32 ===
+POST /admin/model/create/depart [cb_admin] 302 58ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:32 ===
+GET /admin/model/show/depart-0 [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:32 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:35 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:37 ===
+GET /admin/model/model/depart [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:37 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:42 ===
+GET /admin/model/show/depart-0 [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:43 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:44 ===
+GET /admin/model/delete/depart-0 [cb_admin] 200 15ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:45 ===
+POST /admin/model/delete/depart-0 [cb_admin] 302 74ms
+
+=INFO REPORT==== 20-Aug-2012::16:14:45 ===
+GET /admin/model/model/depart [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::16:15:03 ===
+GET /admin/model/events/1345457672787954 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::16:15:07 ===
+GET /admin/model/events/1345457677278509 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::16:15:13 ===
+GET /admin/model/events/1345457682949440 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::16:16:29 ===
+GET /admin/model/create/depart [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:46 ===
+POST /admin/model/create/depart [cb_admin] 302 45ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:46 ===
+GET /admin/model/show/depart-1 [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:47 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:50 ===
+GET /admin/model/edit/depart-1 [cb_admin] 200 6ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:53 ===
+GET /admin/model/show/depart-1 [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:53 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:54 ===
+GET /admin/model/edit/depart-1 [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:56 ===
+GET /admin/model/show/depart-1 [cb_admin] 200 6ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:56 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:57 ===
+GET /admin/model/delete/depart-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:58 ===
+POST /admin/model/delete/depart-1 [cb_admin] 302 45ms
+
+=INFO REPORT==== 20-Aug-2012::16:17:58 ===
+GET /admin/model/model/depart [cb_admin] 200 4ms

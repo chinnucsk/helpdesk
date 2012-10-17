@@ -1,0 +1,1196 @@
+
+=INFO REPORT==== 20-Aug-2012::23:25:57 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 20-Aug-2012::23:25:58 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 20-Aug-2012::23:25:58 ===
+SSL:[]
+
+=INFO REPORT==== 20-Aug-2012::23:25:58 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:25:58 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:26:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:26:01 ===
+GET /depart/index [helpdesk] 200 222ms
+
+=INFO REPORT==== 20-Aug-2012::23:26:05 ===
+GET /admin/model/model/depart [cb_admin] 200 25ms
+
+=INFO REPORT==== 20-Aug-2012::23:26:05 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::23:26:06 ===
+GET /admin/model/model [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::23:26:08 ===
+GET /admin/model/model/comment [cb_admin] 200 8ms
+
+=INFO REPORT==== 20-Aug-2012::23:26:09 ===
+GET /admin/model/create/comment [cb_admin] 200 23ms
+
+=INFO REPORT==== 20-Aug-2012::23:26:35 ===
+GET /admin/model/events/1345483565391848 [cb_admin] 200 30001ms
+
+=ERROR REPORT==== 20-Aug-2012::23:26:53 ===
+** Generic server <0.83.0> terminating 
+** Last message in was {save_record,
+                           {comment,id,"request-1",
+                               [208,162,208,181,209,129,209,130,208,190,208,
+                                178,209,139,208,185,32,208,186,208,190,208,
+                                188,208,188,208,181,208,189,209,130,208,176,
+                                209,128,208,184,208,185,46],
+                               "ck_user-1",[],
+                               {1345,483613,392789},
+                               {1345,483613,392778}}}
+** When Server state == {state,boss_db_adapter_mysql,<0.84.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,[]},
+    [{boss_db_adapter_mysql,infer_type_from_id,1},
+     {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+     {lists,foldl,3},
+     {boss_db_adapter_mysql,build_insert_query,1},
+     {boss_db_adapter_mysql,save_record,2},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::23:26:53 ===
+{{{badmatch,[]},
+  [{boss_db_adapter_mysql,infer_type_from_id,1},
+   {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+   {lists,foldl,3},
+   {boss_db_adapter_mysql,build_insert_query,1},
+   {boss_db_adapter_mysql,save_record,2},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.83.0>,
+              {save_record,{comment,id,"request-1",
+                                    [208,162,208,181,209,129,209,130,208,190,
+                                     208,178,209,139,208,185,32,208,186,208,
+                                     190,208,188,208,188,208,181,208,189,209,
+                                     130,208,176,209,128,208,184,208,185,46],
+                                    "ck_user-1",[],
+                                    {1345,483613,392789},
+                                    {1345,483613,392778}}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::23:26:53 ===
+POST /admin/model/create/comment [cb_admin] 500 2ms
+
+=ERROR REPORT==== 20-Aug-2012::23:27:03 ===
+** Generic server <0.86.0> terminating 
+** Last message in was {save_record,
+                           {comment,id,"request-1",
+                               [208,162,208,181,209,129,209,130,208,190,208,
+                                178,209,139,208,185,32,208,186,208,190,208,
+                                188,208,188,208,181,208,189,209,130,208,176,
+                                209,128,208,184,208,185,46],
+                               "cl_user-1",[],
+                               {1345,483623,41214},
+                               {1345,483623,41204}}}
+** When Server state == {state,boss_db_adapter_mysql,<0.87.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,[]},
+    [{boss_db_adapter_mysql,infer_type_from_id,1},
+     {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+     {lists,foldl,3},
+     {boss_db_adapter_mysql,build_insert_query,1},
+     {boss_db_adapter_mysql,save_record,2},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::23:27:03 ===
+{{{badmatch,[]},
+  [{boss_db_adapter_mysql,infer_type_from_id,1},
+   {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+   {lists,foldl,3},
+   {boss_db_adapter_mysql,build_insert_query,1},
+   {boss_db_adapter_mysql,save_record,2},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.86.0>,
+              {save_record,{comment,id,"request-1",
+                                    [208,162,208,181,209,129,209,130,208,190,
+                                     208,178,209,139,208,185,32,208,186,208,
+                                     190,208,188,208,188,208,181,208,189,209,
+                                     130,208,176,209,128,208,184,208,185,46],
+                                    "cl_user-1",[],
+                                    {1345,483623,41214},
+                                    {1345,483623,41204}}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::23:27:03 ===
+POST /admin/model/create/comment [cb_admin] 500 3ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:16 ===
+POST /admin/model/create/comment [cb_admin] 302 57ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:16 ===
+GET /admin/model/show/comment-1 [cb_admin] 200 6ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:16 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:24 ===
+GET /admin/model/model/comment [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:25 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:29 ===
+GET /admin/model/show/request-1 [cb_admin] 200 7ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:29 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:32 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:33 ===
+GET /admin/model/show/cl_user-1 [cb_admin] 200 13ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:33 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:35 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:36 ===
+GET /admin/model/show/depart-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:36 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:38 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:46 ===
+GET /admin/model/events/1345483636713256 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:55 ===
+GET /admin/model/events/1345483644979382 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:27:59 ===
+GET /admin/model/events/1345483649252222 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:02 ===
+GET /admin/model/events/1345483644979382 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:03 ===
+GET /admin/model/events/1345483653279002 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:05 ===
+GET /admin/model/events/1345483644979382 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:06 ===
+GET /admin/model/events/1345483656551229 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:08 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:08 ===
+GET /admin/model/events/1345483644979382 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:38 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:28:38 ===
+GET /admin/model/events/1345483658218969 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:29:08 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:29:08 ===
+GET /admin/model/events/1345483688229314 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:29:38 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:29:38 ===
+GET /admin/model/events/1345483718276584 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:30:08 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:30:08 ===
+GET /admin/model/events/1345483748324673 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:30:38 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:30:38 ===
+GET /admin/model/events/1345483778373158 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:31:08 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:31:08 ===
+GET /admin/model/events/1345483808418630 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:31:38 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:31:38 ===
+GET /admin/model/events/1345483838465942 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:32:08 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:32:08 ===
+GET /admin/model/events/1345483868514541 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:32:38 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:32:38 ===
+GET /admin/model/events/1345483898560221 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:33:08 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:33:08 ===
+GET /admin/model/events/1345483928607847 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:33:38 ===
+POST /admin/model/heartbeat/8 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:33:38 ===
+GET /admin/model/events/1345483958655958 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:33:54 ===
+GET /admin/model/create/comment [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::23:34:08 ===
+GET /admin/model/events/1345483988703850 [cb_admin] 200 30000ms
+
+=ERROR REPORT==== 20-Aug-2012::23:48:24 ===
+** Generic server <0.77.0> terminating 
+** Last message in was {save_record,
+                           {comment,id,"request-1",
+                               [208,146,209,130,208,190,209,128,208,190,208,
+                                185,32,208,186,208,190,208,188,208,188,208,
+                                181,208,189,209,130,46],
+                               "cl_user-1",[],
+                               {1345,484904,353286},
+                               {1345,484904,353280}}}
+** When Server state == {state,boss_db_adapter_mysql,<0.78.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,[]},
+    [{boss_db_adapter_mysql,infer_type_from_id,1},
+     {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+     {lists,foldl,3},
+     {boss_db_adapter_mysql,build_insert_query,1},
+     {boss_db_adapter_mysql,save_record,2},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::23:48:24 ===
+{{{badmatch,[]},
+  [{boss_db_adapter_mysql,infer_type_from_id,1},
+   {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+   {lists,foldl,3},
+   {boss_db_adapter_mysql,build_insert_query,1},
+   {boss_db_adapter_mysql,save_record,2},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.77.0>,
+              {save_record,{comment,id,"request-1",
+                                    [208,146,209,130,208,190,209,128,208,190,
+                                     208,185,32,208,186,208,190,208,188,208,
+                                     188,208,181,208,189,209,130,46],
+                                    "cl_user-1",[],
+                                    {1345,484904,353286},
+                                    {1345,484904,353280}}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::23:48:24 ===
+POST /admin/model/create/comment [cb_admin] 500 1ms
+
+=INFO REPORT==== 20-Aug-2012::23:48:36 ===
+POST /admin/model/create/comment [cb_admin] 302 63ms
+
+=INFO REPORT==== 20-Aug-2012::23:48:36 ===
+GET /admin/model/show/comment-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::23:48:36 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:48:43 ===
+GET /admin/model/model/comment [cb_admin] 200 10ms
+
+=INFO REPORT==== 20-Aug-2012::23:48:43 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:49:06 ===
+GET /admin/model/events/1345484916353610 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:49:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:49:13 ===
+GET /admin/model/events/1345484923781178 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:49:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:49:43 ===
+GET /admin/model/events/1345484923970873 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:50:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:50:14 ===
+GET /admin/model/events/1345484953979926 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:50:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:50:44 ===
+GET /admin/model/events/1345484984030935 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:51:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:51:14 ===
+GET /admin/model/events/1345485014078914 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:51:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:51:44 ===
+GET /admin/model/events/1345485044124566 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:52:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:52:14 ===
+GET /admin/model/events/1345485074172254 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:52:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:52:44 ===
+GET /admin/model/events/1345485104222783 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:53:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:53:14 ===
+GET /admin/model/events/1345485134271170 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:53:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:53:44 ===
+GET /admin/model/events/1345485164320195 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:54:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:54:14 ===
+GET /admin/model/events/1345485194367901 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:54:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:54:44 ===
+GET /admin/model/events/1345485224414072 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:55:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:55:14 ===
+GET /admin/model/events/1345485254457078 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:55:43 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:55:44 ===
+GET /admin/model/events/1345485284502807 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:56:13 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:56:14 ===
+GET /admin/model/events/1345485314547711 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:56:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:56:44 ===
+GET /admin/model/events/1345485344596220 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:57:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:57:14 ===
+GET /admin/model/events/1345485374644644 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:57:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:57:44 ===
+GET /admin/model/events/1345485404691806 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:57:47 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:57:47 ===
+GET /request/index [helpdesk] 200 251ms
+
+=INFO REPORT==== 20-Aug-2012::23:57:49 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:57:49 ===
+GET /request/show/request-1 [helpdesk] 200 255ms
+
+=INFO REPORT==== 20-Aug-2012::23:58:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:58:14 ===
+GET /admin/model/events/1345485434740781 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::23:58:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:58:44 ===
+GET /admin/model/events/1345485464790257 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:59:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:59:14 ===
+GET /admin/model/events/1345485494838537 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::23:59:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::23:59:44 ===
+GET /admin/model/events/1345485524884937 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:00:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:00:14 ===
+GET /admin/model/events/1345485554936407 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:00:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:00:45 ===
+GET /admin/model/events/1345485584983274 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:01:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:01:15 ===
+GET /admin/model/events/1345485615030741 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:01:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:01:45 ===
+GET /admin/model/events/1345485645077054 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:02:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:02:15 ===
+GET /admin/model/events/1345485675127082 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:02:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:02:45 ===
+GET /admin/model/events/1345485705174859 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:02:56 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:02:56 ===
+GET /request/show/request-1 [helpdesk] 200 247ms
+
+=INFO REPORT==== 21-Aug-2012::00:03:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:03:15 ===
+GET /admin/model/events/1345485735217487 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:03:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:03:45 ===
+GET /admin/model/events/1345485765262747 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:04:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:04:15 ===
+GET /admin/model/events/1345485795309029 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:04:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:04:43 ===
+GET /request/edit/request-1 [helpdesk] 200 245ms
+
+=INFO REPORT==== 21-Aug-2012::00:04:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:04:45 ===
+GET /admin/model/events/1345485825355425 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:04:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:04:46 ===
+GET /request/show/request-1 [helpdesk] 200 251ms
+
+=INFO REPORT==== 21-Aug-2012::00:05:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:05:15 ===
+GET /admin/model/events/1345485855404602 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:05:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:05:45 ===
+GET /admin/model/events/1345485885465048 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:04 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:06:04 ===
+GET /request/show/request-1 [helpdesk] 200 250ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:06:05 ===
+GET /request/show/request-1 [helpdesk] 200 254ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:06:09 ===
+GET /request/show/request-1 [helpdesk] 200 250ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:15 ===
+GET /admin/model/events/1345485915513094 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:22 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:06:22 ===
+GET /request/show/request-1 [helpdesk] 200 254ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:45 ===
+GET /admin/model/events/1345485945561127 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:06:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:06:47 ===
+GET /request/show/request-1 [helpdesk] 200 321ms
+
+=INFO REPORT==== 21-Aug-2012::00:07:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:07:15 ===
+GET /admin/model/events/1345485975608889 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:07:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:07:43 ===
+GET /request/show/request-1 [helpdesk] 200 316ms
+
+=INFO REPORT==== 21-Aug-2012::00:07:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:07:45 ===
+GET /admin/model/events/1345486005662652 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:08:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:08:15 ===
+GET /admin/model/events/1345486035709957 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:08:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:08:37 ===
+GET /request/show/request-1 [helpdesk] 200 328ms
+
+=INFO REPORT==== 21-Aug-2012::00:08:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:08:45 ===
+GET /admin/model/events/1345486065758934 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:09:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:09:12 ===
+GET /request/show/request-1 [helpdesk] 200 333ms
+
+=INFO REPORT==== 21-Aug-2012::00:09:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:09:15 ===
+GET /admin/model/events/1345486095807769 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:09:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:09:45 ===
+GET /admin/model/events/1345486125857611 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:10:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:10:15 ===
+GET /admin/model/events/1345486155907006 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:10:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:10:46 ===
+GET /admin/model/events/1345486185958880 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:11:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:11:16 ===
+GET /admin/model/events/1345486216003363 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:11:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:11:46 ===
+GET /admin/model/events/1345486246052904 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:12:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:12:16 ===
+GET /admin/model/events/1345486276099311 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:12:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:12:46 ===
+GET /admin/model/events/1345486306146686 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:13:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:13:16 ===
+GET /admin/model/events/1345486336192519 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:13:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:13:46 ===
+GET /admin/model/events/1345486366242727 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:14:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:14:05 ===
+GET /request/show/request-1 [helpdesk] 200 335ms
+
+=INFO REPORT==== 21-Aug-2012::00:14:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:14:16 ===
+GET /admin/model/events/1345486396287813 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:14:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:14:46 ===
+GET /admin/model/events/1345486426333430 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:15:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:15:16 ===
+GET /admin/model/events/1345486456383664 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:15:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:15:46 ===
+GET /admin/model/events/1345486486432765 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:16:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:16:16 ===
+GET /admin/model/events/1345486516482167 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:16:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:16:46 ===
+GET /admin/model/events/1345486546528773 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:17:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:17:16 ===
+GET /admin/model/events/1345486576575644 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:17:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:17:46 ===
+GET /admin/model/events/1345486606624563 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:18:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:18:16 ===
+GET /admin/model/events/1345486636675074 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:18:26 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:18:26 ===
+GET /request/show/request-1 [helpdesk] 200 330ms
+
+=INFO REPORT==== 21-Aug-2012::00:18:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:18:46 ===
+GET /admin/model/events/1345486666722540 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:18:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 21-Aug-2012::00:18:50 ===
+{function_clause,
+ [{erlydtl_compiler,filter_ast2,
+   [data,
+    {tree,application,
+     {attr,0,[],none},
+     {application,
+      {tree,module_qualifier,
+       {attr,0,[],none},
+       {module_qualifier,
+        {tree,atom,{attr,0,[],none},erlydtl_runtime},
+        {tree,atom,{attr,0,[],none},find_value}}},
+      [{tree,atom,{attr,0,[],none},creation_time},
+       {tree,variable,{attr,0,[],none},'Var_comm'}]}},
+    [],[],
+    {dtl_context,
+     [[{forloop,{tree,variable,{attr,0,[],none},'Counters'}},
+       {comm,{tree,variable,{attr,0,[],none},'Var_comm'}}]],
+     {dict,2,16,16,8,80,48,
+      {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+      {{[],[],[],[],
+        [[content,
+          {string,{5,20},"\n            <table border=\"1\">\n            "},
+          {'if',
+           {variable,{identifier,{7,19},request}},
+           [{string,
+             {7,29},
+             [10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,114,62,
+              60,116,100,62,208,158,209,130,208,180,208,181,208,187,60,47,116,
+              100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              60,116,100,62]},
+            {include,
+             {string_literal,{9,34},"\"./depart/ret_depart.html\""},
+             [{{identifier,{9,66},id_depart},
+               {attribute,
+                {{identifier,{9,84},depart},
+                 {variable,{identifier,{9,76},request}}}}}]},
+            {string,
+             {9,93},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,161,209,128,208,190,209,
+              135,208,189,208,190,209,129,209,130,209,140,60,47,116,100,62,10,
+              32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,
+              100,62]},
+            {attribute,
+             {{identifier,{12,33},id_order},
+              {variable,{identifier,{12,25},request}}}},
+            {string,
+             {12,43},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,161,209,130,208,176,209,
+              130,209,131,209,129,60,47,116,100,62,10,32,32,32,32,32,32,32,32,
+              32,32,32,32,32,32,32,32,32,32,60,116,100,62]},
+            {attribute,
+             {{identifier,{15,33},status},
+              {variable,{identifier,{15,25},request}}}},
+            {string,
+             {15,41},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,158,208,191,208,184,209,
+              129,208,176,208,189,208,184,208,181,60,47,116,100,62,10,32,32,
+              32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,100,62]},
+            {attribute,
+             {{identifier,{18,33},note},
+              {variable,{identifier,{18,25},request}}}},
+            {string,
+             {18,39},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,161,208,190,208,183,208,
+              180,208,176,209,130,208,181,208,187,209,140,60,47,116,100,62,10,
+              32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,
+              100,62]},
+            {attribute,
+             {{identifier,{21,33},cl_user_id},
+              {variable,{identifier,{21,25},request}}}},
+            {string,{21,45},"</td>\n               </tr>\n               "},
+            {'if',
+             {variable,{identifier,{23,22},users}},
+             [{string,{23,30},"\n                   "},
+              {for,
+               {in,
+                [{identifier,{24,27},user}],
+                {variable,{identifier,{24,35},users}}},
+               [{string,{24,43},"\n                       "},
+                {'if',
+                 {expr,"eq",
+                  {attribute,
+                   {{identifier,{25,38},user},
+                    {variable,{identifier,{25,30},request}}}},
+                  {attribute,
+                   {{identifier,{25,51},id},
+                    {variable,{identifier,{25,46},user}}}}},
+                 [{string,
+                   {25,56},
+                   [10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,
+                    114,62,60,116,100,62,208,159,208,190,208,187,209,140,208,
+                    183,208,190,208,178,208,176,209,130,208,181,208,187,209,
+                    140,60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,60,116,100,62]},
+                  {attribute,
+                   {{identifier,{27,30},name},
+                    {variable,{identifier,{27,25},user}}}},
+                  {string,
+                   {27,36},
+                   "</td>\n               </tr>\n                       "}]},
+                {string,{29,35},"\n                   "}]},
+              {string,{30,32},"\n               "}]},
+            {string,
+             {31,27},
+             [10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,114,62,
+              60,116,100,62,208,148,208,176,209,130,208,176,32,209,129,208,
+              190,208,183,208,180,208,176,208,189,208,184,209,143,60,47,116,
+              100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              60,116,100,62]},
+            {apply_filter,
+             {attribute,
+              {{identifier,{33,33},creation_time},
+               {variable,{identifier,{33,25},request}}}},
+             [{identifier,{33,47},date}]},
+            {string,
+             {33,53},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,148,208,176,209,130,208,
+              176,32,208,184,208,183,208,188,208,181,208,189,208,181,208,189,
+              208,184,209,143,60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,
+              32,32,32,32,32,32,32,32,32,60,116,100,62]},
+            {apply_filter,
+             {attribute,
+              {{identifier,{36,33},change_time},
+               {variable,{identifier,{36,25},request}}}},
+             [{identifier,{36,45},date}]},
+            {string,
+             {36,51},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,148,208,176,209,130,208,
+              176,32,208,191,209,128,208,184,208,189,46,60,47,116,100,62,10,
+              32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,116,
+              100,62]},
+            {apply_filter,
+             {attribute,
+              {{identifier,{39,33},worker_in_time},
+               {variable,{identifier,{39,25},request}}}},
+             [{identifier,{39,48},date}]},
+            {string,
+             {39,54},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,148,208,176,209,130,208,
+              176,32,208,184,209,129,208,191,208,190,208,187,46,60,47,116,100,
+              62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,
+              116,100,62]},
+            {apply_filter,
+             {attribute,
+              {{identifier,{42,33},worker_out_time},
+               {variable,{identifier,{42,25},request}}}},
+             [{identifier,{42,49},date}]},
+            {string,
+             {42,55},
+             [60,47,116,100,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,60,47,116,114,62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,
+              32,32,60,116,114,62,60,116,100,62,208,148,208,176,209,130,208,
+              176,32,208,191,208,190,208,180,209,130,208,178,46,60,47,116,100,
+              62,10,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,60,
+              116,100,62]},
+            {apply_filter,
+             {attribute,
+              {{identifier,{45,33},close_time},
+               {variable,{identifier,{45,25},request}}}},
+             [{identifier,{45,44},date}]},
+            {string,{45,50},"</td>\n               </tr>\n            "}]},
+          {string,
+           {47,24},
+           [10,32,32,32,32,32,32,32,32,32,32,32,32,60,47,116,97,98,108,101,62,
+            10,32,32,32,32,32,32,32,32,32,32,32,32,60,108,105,62,208,154,208,
+            190,208,188,208,188,208,181,208,189,209,130,208,176,209,128,208,
+            184,208,184,60,47,108,105,62,10,32,32,32,32,32,32,32,32,32,32,32,
+            32,60,116,97,98,108,101,32,98,111,114,100,101,114,61,34,49,34,62,
+            10,32,32,32,32,32,32,32,32,32,32,32,32]},
+          {'if',
+           {variable,{identifier,{51,19},comments}},
+           [{string,{51,30},"\n                "},
+            {for,
+             {in,
+              [{identifier,{52,24},comm}],
+              {variable,{identifier,{52,32},comments}}},
+             [{string,{52,43},"\n                    <tr><td>"},
+              {attribute,
+               {{identifier,{53,36},note},
+                {variable,{identifier,{53,31},comm}}}},
+              {string,{53,42},"</td></tr>\n                    <tr><td>"},
+              {attribute,
+               {{identifier,{54,36},cl_user_id},
+                {variable,{identifier,{54,31},comm}}}},
+              {string,{54,48},"</td></tr>\n                    <tr><td>"},
+              {apply_filter,
+               {attribute,
+                {{identifier,{55,36},creation_time},
+                 {variable,{identifier,{55,31},comm}}}},
+               [{identifier,{55,50},data}]},
+              {string,{55,56},"</td></tr>\n                "}]},
+            {string,{56,29},"\n            "}]},
+          {string,{57,24},"\n            </table>\n\n"}]],
+        [[title,{string,{3,18}," Show request "}]],
+        [],[],[],[],[],[],[],[],[],[]}}},
+     #Fun<boss_load.11.25500755>,[],did,"src/view",
+     ["src/view/base.html","src/view/request/show.html"],
+     [],[],
+     "/home/simba/hacking/erlang/ChicagoBoss/deps/erlydtl/priv/custom_tags",
+     [colosimo_custom_tags,helpdesk_custom_tags,boss_erlydtl_tags,
+      helpdesk_view_lib_tags],
+     {file,read_file},
+     helpdesk_view_request_show_html,[],true,false,none,false}]},
+  {erlydtl_compiler,filter_ast_noescape,4},
+  {erlydtl_compiler,filter_ast,4},
+  {erlydtl_compiler,'-body_ast/3-fun-2-',3},
+  {lists,mapfoldl,3},
+  {lists,mapfoldl,3},
+  {erlydtl_compiler,body_ast,3},
+  {erlydtl_compiler,for_loop_ast,6}]}
+
+=ERROR REPORT==== 21-Aug-2012::00:18:50 ===
+GET /request/show/request-1 [helpdesk] 500 262ms
+
+=INFO REPORT==== 21-Aug-2012::00:19:06 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:19:07 ===
+GET /request/show/request-1 [helpdesk] 200 325ms
+
+=INFO REPORT==== 21-Aug-2012::00:19:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:19:16 ===
+GET /admin/model/events/1345486696768245 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:19:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:19:46 ===
+GET /admin/model/events/1345486726821502 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:20:08 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:20:09 ===
+GET /request/show/request-1 [helpdesk] 200 339ms
+
+=INFO REPORT==== 21-Aug-2012::00:20:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:20:16 ===
+GET /admin/model/events/1345486756870987 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:20:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:20:46 ===
+GET /admin/model/events/1345486786879916 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:21:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:21:16 ===
+GET /admin/model/events/1345486816932833 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:21:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:21:47 ===
+GET /admin/model/events/1345486846982227 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:22:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:22:17 ===
+GET /admin/model/events/1345486877031080 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:22:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:22:47 ===
+GET /admin/model/events/1345486907082104 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:23:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:23:17 ===
+GET /admin/model/events/1345486937129165 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:23:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:23:47 ===
+GET /admin/model/events/1345486967173246 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:24:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:24:17 ===
+GET /admin/model/events/1345486997217475 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:24:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:24:47 ===
+GET /admin/model/events/1345487027265729 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:25:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:25:17 ===
+GET /admin/model/events/1345487057310654 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:25:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:25:47 ===
+GET /admin/model/events/1345487087356305 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:26:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:26:17 ===
+GET /admin/model/events/1345487117403779 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:26:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:26:47 ===
+GET /admin/model/events/1345487147451436 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:27:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:27:17 ===
+GET /admin/model/events/1345487177500571 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:27:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 21-Aug-2012::00:27:37 ===
+GET /request/create [helpdesk] 200 258ms
+
+=INFO REPORT==== 21-Aug-2012::00:27:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:27:47 ===
+GET /admin/model/events/1345487207547529 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:28:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:28:17 ===
+GET /admin/model/events/1345487237596665 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:28:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:28:47 ===
+GET /admin/model/events/1345487267646942 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:29:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:29:17 ===
+GET /admin/model/events/1345487297692695 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 21-Aug-2012::00:29:44 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:29:47 ===
+GET /admin/model/events/1345487327742191 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 21-Aug-2012::00:30:14 ===
+POST /admin/model/heartbeat/10 [cb_admin] 200 0ms
+
+=INFO REPORT==== 21-Aug-2012::00:30:17 ===
+GET /admin/model/events/1345487357785749 [cb_admin] 200 30000ms

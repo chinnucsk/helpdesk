@@ -1,0 +1,824 @@
+
+=INFO REPORT==== 16-Aug-2012::22:35:39 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::22:35:39 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::22:35:39 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::22:35:39 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::22:35:39 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::22:35:44 ===
+GET /admin/model/model/operator [cb_admin] 200 35ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:44 ===
+POST /admin/model/watch [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:45 ===
+GET /admin/model/show/operator-2 [cb_admin] 200 15ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:45 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:48 ===
+GET /admin/model/edit/operator-2 [cb_admin] 200 9ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:54 ===
+POST /admin/model/edit/operator-2 [cb_admin] 302 47ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:54 ===
+GET /admin/model/events/1345134945732361 [cb_admin] 200 8407ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:54 ===
+GET /admin/model/events/1345134944247280 [cb_admin] 200 9865ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:54 ===
+GET /admin/model/show/operator-2 [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:54 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:57 ===
+GET /admin/model/model/operator [cb_admin] 200 4ms
+
+=INFO REPORT==== 16-Aug-2012::22:35:57 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:01 ===
+GET /admin/model/model [cb_admin] 200 1ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:02 ===
+GET /admin/model/model/depart [cb_admin] 200 10ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:02 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:03 ===
+GET /admin/model/model/operator [cb_admin] 200 9ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:03 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:04 ===
+GET /admin/model/model/request [cb_admin] 200 6ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:04 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 16-Aug-2012::22:36:06 ===
+{badarg,[{erlang,integer_to_list,[36.0]},
+         {erlydtl_dateformat,integer_to_list_zerofill,1},
+         {erlydtl_dateformat,replace_tags,5},
+         {cb_admin_model_lib,encode_csv_value,1},
+         {cb_admin_model_controller,'-csv/3-fun-1-',2},
+         {lists,foldr,3},
+         {cb_admin_model_controller,'-csv/3-fun-2-',1},
+         {lists,map,2}]}
+
+=ERROR REPORT==== 16-Aug-2012::22:36:06 ===
+GET /admin/model/csv/request [cb_admin] 500 30ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:11 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:13 ===
+GET /admin/model/model/operator [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:13 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 16-Aug-2012::22:36:14 ===
+{badarg,[{erlang,integer_to_list,[54.0]},
+         {erlydtl_dateformat,integer_to_list_zerofill,1},
+         {erlydtl_dateformat,replace_tags,5},
+         {cb_admin_model_lib,encode_csv_value,1},
+         {cb_admin_model_controller,'-csv/3-fun-1-',2},
+         {lists,foldr,3},
+         {cb_admin_model_controller,'-csv/3-fun-2-',1},
+         {lists,map,2}]}
+
+=ERROR REPORT==== 16-Aug-2012::22:36:14 ===
+GET /admin/model/csv/operator [cb_admin] 500 2ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:24 ===
+GET /admin/model/events/1345134954306435 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:27 ===
+GET /admin/model/events/1345134957052702 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:32 ===
+GET /admin/model/events/1345134962680312 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:33 ===
+GET /admin/model/events/1345134963689209 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:34 ===
+GET /admin/model/events/1345134964355372 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:38 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:41 ===
+GET /admin/model/events/1345134964355372 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:43 ===
+GET /admin/model/events/1345134973120678 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:44 ===
+GET /admin/model/create/operator [cb_admin] 200 3ms
+
+=ERROR REPORT==== 16-Aug-2012::22:36:54 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,error,<<"22007">>,
+              <<"invalid input syntax for type timestamp with time zone: \"\"">>,
+              [{position,<<"93">>}]},
+          undefined]},
+     {cb_admin_view_model_create_html,render_internal,4},
+     {cb_admin_view_model_create_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::22:36:54 ===
+POST /admin/model/create/operator [cb_admin] 500 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:58 ===
+POST /admin/model/create/operator [cb_admin] 302 27ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:58 ===
+GET /admin/model/show/operator-3 [cb_admin] 200 10ms
+
+=INFO REPORT==== 16-Aug-2012::22:36:58 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:00 ===
+GET /admin/model/model/operator [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:00 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:05 ===
+GET /admin/model/model/depart [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:05 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:07 ===
+GET /admin/model/model/operator [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:07 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:08 ===
+GET /admin/model/model/request [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:08 ===
+GET /admin/model/events/1345134973120678 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:08 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:09 ===
+GET /admin/model/model/operator [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:09 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:12 ===
+GET /admin/model/model/request [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:12 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:28 ===
+GET /admin/model/events/1345135018141406 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:30 ===
+GET /admin/model/events/1345135020785886 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:36 ===
+GET /admin/model/events/1345135025879299 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:37 ===
+GET /admin/model/events/1345135027696444 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:38 ===
+GET /admin/model/events/1345135028583709 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:39 ===
+GET /admin/model/events/1345135029769848 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:42 ===
+GET /admin/model/events/1345135032008200 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:37:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 1ms
+
+=INFO REPORT==== 16-Aug-2012::22:38:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:38:12 ===
+GET /admin/model/events/1345135032167833 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:38:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:38:42 ===
+GET /admin/model/events/1345135062179325 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:39:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:39:12 ===
+GET /admin/model/events/1345135092226781 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:39:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:39:42 ===
+GET /admin/model/events/1345135122274883 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:40:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:40:12 ===
+GET /admin/model/events/1345135152321335 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:40:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:40:42 ===
+GET /admin/model/events/1345135182366070 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:41:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:41:12 ===
+GET /admin/model/events/1345135212415867 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:41:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:41:42 ===
+GET /admin/model/events/1345135242464449 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:42:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:42:12 ===
+GET /admin/model/events/1345135272510369 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:42:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:42:42 ===
+GET /admin/model/events/1345135302557155 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:43:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:43:12 ===
+GET /admin/model/events/1345135332601273 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:43:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:43:42 ===
+GET /admin/model/events/1345135362644752 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:44:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:44:12 ===
+GET /admin/model/events/1345135392689775 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:44:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:44:42 ===
+GET /admin/model/events/1345135422733594 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:45:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:45:12 ===
+GET /admin/model/events/1345135452777297 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:45:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:45:42 ===
+GET /admin/model/events/1345135482821231 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:46:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:46:12 ===
+GET /admin/model/events/1345135512865332 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:46:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:46:42 ===
+GET /admin/model/events/1345135542908660 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:47:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:47:12 ===
+GET /admin/model/events/1345135572953263 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:47:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:47:43 ===
+GET /admin/model/events/1345135603000681 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:48:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:48:13 ===
+GET /admin/model/events/1345135633046667 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:48:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:48:43 ===
+GET /admin/model/events/1345135663096997 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:49:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:49:13 ===
+GET /admin/model/events/1345135693143900 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:49:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:49:43 ===
+GET /admin/model/events/1345135723193118 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:50:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:50:13 ===
+GET /admin/model/events/1345135753240467 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:50:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:50:43 ===
+GET /admin/model/events/1345135783290832 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:51:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:51:13 ===
+GET /admin/model/events/1345135813340660 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:51:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:51:43 ===
+GET /admin/model/events/1345135843387228 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:52:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:52:13 ===
+GET /admin/model/events/1345135873433206 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:52:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:52:43 ===
+GET /admin/model/events/1345135903476165 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:53:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:53:13 ===
+GET /admin/model/events/1345135933520467 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:53:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:53:43 ===
+GET /admin/model/events/1345135963564992 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:54:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:54:13 ===
+GET /admin/model/events/1345135993614643 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:54:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:54:43 ===
+GET /admin/model/events/1345136023660337 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:55:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:55:13 ===
+GET /admin/model/events/1345136053705296 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:55:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:55:43 ===
+GET /admin/model/events/1345136083755105 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:56:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:56:13 ===
+GET /admin/model/events/1345136113804875 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:56:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:56:43 ===
+GET /admin/model/events/1345136143850793 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:57:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:57:13 ===
+GET /admin/model/events/1345136173900751 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:57:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:57:43 ===
+GET /admin/model/events/1345136203946712 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:58:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:58:14 ===
+GET /admin/model/events/1345136233997197 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:58:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:58:44 ===
+GET /admin/model/events/1345136264042691 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:59:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:59:14 ===
+GET /admin/model/events/1345136294092380 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:59:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:59:44 ===
+GET /admin/model/events/1345136324135940 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:00:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:00:14 ===
+GET /admin/model/events/1345136354185070 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:00:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:00:44 ===
+GET /admin/model/events/1345136384227946 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:01:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:01:14 ===
+GET /admin/model/events/1345136414273248 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:01:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:01:44 ===
+GET /admin/model/events/1345136444319296 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:02:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:02:14 ===
+GET /admin/model/events/1345136474367335 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:02:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:02:44 ===
+GET /admin/model/events/1345136504458681 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:03:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:03:14 ===
+GET /admin/model/events/1345136534468243 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:03:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:03:44 ===
+GET /admin/model/events/1345136564533215 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:04:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:04:14 ===
+GET /admin/model/events/1345136594576922 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:04:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:04:44 ===
+GET /admin/model/events/1345136624624152 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:05:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:05:14 ===
+GET /admin/model/events/1345136654671419 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:05:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:05:44 ===
+GET /admin/model/events/1345136684719233 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:06:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:06:14 ===
+GET /admin/model/events/1345136714768220 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:06:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:06:44 ===
+GET /admin/model/events/1345136744818122 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:07:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:07:14 ===
+GET /admin/model/events/1345136774865136 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:07:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:07:44 ===
+GET /admin/model/events/1345136804912215 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:08:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:08:15 ===
+GET /admin/model/events/1345136834959764 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:08:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:08:45 ===
+GET /admin/model/events/1345136865011520 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:09:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:09:15 ===
+GET /admin/model/events/1345136895057967 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:09:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:09:45 ===
+GET /admin/model/events/1345136925103530 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:10:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:10:15 ===
+GET /admin/model/events/1345136955152564 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:10:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:10:45 ===
+GET /admin/model/events/1345136985202687 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:11:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:11:15 ===
+GET /admin/model/events/1345137015249301 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:11:42 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:11:45 ===
+GET /admin/model/events/1345137045294425 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:12 ===
+POST /admin/model/heartbeat/16 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:15 ===
+GET /admin/model/events/1345137075343554 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:22 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:23 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:23 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:24 ===
+GET /admin/model/model/operator [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:24 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:27 ===
+GET /admin/model/model/request [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:28 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:45 ===
+GET /admin/model/events/1345137105395723 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:53 ===
+GET /admin/model/events/1345137143718327 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:54 ===
+GET /admin/model/events/1345137144693703 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:58 ===
+GET /admin/model/events/1345137147975957 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:12:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:13:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:13:28 ===
+GET /admin/model/events/1345137148142940 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:13:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:13:58 ===
+GET /admin/model/events/1345137178152026 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:14:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:14:28 ===
+GET /admin/model/events/1345137208200426 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:14:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:14:58 ===
+GET /admin/model/events/1345137238246663 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:15:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:15:28 ===
+GET /admin/model/events/1345137268294264 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:15:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:15:58 ===
+GET /admin/model/events/1345137298341039 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:16:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:16:28 ===
+GET /admin/model/events/1345137328388159 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:16:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:16:58 ===
+GET /admin/model/events/1345137358436766 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:17:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:17:28 ===
+GET /admin/model/events/1345137388481578 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:17:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:17:58 ===
+GET /admin/model/events/1345137418525542 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:18:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:18:28 ===
+GET /admin/model/events/1345137448568521 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:18:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:18:58 ===
+GET /admin/model/events/1345137478613036 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:19:28 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:19:28 ===
+GET /admin/model/events/1345137508658156 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:19:58 ===
+POST /admin/model/heartbeat/19 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:19:58 ===
+GET /admin/model/events/1345137538705346 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:05 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:06 ===
+GET /admin/model/model/operator [cb_admin] 200 6ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:06 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:09 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:09 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:14 ===
+GET /admin/model/model/operator [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:14 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:16 ===
+GET /admin/model/model/request [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:16 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:18 ===
+GET /admin/model/show/request-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:19 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:28 ===
+GET /admin/model/events/1345137568749372 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:36 ===
+GET /admin/model/events/1345137606175202 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:39 ===
+GET /admin/model/events/1345137609024858 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:44 ===
+GET /admin/model/events/1345137614482320 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:46 ===
+GET /admin/model/events/1345137616544868 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:49 ===
+GET /admin/model/events/1345137618944585 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::23:20:49 ===
+POST /admin/model/heartbeat/24 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:21:19 ===
+POST /admin/model/heartbeat/24 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:21:19 ===
+GET /admin/model/events/1345137619103017 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::23:21:49 ===
+POST /admin/model/heartbeat/24 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::23:21:49 ===
+GET /admin/model/events/1345137649116676 [cb_admin] 200 30000ms

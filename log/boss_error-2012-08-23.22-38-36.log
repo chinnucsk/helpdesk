@@ -1,0 +1,27 @@
+
+=INFO REPORT==== 23-Aug-2012::22:38:36 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 23-Aug-2012::22:38:36 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 23-Aug-2012::22:38:37 ===
+SSL:[]
+
+=INFO REPORT==== 23-Aug-2012::22:38:37 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::22:38:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::22:38:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::22:38:45 ===
+GET / [helpdesk] 200 285ms
+
+=INFO REPORT==== 23-Aug-2012::22:38:45 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 23-Aug-2012::22:38:45 ===
+GET / [helpdesk] 200 334ms

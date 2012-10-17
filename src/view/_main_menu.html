@@ -1,0 +1,21 @@
+<ul>
+<li><a class="index{% if index_section %} selected{% endif %}" href="/">Home</a></li>
+    {% if cl_user %}
+        <li><a class="depart_request{% if index_depart_request %} selected{% endif %}" href="/main/depart_request">Задания отдела</a></li>
+        <li><a class="user_request{% if index_user_request %} selected{% endif %}"href="/main/user_request">Мои задания</a></li>
+        {% if (cl_user.name == "admin") or (cl_user.depart_id == "depart-5") or (cl_user.depart_id == "depart-16") or (cl_user.depart_id == "depart-17")%}
+            <li><a class="depart{% if index_depart %} selected{% endif %}" href="/depart/index">Отделы</a></li>
+	{% endif %}
+        {% if (cl_user.name == "admin") %}
+            <li><a href="/request/index">Задания</a></li>
+            <li><a href="/about">О прогамме</a></li>
+            <li><a href="/user/register">Регистрация</a></li>
+            <li><a href="/request/report01">Отчет 01</a></li>
+        {% endif %}
+    {% else %}
+        <li><a href="/user/login">Login</a></li>
+    {% endif %}
+{% if cl_user %}
+    <li><a href="/user/logout">выйти</a></li>
+{% endif %}
+</ul>

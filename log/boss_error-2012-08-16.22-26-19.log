@@ -1,0 +1,123 @@
+
+=INFO REPORT==== 16-Aug-2012::22:26:19 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::22:26:19 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::22:26:19 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::22:26:19 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::22:26:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::22:26:21 ===
+GET /admin/model/model [cb_admin] 200 15ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:22 ===
+GET /admin/model/model/operator [cb_admin] 200 19ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:24 ===
+GET /admin/model/create/operator [cb_admin] 200 3ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:27 ===
+POST /admin/model/create/operator [cb_admin] 302 26ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:27 ===
+GET /admin/model/show/operator-2 [cb_admin] 200 14ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:27 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:29 ===
+GET /admin/model/model/operator [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:29 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:32 ===
+GET /admin/model/show/operator-2 [cb_admin] 200 6ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:32 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:33 ===
+GET /admin/model/edit/operator-2 [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:57 ===
+GET /admin/model/events/1345134387289396 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:26:59 ===
+GET /admin/model/events/1345134389257205 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:27:02 ===
+GET /admin/model/events/1345134392414763 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:18 ===
+GET /admin/model/show/operator-2 [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:18 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:20 ===
+GET /admin/model/model/operator [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:20 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:22 ===
+GET /admin/model/model/request [cb_admin] 200 9ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:22 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:23 ===
+GET /admin/model/model/operator [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:23 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:25 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:25 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:26 ===
+GET /admin/model/model/operator [cb_admin] 200 10ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:26 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:28 ===
+GET /admin/model/model/request [cb_admin] 200 9ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:28 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:36 ===
+GET /admin/model/model [cb_admin] 200 1ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:48 ===
+GET /admin/model/events/1345134798769517 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:50 ===
+GET /admin/model/events/1345134800351324 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:52 ===
+GET /admin/model/events/1345134802385493 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:53 ===
+GET /admin/model/events/1345134803560883 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:55 ===
+GET /admin/model/events/1345134805001841 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:56 ===
+GET /admin/model/events/1345134806803756 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::22:33:58 ===
+GET /admin/model/events/1345134808265197 [cb_admin] 200 30000ms

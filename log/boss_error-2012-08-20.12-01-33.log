@@ -1,0 +1,237 @@
+
+=INFO REPORT==== 20-Aug-2012::12:01:33 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 20-Aug-2012::12:01:33 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 20-Aug-2012::12:01:33 ===
+SSL:[]
+
+=INFO REPORT==== 20-Aug-2012::12:01:33 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::12:01:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::12:01:37 ===
+boss_db_adapter_pgsql:find [test,[]]
+Query is (["SELECT COUNT(*) AS count FROM ","tests"," WHERE ",[" TRUE"]])
+Result is ({ok,[{column,<<"count">>,int8,8,-1,1}],[{0}]})
+
+=ERROR REPORT==== 20-Aug-2012::12:01:37 ===
+** Generic server <0.70.0> terminating 
+** Last message in was {find,test,[],
+                             [{limit,100},{offset,0},descending],
+                             0,id,str_ascending}
+** When Server state == {state,boss_db_adapter_pgsql,<0.71.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,
+       [{boss_db_adapter_pgsql,find,
+            [<0.71.0>,test,[],
+             [{limit,100},{offset,0},descending],
+             0,id,str_ascending]},
+        {boss_db_controller,handle_call,3},
+        {gen_server,handle_msg,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:37 ===
+{{function_clause,
+     [{boss_db_adapter_pgsql,find,
+          [<0.71.0>,test,[],
+           [{limit,100},{offset,0},descending],
+           0,id,str_ascending]},
+      {boss_db_controller,handle_call,3},
+      {gen_server,handle_msg,5},
+      {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+     [<0.70.0>,
+      {find,test,[],[{limit,100},{offset,0},descending],0,id,str_ascending},
+      30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:37 ===
+GET /admin/model/model/test [cb_admin] 500 9ms
+
+=INFO REPORT==== 20-Aug-2012::12:01:37 ===
+boss_db_adapter_pgsql:find [test,[]]
+Query is (["SELECT COUNT(*) AS count FROM ","tests"," WHERE ",[" TRUE"]])
+Result is ({ok,[{column,<<"count">>,int8,8,-1,1}],[{0}]})
+
+=ERROR REPORT==== 20-Aug-2012::12:01:37 ===
+** Generic server <0.76.0> terminating 
+** Last message in was {find,test,[],
+                             [{limit,100},{offset,0},descending],
+                             0,id,str_ascending}
+** When Server state == {state,boss_db_adapter_pgsql,<0.77.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,
+       [{boss_db_adapter_pgsql,find,
+            [<0.77.0>,test,[],
+             [{limit,100},{offset,0},descending],
+             0,id,str_ascending]},
+        {boss_db_controller,handle_call,3},
+        {gen_server,handle_msg,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:37 ===
+{{function_clause,
+     [{boss_db_adapter_pgsql,find,
+          [<0.77.0>,test,[],
+           [{limit,100},{offset,0},descending],
+           0,id,str_ascending]},
+      {boss_db_controller,handle_call,3},
+      {gen_server,handle_msg,5},
+      {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+     [<0.76.0>,
+      {find,test,[],[{limit,100},{offset,0},descending],0,id,str_ascending},
+      30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:37 ===
+GET /admin/model/model/test [cb_admin] 500 7ms
+
+=INFO REPORT==== 20-Aug-2012::12:01:40 ===
+boss_db_adapter_pgsql:find [request,[]]
+Query is (["SELECT COUNT(*) AS count FROM ","requests"," WHERE ",[" TRUE"]])
+Result is ({ok,[{column,<<"count">>,int8,8,-1,1}],[{1}]})
+
+=ERROR REPORT==== 20-Aug-2012::12:01:40 ===
+** Generic server <0.65.0> terminating 
+** Last message in was {find,request,[],
+                             [{limit,100},{offset,0},descending],
+                             0,id,str_ascending}
+** When Server state == {state,boss_db_adapter_pgsql,<0.66.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,
+       [{boss_db_adapter_pgsql,find,
+            [<0.66.0>,request,[],
+             [{limit,100},{offset,0},descending],
+             0,id,str_ascending]},
+        {boss_db_controller,handle_call,3},
+        {gen_server,handle_msg,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:40 ===
+{{function_clause,
+     [{boss_db_adapter_pgsql,find,
+          [<0.66.0>,request,[],
+           [{limit,100},{offset,0},descending],
+           0,id,str_ascending]},
+      {boss_db_controller,handle_call,3},
+      {gen_server,handle_msg,5},
+      {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+     [<0.65.0>,
+      {find,request,[],[{limit,100},{offset,0},descending],0,id,str_ascending},
+      30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:40 ===
+GET /admin/model/model/request [cb_admin] 500 4ms
+
+=INFO REPORT==== 20-Aug-2012::12:01:42 ===
+boss_db_adapter_pgsql:find [operator,[]]
+Query is (["SELECT COUNT(*) AS count FROM ","operators"," WHERE ",[" TRUE"]])
+Result is ({ok,[{column,<<"count">>,int8,8,-1,1}],[{0}]})
+
+=ERROR REPORT==== 20-Aug-2012::12:01:42 ===
+** Generic server <0.73.0> terminating 
+** Last message in was {find,operator,[],
+                             [{limit,100},{offset,0},descending],
+                             0,id,str_ascending}
+** When Server state == {state,boss_db_adapter_pgsql,<0.74.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,
+       [{boss_db_adapter_pgsql,find,
+            [<0.74.0>,operator,[],
+             [{limit,100},{offset,0},descending],
+             0,id,str_ascending]},
+        {boss_db_controller,handle_call,3},
+        {gen_server,handle_msg,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:42 ===
+{{function_clause,
+     [{boss_db_adapter_pgsql,find,
+          [<0.74.0>,operator,[],
+           [{limit,100},{offset,0},descending],
+           0,id,str_ascending]},
+      {boss_db_controller,handle_call,3},
+      {gen_server,handle_msg,5},
+      {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+     [<0.73.0>,
+      {find,operator,[],
+          [{limit,100},{offset,0},descending],
+          0,id,str_ascending},
+      30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:42 ===
+GET /admin/model/model/operator [cb_admin] 500 2ms
+
+=INFO REPORT==== 20-Aug-2012::12:01:44 ===
+boss_db_adapter_pgsql:find [test,[]]
+Query is (["SELECT COUNT(*) AS count FROM ","tests"," WHERE ",[" TRUE"]])
+Result is ({ok,[{column,<<"count">>,int8,8,-1,1}],[{0}]})
+
+=ERROR REPORT==== 20-Aug-2012::12:01:44 ===
+** Generic server <0.79.0> terminating 
+** Last message in was {find,test,[],
+                             [{limit,100},{offset,0},descending],
+                             0,id,str_ascending}
+** When Server state == {state,boss_db_adapter_pgsql,<0.80.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,
+       [{boss_db_adapter_pgsql,find,
+            [<0.80.0>,test,[],
+             [{limit,100},{offset,0},descending],
+             0,id,str_ascending]},
+        {boss_db_controller,handle_call,3},
+        {gen_server,handle_msg,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:44 ===
+{{function_clause,
+     [{boss_db_adapter_pgsql,find,
+          [<0.80.0>,test,[],
+           [{limit,100},{offset,0},descending],
+           0,id,str_ascending]},
+      {boss_db_controller,handle_call,3},
+      {gen_server,handle_msg,5},
+      {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+     [<0.79.0>,
+      {find,test,[],[{limit,100},{offset,0},descending],0,id,str_ascending},
+      30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::12:01:44 ===
+GET /admin/model/model/test [cb_admin] 500 7ms

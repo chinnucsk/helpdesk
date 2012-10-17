@@ -1,0 +1,187 @@
+
+=INFO REPORT==== 20-Aug-2012::17:26:33 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 20-Aug-2012::17:26:33 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 20-Aug-2012::17:26:34 ===
+SSL:[]
+
+=INFO REPORT==== 20-Aug-2012::17:26:34 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::17:26:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::17:26:36 ===
+GET /admin/model/model/request [cb_admin] 200 39ms
+
+=INFO REPORT==== 20-Aug-2012::17:26:37 ===
+GET /admin/model/create/request [cb_admin] 200 3ms
+
+=ERROR REPORT==== 20-Aug-2012::17:26:59 ===
+** Generic server <0.80.0> terminating 
+** Last message in was {save_record,
+                           {request,id,[],[],[],[],[],[],[],[],[],[],[]}}
+** When Server state == {state,boss_db_adapter_mysql,<0.81.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,[]},
+    [{boss_db_adapter_mysql,infer_type_from_id,1},
+     {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+     {lists,foldl,3},
+     {boss_db_adapter_mysql,build_insert_query,1},
+     {boss_db_adapter_mysql,save_record,2},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::17:26:59 ===
+{{{badmatch,[]},
+  [{boss_db_adapter_mysql,infer_type_from_id,1},
+   {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+   {lists,foldl,3},
+   {boss_db_adapter_mysql,build_insert_query,1},
+   {boss_db_adapter_mysql,save_record,2},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.80.0>,
+              {save_record,{request,id,[],[],[],[],[],[],[],[],[],[],[]}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::17:26:59 ===
+POST /admin/model/create/request [cb_admin] 500 1ms
+
+=INFO REPORT==== 20-Aug-2012::17:27:10 ===
+GET /admin/model/model/request [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::17:27:13 ===
+GET /admin/model/model/test [cb_admin] 200 13ms
+
+=INFO REPORT==== 20-Aug-2012::17:27:13 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 20-Aug-2012::17:27:16 ===
+GET /admin/model/model/request [cb_admin] 200 6ms
+
+=INFO REPORT==== 20-Aug-2012::17:27:17 ===
+GET /admin/model/create/request [cb_admin] 200 3ms
+
+=ERROR REPORT==== 20-Aug-2012::17:27:43 ===
+** Generic server <0.86.0> terminating 
+** Last message in was {save_record,
+                           {request,id,
+                               [208,153,208,166,208,163],
+                               [208,153,208,166,208,163],
+                               [208,153,208,166,208,163],
+                               [208,153,208,166,208,163],
+                               [208,153,208,166,208,163],
+                               [],[],[],[],[],
+                               [208,153,208,166,208,163]}}
+** When Server state == {state,boss_db_adapter_mysql,<0.87.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,[[208,153,208,166,208,163]]},
+    [{boss_db_adapter_mysql,infer_type_from_id,1},
+     {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+     {lists,foldl,3},
+     {boss_db_adapter_mysql,build_insert_query,1},
+     {boss_db_adapter_mysql,save_record,2},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::17:27:43 ===
+{{{badmatch,[[208,153,208,166,208,163]]},
+  [{boss_db_adapter_mysql,infer_type_from_id,1},
+   {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+   {lists,foldl,3},
+   {boss_db_adapter_mysql,build_insert_query,1},
+   {boss_db_adapter_mysql,save_record,2},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.86.0>,
+              {save_record,{request,id,
+                                    [208,153,208,166,208,163],
+                                    [208,153,208,166,208,163],
+                                    [208,153,208,166,208,163],
+                                    [208,153,208,166,208,163],
+                                    [208,153,208,166,208,163],
+                                    [],[],[],[],[],
+                                    [208,153,208,166,208,163]}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::17:27:43 ===
+POST /admin/model/create/request [cb_admin] 500 1ms
+
+=INFO REPORT==== 20-Aug-2012::17:27:43 ===
+GET /admin/model/events/1345462033804722 [cb_admin] 200 30001ms
+
+=ERROR REPORT==== 20-Aug-2012::17:28:14 ===
+** Generic server <0.71.0> terminating 
+** Last message in was {save_record,
+                           {request,id,
+                               [208,153,208,166,208,163],
+                               [208,153,208,166,208,163],
+                               "depart-1",
+                               [208,153,208,166,208,163],
+                               [208,153,208,166,208,163],
+                               [],[],[],[],[],
+                               [208,153,208,166,208,163]}}
+** When Server state == {state,boss_db_adapter_mysql,<0.72.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,[[208,153,208,166,208,163]]},
+    [{boss_db_adapter_mysql,infer_type_from_id,1},
+     {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+     {lists,foldl,3},
+     {boss_db_adapter_mysql,build_insert_query,1},
+     {boss_db_adapter_mysql,save_record,2},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::17:28:14 ===
+{{{badmatch,[[208,153,208,166,208,163]]},
+  [{boss_db_adapter_mysql,infer_type_from_id,1},
+   {boss_db_adapter_mysql,'-build_insert_query/1-fun-0-',2},
+   {lists,foldl,3},
+   {boss_db_adapter_mysql,build_insert_query,1},
+   {boss_db_adapter_mysql,save_record,2},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.71.0>,
+              {save_record,{request,id,
+                                    [208,153,208,166,208,163],
+                                    [208,153,208,166,208,163],
+                                    "depart-1",
+                                    [208,153,208,166,208,163],
+                                    [208,153,208,166,208,163],
+                                    [],[],[],[],[],
+                                    [208,153,208,166,208,163]}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::17:28:14 ===
+POST /admin/model/create/request [cb_admin] 500 1ms

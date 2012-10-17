@@ -43,13 +43,12 @@
               <td>{% include "./main/date.txt" with date=request.worker_out_time %}</td>
               <td>{% include "./main/date.txt" with date=request.close_time %}</td>
               <td>{% include "./main/date.txt" with date=request.change_time %}</td>
-              <td>{{request.note}}</td>
+              <td>{{request.note|truncatechars:50}}</td>
 
               {% include "./request/user.html" %}
               <td align="center">
                   <a href=/request/show/{{request.id}}>Показать</a>
                   <a href=/request/edit/{{request.id}}>Изменить</a>
-                  <a href=/request/delete/{{request.id}}>Удалить</a></td>
           </tr>
           {% endfor %}
          

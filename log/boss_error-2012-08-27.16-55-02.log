@@ -1,0 +1,40 @@
+
+=INFO REPORT==== 27-Aug-2012::16:55:02 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 27-Aug-2012::16:55:03 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 27-Aug-2012::16:55:03 ===
+SSL:[]
+
+=INFO REPORT==== 27-Aug-2012::16:55:03 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 27-Aug-2012::16:55:03 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 27-Aug-2012::16:55:03 ===
+Compilation of "/home/simba/hacking/erlang/helpdesk/priv/init/helpdesk_01_news.erl" failed: {error,
+                                                                                             [{"/home/simba/hacking/erlang/helpdesk/priv/init/helpdesk_01_news.erl",
+                                                                                               [{{14,
+                                                                                                  10},
+                                                                                                 erl_parse,
+                                                                                                 ["syntax error before: ",
+                                                                                                  "':'"]}]}],
+                                                                                             []}
+
+=INFO REPORT==== 27-Aug-2012::16:55:18 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 1ms
+
+=INFO REPORT==== 27-Aug-2012::16:55:48 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::16:56:18 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::16:56:48 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::16:57:18 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms

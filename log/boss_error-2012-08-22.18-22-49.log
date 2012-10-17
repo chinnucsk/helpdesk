@@ -1,0 +1,782 @@
+
+=INFO REPORT==== 22-Aug-2012::18:22:49 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 22-Aug-2012::18:22:49 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 22-Aug-2012::18:22:49 ===
+SSL:[]
+
+=INFO REPORT==== 22-Aug-2012::18:22:49 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:22:49 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:22:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:22:52 ===
+GET /request/show/request-21 [helpdesk] 200 276ms
+
+=INFO REPORT==== 22-Aug-2012::18:23:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 3ms
+
+=INFO REPORT==== 22-Aug-2012::18:23:30 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:23:30 ===
+GET /request/show/request-21 [helpdesk] 200 393ms
+
+=INFO REPORT==== 22-Aug-2012::18:23:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:23:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:00 ===
+GET /main/user_request [helpdesk] 200 299ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:03 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:03 ===
+GET /main/depart_request [helpdesk] 200 311ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:47 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:48 ===
+GET /main/depart_request [helpdesk] 200 381ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:50 ===
+GET /request/show/request-18 [helpdesk] 200 301ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:55 ===
+GET /request/show/request-20 [helpdesk] 200 302ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:57 ===
+GET /main/depart_request [helpdesk] 200 294ms
+
+=INFO REPORT==== 22-Aug-2012::18:24:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:24:59 ===
+GET /request/show/request-21 [helpdesk] 200 315ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:03 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:03 ===
+GET / [helpdesk] 200 284ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:14 ===
+GET /request/show/request-21 [helpdesk] 200 312ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:15 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:16 ===
+GET / [helpdesk] 200 295ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:23 ===
+GET / [helpdesk] 200 285ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:24 ===
+GET /main/depart_request [helpdesk] 200 299ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:31 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:31 ===
+GET /main/user_request [helpdesk] 200 303ms
+
+=INFO REPORT==== 22-Aug-2012::18:25:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:25:42 ===
+GET /request/show/request-21 [helpdesk] 200 305ms
+
+=INFO REPORT==== 22-Aug-2012::18:26:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:26:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:26:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:26:52 ===
+{function_clause,
+    [{erlydtl_filters,date,
+         [{request,"request-18","cl_user-2",undefined,"depart-1",
+              <<208,147,209,131,209,129,208,181,208,178,32,208,148,208,181,208,
+                189,208,184,209,129>>,
+              <<"3 -">>,
+              {{2012,8,21},{23,22,23}},
+              {{2012,8,21},{23,23,1}},
+              {{2012,8,22},{12,16,31}},
+              {{2012,8,22},{12,16,31}},
+              {{2012,8,22},{12,16,31}},
+              <<208,151,208,176,208,188,208,181,208,189,208,176,32,208,186,
+                208,176,209,128,209,130,209,128,208,184,208,180,208,182,208,
+                176,44,32,208,191,209,128,208,184,208,189,209,130,208,181,209,
+                128,208,176,32,72,80,32,49,51,50,48,46>>},
+          <<"Y">>]},
+     {helpdesk_view_main_user_request_html,'-render_internal/4-fun-0-',2},
+     {lists,mapfoldl,3},
+     {erlydtl_runtime,forloop,3},
+     {helpdesk_view_main_user_request_html,render_internal,4},
+     {helpdesk_view_main_user_request_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:26:52 ===
+GET /main/user_request [helpdesk] 500 371ms
+
+=INFO REPORT==== 22-Aug-2012::18:27:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:27:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:27:15 ===
+GET /main/depart_request [helpdesk] 200 304ms
+
+=INFO REPORT==== 22-Aug-2012::18:27:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:27:16 ===
+GET /main/depart_request [helpdesk] 200 298ms
+
+=INFO REPORT==== 22-Aug-2012::18:27:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:27:17 ===
+GET /main/user_request [helpdesk] 200 372ms
+
+=INFO REPORT==== 22-Aug-2012::18:27:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:27:53 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:27:53 ===
+GET / [helpdesk] 200 285ms
+
+=INFO REPORT==== 22-Aug-2012::18:28:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:28:03 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:28:03 ===
+GET /main/depart_request [helpdesk] 200 293ms
+
+=INFO REPORT==== 22-Aug-2012::18:28:06 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:28:06 ===
+GET /main/user_request [helpdesk] 200 299ms
+
+=INFO REPORT==== 22-Aug-2012::18:28:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:29:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:29:25 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:29:25 ===
+GET /main/user_request [helpdesk] 200 303ms
+
+=INFO REPORT==== 22-Aug-2012::18:29:26 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:29:26 ===
+GET /main/user_request [helpdesk] 200 310ms
+
+=INFO REPORT==== 22-Aug-2012::18:29:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:30:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:30:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:31:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:31:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:32:00 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:32:30 ===
+POST /admin/model/heartbeat/9 [cb_admin] 200 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:32:41 ===
+GET /admin/model/model/cl_user [cb_admin] 200 59ms
+
+=INFO REPORT==== 22-Aug-2012::18:32:41 ===
+POST /admin/model/watch [cb_admin] 200 5ms
+
+=INFO REPORT==== 22-Aug-2012::18:32:44 ===
+GET /doc/cl_user [helpdesk] 200 560ms
+
+=ERROR REPORT==== 22-Aug-2012::18:32:44 ===
+GET /doc/stylesheet.css [helpdesk] 404 0ms
+
+=ERROR REPORT==== 22-Aug-2012::18:32:44 ===
+GET /doc/erlang.png [helpdesk] 404 0ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:33:08 ===
+GET /main/user_request [helpdesk] 200 316ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:33:09 ===
+GET /main/user_request [helpdesk] 200 322ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:33:10 ===
+GET /main/user_request [helpdesk] 200 333ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:11 ===
+GET /admin/model/events/1345638761421876 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:33:28 ===
+GET /main/user_request [helpdesk] 200 312ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:33:29 ===
+GET /main/user_request [helpdesk] 200 315ms
+
+=INFO REPORT==== 22-Aug-2012::18:33:29 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:33:29 ===
+GET /main/user_request [helpdesk] 200 305ms
+
+=INFO REPORT==== 22-Aug-2012::18:34:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:34:00 ===
+GET /main/user_request [helpdesk] 200 387ms
+
+=INFO REPORT==== 22-Aug-2012::18:35:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:35:34 ===
+GET /main/user_request [helpdesk] 200 380ms
+
+=INFO REPORT==== 22-Aug-2012::18:35:35 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:35:35 ===
+GET /main/user_request [helpdesk] 200 316ms
+
+=INFO REPORT==== 22-Aug-2012::18:35:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:35:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:35:36 ===
+GET /main/user_request [helpdesk] 200 337ms
+
+=INFO REPORT==== 22-Aug-2012::18:35:37 ===
+GET /main/user_request [helpdesk] 200 318ms
+
+=INFO REPORT==== 22-Aug-2012::18:35:45 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:35:45 ===
+GET /main/user_request [helpdesk] 200 383ms
+
+=INFO REPORT==== 22-Aug-2012::18:35:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:35:46 ===
+GET /main/user_request [helpdesk] 200 316ms
+
+=INFO REPORT==== 22-Aug-2012::18:36:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:36:52 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,<<"#42S22Unknown column 'dcount' in 'where clause'">>},
+          undefined]},
+     {helpdesk_view_main_user_request_html,render_internal,4},
+     {helpdesk_view_main_user_request_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:36:52 ===
+GET /main/user_request [helpdesk] 500 303ms
+
+=INFO REPORT==== 22-Aug-2012::18:38:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:38:10 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,<<"#42S22Unknown column 'count' in 'where clause'">>},
+          undefined]},
+     {helpdesk_view_main_user_request_html,render_internal,4},
+     {helpdesk_view_main_user_request_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:38:10 ===
+GET /main/user_request [helpdesk] 500 302ms
+
+=INFO REPORT==== 22-Aug-2012::18:38:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:38:34 ===
+GET /main/depart_request [helpdesk] 200 314ms
+
+=INFO REPORT==== 22-Aug-2012::18:38:35 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:38:36 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,<<"#42S22Unknown column 'count' in 'where clause'">>},
+          undefined]},
+     {helpdesk_view_main_user_request_html,render_internal,4},
+     {helpdesk_view_main_user_request_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:38:36 ===
+GET /main/user_request [helpdesk] 500 314ms
+
+=INFO REPORT==== 22-Aug-2012::18:38:39 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:38:39 ===
+GET /main/depart_request [helpdesk] 200 325ms
+
+=INFO REPORT==== 22-Aug-2012::18:38:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:38:44 ===
+GET /request/index [helpdesk] 200 342ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:19 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:20 ===
+GET /main/user_request [helpdesk] 200 314ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:25 ===
+GET /main/user_request [helpdesk] 200 312ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:29 ===
+GET /main/depart_request [helpdesk] 200 329ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:31 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:31 ===
+GET /main/user_request [helpdesk] 200 315ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:32 ===
+GET /main/depart_request [helpdesk] 200 333ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:34 ===
+GET /main/depart_request [helpdesk] 200 319ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:35 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:35 ===
+GET /main/user_request [helpdesk] 200 312ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:43 ===
+GET /main/depart_request [helpdesk] 200 325ms
+
+=INFO REPORT==== 22-Aug-2012::18:39:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:39:43 ===
+GET /main/user_request [helpdesk] 200 329ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:00 ===
+GET /main/user_request [helpdesk] 200 325ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:02 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:02 ===
+GET /main/depart_request [helpdesk] 200 318ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:03 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:03 ===
+GET /main/user_request [helpdesk] 200 323ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:06 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:07 ===
+GET /request/index [helpdesk] 200 353ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:09 ===
+GET /main/user_request [helpdesk] 200 353ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:11 ===
+GET /main/depart_request [helpdesk] 200 318ms
+
+=INFO REPORT==== 22-Aug-2012::18:41:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:41:18 ===
+GET /request/set_worker/request-21 [helpdesk] 200 322ms
+
+=INFO REPORT==== 22-Aug-2012::18:45:53 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:45:54 ===
+GET /request/show/request-21 [helpdesk] 200 407ms
+
+=INFO REPORT==== 22-Aug-2012::18:46:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:46:17 ===
+GET /request/show/request-21 [helpdesk] 200 398ms
+
+=INFO REPORT==== 22-Aug-2012::18:46:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:46:18 ===
+GET /request/show/request-21 [helpdesk] 200 324ms
+
+=INFO REPORT==== 22-Aug-2012::18:46:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:46:27 ===
+GET /request/show/request-21 [helpdesk] 200 396ms
+
+=INFO REPORT==== 22-Aug-2012::18:47:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:47:35 ===
+GET /request/show/request-21 [helpdesk] 200 439ms
+
+=INFO REPORT==== 22-Aug-2012::18:53:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:53:43 ===
+GET /request/show/request-21 [helpdesk] 200 331ms
+
+=INFO REPORT==== 22-Aug-2012::18:54:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:54:41 ===
+GET /request/show/request-21 [helpdesk] 200 318ms
+
+=INFO REPORT==== 22-Aug-2012::18:54:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:54:42 ===
+GET /request/show/request-21 [helpdesk] 200 327ms
+
+=INFO REPORT==== 22-Aug-2012::18:54:53 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::18:54:54 ===
+GET /request/show/request-21 [helpdesk] 200 409ms
+
+=INFO REPORT==== 22-Aug-2012::18:55:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 22-Aug-2012::18:55:00 ===
+{function_clause,
+    [{helpdesk_request_controller,show,
+         ['POST',
+          ["request-21"],
+          {cl_user,"cl_user-2",<<>>,<<"tsmag01">>,"qwerty","depart-4"},
+          {helpdesk_request_controller,
+              {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                  {mochiweb_request,#Port<0.24644>,'POST',
+                      "/request/show/request-21",
+                      {1,1},
+                      {10,
+                       {"host",
+                        {'Host',"localhost:8001"},
+                        {"accept",
+                         {'Accept',
+                             "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                         nil,
+                         {"accept-language",
+                          {'Accept-Language',
+                              "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                          {"accept-encoding",
+                           {'Accept-Encoding',"gzip, deflate"},
+                           nil,nil},
+                          {"connection",
+                           {'Connection',"keep-alive"},
+                           nil,
+                           {"cookie",
+                            {'Cookie',
+                                "_boss_session=c801e3a233f7d764d9f79e3ad7aa2619b4765226; cl_user_id=cl_user-2; session_id=fbdbf3718d0beefbc3b7abfcbb991b18; org.cups.sid=354fe9cf18a6b02165e9e21a19cf09ff"},
+                            {"content-type",
+                             {'Content-Type',
+                                 "application/x-www-form-urlencoded"},
+                             {"content-length",
+                              {'Content-Length',"14"},
+                              nil,nil},
+                             nil},
+                            nil}}}},
+                        {"user-agent",
+                         {'User-Agent',
+                             "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                         {"referer",
+                          {'Referer',
+                              "http://localhost:8001/request/show/request-21"},
+                          nil,nil},
+                         nil}}}},
+                  false,[],[],none},
+              "c801e3a233f7d764d9f79e3ad7aa2619b4765226"}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 22-Aug-2012::18:55:00 ===
+POST /request/show/request-21 [helpdesk] 500 312ms
+
+=INFO REPORT==== 22-Aug-2012::19:03:47 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:03:47 ===
+POST /request/show/request-21 [helpdesk] 200 115ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:15 ===
+POST /request/show/request-21 [helpdesk] 302 445ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:15 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:15 ===
+GET /request/index [helpdesk] 200 369ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:18 ===
+GET /request/edit/request-21 [helpdesk] 200 315ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:27 ===
+GET /request/show/request-21 [helpdesk] 200 423ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:34 ===
+POST /request/show/request-21 [helpdesk] 302 422ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:34 ===
+GET /request/index [helpdesk] 200 350ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:36 ===
+GET /request/show/request-21 [helpdesk] 200 345ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:44 ===
+GET /request/show/request-21 [helpdesk] 200 343ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:52 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:53 ===
+POST /request/show/request-21 [helpdesk] 302 379ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:53 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:53 ===
+GET /request/index [helpdesk] 200 360ms
+
+=INFO REPORT==== 22-Aug-2012::19:04:56 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:04:56 ===
+GET /request/show/request-21 [helpdesk] 200 355ms
+
+=INFO REPORT==== 22-Aug-2012::19:06:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:06:28 ===
+GET /request/show/request-21 [helpdesk] 200 322ms
+
+=INFO REPORT==== 22-Aug-2012::19:06:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:06:47 ===
+GET /request/show/request-18 [helpdesk] 200 324ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:13 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:14 ===
+POST /request/show/request-18 [helpdesk] 302 393ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:14 ===
+GET /request/index [helpdesk] 200 340ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:17 ===
+GET /request/show/request-18 [helpdesk] 200 320ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:29 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:29 ===
+GET /main/depart_request [helpdesk] 200 320ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:32 ===
+GET /request/show/request-18 [helpdesk] 200 326ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:42 ===
+GET /main/depart_request [helpdesk] 200 311ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:51 ===
+GET /main/user_request [helpdesk] 200 309ms
+
+=INFO REPORT==== 22-Aug-2012::19:07:58 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:07:58 ===
+GET /main/depart_request [helpdesk] 200 319ms
+
+=INFO REPORT==== 22-Aug-2012::19:08:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:08:00 ===
+GET / [helpdesk] 200 309ms
+
+=INFO REPORT==== 22-Aug-2012::19:08:01 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:08:01 ===
+GET /main/depart_request [helpdesk] 200 306ms
+
+=INFO REPORT==== 22-Aug-2012::19:08:02 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 22-Aug-2012::19:08:02 ===
+GET /main/user_request [helpdesk] 200 320ms

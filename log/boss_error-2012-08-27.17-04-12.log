@@ -1,0 +1,288 @@
+
+=INFO REPORT==== 27-Aug-2012::17:04:12 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 27-Aug-2012::17:04:12 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 27-Aug-2012::17:04:12 ===
+SSL:[]
+
+=INFO REPORT==== 27-Aug-2012::17:04:12 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 27-Aug-2012::17:04:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 27-Aug-2012::17:04:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 1ms
+
+=INFO REPORT==== 27-Aug-2012::17:04:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:05:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:05:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:06:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:06:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:07:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:07:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:08:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:08:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:09:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:09:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:10:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:10:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:11:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:11:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:12:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:12:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:13:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:13:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:14:18 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:14:48 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:15:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:15:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:16:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:16:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:17:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:17:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:18:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:18:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:19:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:19:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:20:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:20:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:21:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:21:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:22:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:22:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:23:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:23:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:24:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:24:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:25:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:25:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:26:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:26:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:27:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:27:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:28:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:28:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:29:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:29:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:30:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:30:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:31:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:31:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:32:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:32:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:33:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:33:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:34:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:34:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:35:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:35:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:36:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:36:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:37:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:37:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:38:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:38:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:39:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:39:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:40:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:40:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:41:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:41:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:42:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:42:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:43:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:43:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:44:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:44:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:45:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:45:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:46:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:46:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:47:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:47:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:48:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:48:49 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::17:49:19 ===
+POST /admin/model/heartbeat/1 [cb_admin] 200 0ms

@@ -7,7 +7,7 @@ before_(_) ->
 index('GET',[], Operator) ->
     Users = boss_db:find(cl_user,[]),
     Departs = boss_db:find(depart, []),
-    {ok, [{users, Users},{departs, Departs},{ip, Req:peer_ip()},{count, boss_db:count(depart)},{cl_user,Operator}]}.
+    {ok, [{index_depart, true},{users, Users},{departs, Departs},{ip, Req:peer_ip()},{count, boss_db:count(depart)},{cl_user,Operator}]}.
 
 create('GET', [], Operator) -> {ok,[{ip, Req:peer_ip()},{cl_user, Operator}]};
 create('POST', [], Operator) ->
@@ -42,6 +42,14 @@ edit('POST', [Id], Operator) ->
                 Reason
     end.
 
+%% Просмотр заданий по данному отделу
+request('GET', [Id], Operator) ->
+    Request = boss_db:find(request, [{depart_id, Id}], [{order_by,creation_time},descending]),
+    Depart = boss_db:find(Id),
+    {ok, [{count_depart_request, boss_db:count(request,[{depart_id, Id}])},
+        {count_depart_request_notclose, boss_db:count(request,[{depart_id, Id},{status,'not_equals',"Close"}])},
+        {count_depart_request_new, boss_db:count(request,[{depart_id, Id},{status,"New"}])},
+{requests, Request},{ip, Req:peer_ip()}, {cl_user, Operator}, {depart, Depart}]}.
 
 show('GET', [Id], Operator) ->
     Departs = boss_db:find(Id),

@@ -1,0 +1,480 @@
+
+=INFO REPORT==== 27-Aug-2012::15:03:10 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 27-Aug-2012::15:03:10 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 27-Aug-2012::15:03:10 ===
+SSL:[]
+
+=INFO REPORT==== 27-Aug-2012::15:03:10 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 27-Aug-2012::15:03:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 27-Aug-2012::15:03:13 ===
+GET /admin/model/model/test [cb_admin] 200 33ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:13 ===
+POST /admin/model/watch [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:14 ===
+GET /admin/model/model/test [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:14 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:15 ===
+GET /admin/model/model/test [cb_admin] 200 7ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:15 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:15 ===
+GET /admin/model/model/test [cb_admin] 200 10ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:15 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:15 ===
+GET /admin/model/model/test [cb_admin] 200 10ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:15 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:19 ===
+GET /admin/model/show/test-1 [cb_admin] 200 13ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:19 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:21 ===
+GET /admin/model/edit/test-1 [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:38 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:43 ===
+GET /admin/model/events/1346058193535239 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:44 ===
+GET /admin/model/events/1346058194747286 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:45 ===
+GET /admin/model/events/1346058195056283 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:45 ===
+GET /admin/model/events/1346058195350860 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:45 ===
+GET /admin/model/events/1346058195673068 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:49 ===
+GET /admin/model/events/1346058199703575 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:58 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:03:59 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:00 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:07 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:12 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:13 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:19 ===
+GET /admin/model/show/test-1 [cb_admin] 200 7ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:19 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:04:49 ===
+GET /admin/model/events/1346058258999720 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:26 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:31 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:34 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:38 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:39 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:46 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:05:47 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:06:09 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:06:10 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:07:00 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:07:00 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:05 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:06 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:06 ===
+POST /admin/model/edit/test-1 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:46 ===
+GET /admin/model/show/test-1 [cb_admin] 200 7ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:46 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:48 ===
+GET /admin/model/model/test [cb_admin] 200 9ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:48 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:51 ===
+GET /admin/model/show/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:51 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:09:52 ===
+GET /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:10:17 ===
+GET /admin/model/events/1346058586845573 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:10:19 ===
+GET /admin/model/events/1346058588846369 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:10:21 ===
+GET /admin/model/events/1346058591022747 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:12:57 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:08 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:09 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:10 ===
+GET /admin/model/show/test-2 [cb_admin] 200 7ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:10 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:12 ===
+GET /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:14 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:31 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:32 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:32 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:32 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:33 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:33 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:33 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:33 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:34 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:34 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:34 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:40 ===
+GET /admin/model/events/1346058790491423 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:45 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:45 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:46 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:47 ===
+GET /admin/model/show/test-2 [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:47 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:50 ===
+GET /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:13:53 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:04 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:07 ===
+GET /admin/model/show/test-2 [cb_admin] 200 7ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:07 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:11 ===
+GET /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:17 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:18 ===
+GET /admin/model/events/1346058827840696 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:22 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:23 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:24 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:24 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:24 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:24 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:25 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:25 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:27 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:31 ===
+GET /admin/model/show/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:31 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:37 ===
+GET /admin/model/events/1346058847533902 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:49 ===
+GET /admin/model/edit/test-2 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:52 ===
+POST /admin/model/edit/test-2 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:55 ===
+GET /admin/model/show/test-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:55 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:57 ===
+GET /admin/model/model/test [cb_admin] 200 9ms
+
+=INFO REPORT==== 27-Aug-2012::15:14:57 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:01 ===
+GET /admin/model/events/1346058871484755 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:02 ===
+GET /doc/test [helpdesk] 200 329ms
+
+=ERROR REPORT==== 27-Aug-2012::15:15:02 ===
+GET /doc/stylesheet.css [helpdesk] 404 0ms
+
+=ERROR REPORT==== 27-Aug-2012::15:15:02 ===
+GET /doc/erlang.png [helpdesk] 404 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:25 ===
+GET /admin/model/events/1346058895603612 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:27 ===
+GET /admin/model/events/1346058897124256 [cb_admin] 200 30001ms
+
+=ERROR REPORT==== 27-Aug-2012::15:15:33 ===
+GET /doc/overview-summary.html [helpdesk] 404 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:48 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:55 ===
+GET /admin/routes/index [cb_admin] 200 35ms
+
+=INFO REPORT==== 27-Aug-2012::15:15:56 ===
+GET /admin/ [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:16:09 ===
+GET /admin/routes/index [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:16:18 ===
+GET /admin/model/events/1346058897124256 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:08 ===
+GET /admin/model/model [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:10 ===
+GET /admin/model/model/test [cb_admin] 200 10ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:11 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:14 ===
+GET /admin/model/show/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:14 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:16 ===
+GET /admin/model/edit/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:17 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:41 ===
+GET /admin/model/events/1346059630957158 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:27:44 ===
+GET /admin/model/events/1346059634158527 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 27-Aug-2012::15:37:44 ===
+GET /admin/model/show/test-3 [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:37:44 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:37:46 ===
+GET /admin/model/edit/test-3 [cb_admin] 200 6ms
+
+=INFO REPORT==== 27-Aug-2012::15:37:49 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:07 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:08 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:08 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:09 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:09 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:09 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:09 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:10 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:10 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:10 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:10 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:11 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:11 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:11 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:12 ===
+GET /admin/model/show/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:12 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:14 ===
+GET /admin/model/edit/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:14 ===
+GET /admin/model/events/1346060264533003 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:38:42 ===
+GET /admin/model/events/1346060292522803 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 27-Aug-2012::15:47:30 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:47:34 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 2ms
+
+=INFO REPORT==== 27-Aug-2012::15:47:35 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::15:47:35 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 27-Aug-2012::15:47:35 ===
+POST /admin/model/edit/test-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 27-Aug-2012::16:12:26 ===
+GET /admin/model/model [cb_admin] 200 4ms
+
+=INFO REPORT==== 27-Aug-2012::16:12:28 ===
+GET /admin/model/model/test [cb_admin] 200 7ms
+
+=INFO REPORT==== 27-Aug-2012::16:12:28 ===
+POST /admin/model/watch [cb_admin] 200 0ms

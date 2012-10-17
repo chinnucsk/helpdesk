@@ -1,0 +1,1206 @@
+
+=INFO REPORT==== 19-Aug-2012::23:51:17 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 19-Aug-2012::23:51:17 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 19-Aug-2012::23:51:17 ===
+SSL:[]
+
+=INFO REPORT==== 19-Aug-2012::23:51:17 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:40 ===
+GET /admin [cb_admin] 200 61ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:44 ===
+GET / [helpdesk] 200 185ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:46 ===
+GET /about [helpdesk] 200 207ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:48 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:48 ===
+GET /user/login [helpdesk] 200 204ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:55 ===
+POST /user/login [helpdesk] 302 545ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:55 ===
+GET / [helpdesk] 200 201ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:51:57 ===
+GET /depart/index [helpdesk] 200 332ms
+
+=INFO REPORT==== 19-Aug-2012::23:51:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:52:00 ===
+GET /request/index [helpdesk] 200 217ms
+
+=INFO REPORT==== 19-Aug-2012::23:52:02 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 19-Aug-2012::23:52:02 ===
+{function_clause,[{erlydtl_runtime,init_counter_stats,
+                                   [{error,{module_not_loaded,person}},
+                                    undefined]},
+                  {helpdesk_view_request_show_html,render_internal,4},
+                  {helpdesk_view_request_show_html,render,2},
+                  {boss_web_controller,render_view,6},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 19-Aug-2012::23:52:02 ===
+GET /request/show/request-4 [helpdesk] 500 212ms
+
+=INFO REPORT==== 19-Aug-2012::23:52:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:52:05 ===
+GET /request/edit/request-4 [helpdesk] 200 210ms
+
+=INFO REPORT==== 19-Aug-2012::23:52:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 19-Aug-2012::23:52:07 ===
+** Generic server <0.70.0> terminating 
+** Last message in was {save_record,
+                           {request,"request-4",[],"null","depart-2",[],
+                               undefined,
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{23,52,7}},
+                               "null"}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.71.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{erlang,integer_to_list,[12.0]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 19-Aug-2012::23:52:07 ===
+{{badarg,[{erlang,integer_to_list,[12.0]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.70.0>,
+              {save_record,{request,"request-4",[],"null","depart-2",[],
+                                    undefined,
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{23,52,7}},
+                                    "null"}},
+              30000]}}
+
+=ERROR REPORT==== 19-Aug-2012::23:52:07 ===
+POST /request/edit/request-4 [helpdesk] 500 209ms
+
+=INFO REPORT==== 19-Aug-2012::23:52:26 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 19-Aug-2012::23:52:26 ===
+** Generic server <0.65.0> terminating 
+** Last message in was {save_record,
+                           {request,"request-4",[],"2","depart-8",[],
+                               undefined,
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{23,52,26}},
+                               "1"}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.66.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{erlang,integer_to_list,[12.0]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 19-Aug-2012::23:52:26 ===
+{{badarg,[{erlang,integer_to_list,[12.0]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.65.0>,
+              {save_record,{request,"request-4",[],"2","depart-8",[],
+                                    undefined,
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{23,52,26}},
+                                    "1"}},
+              30000]}}
+
+=ERROR REPORT==== 19-Aug-2012::23:52:26 ===
+POST /request/edit/request-4 [helpdesk] 500 200ms
+
+=INFO REPORT==== 19-Aug-2012::23:55:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:55:50 ===
+GET /request/index [helpdesk] 200 216ms
+
+=INFO REPORT==== 19-Aug-2012::23:55:52 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:55:52 ===
+GET /request/edit/request-4 [helpdesk] 200 257ms
+
+=INFO REPORT==== 19-Aug-2012::23:55:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 19-Aug-2012::23:55:59 ===
+** Generic server <0.73.0> terminating 
+** Last message in was {save_record,
+                           {request,"request-4",[],"2","depart-2",[],"1",
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{8,45,12.0}},
+                               {{2012,8,19},{23,55,59}},
+                               "3"}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.74.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{erlang,integer_to_list,[12.0]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 19-Aug-2012::23:55:59 ===
+{{badarg,[{erlang,integer_to_list,[12.0]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.73.0>,
+              {save_record,{request,"request-4",[],"2","depart-2",[],"1",
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{8,45,12.0}},
+                                    {{2012,8,19},{23,55,59}},
+                                    "3"}},
+              30000]}}
+
+=ERROR REPORT==== 19-Aug-2012::23:55:59 ===
+POST /request/edit/request-4 [helpdesk] 500 201ms
+
+=INFO REPORT==== 19-Aug-2012::23:59:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:59:45 ===
+POST /request/edit/request-4 [helpdesk] 302 239ms
+
+=INFO REPORT==== 19-Aug-2012::23:59:45 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:59:45 ===
+GET /request/index [helpdesk] 200 215ms
+
+=INFO REPORT==== 19-Aug-2012::23:59:47 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:59:47 ===
+GET /request/edit/request-4 [helpdesk] 200 215ms
+
+=INFO REPORT==== 19-Aug-2012::23:59:49 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:59:49 ===
+POST /request/edit/request-4 [helpdesk] 302 237ms
+
+=INFO REPORT==== 19-Aug-2012::23:59:49 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 19-Aug-2012::23:59:49 ===
+GET /request/index [helpdesk] 200 209ms
+
+=INFO REPORT==== 20-Aug-2012::00:01:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:01:50 ===
+GET /request/edit/request-4 [helpdesk] 200 210ms
+
+=INFO REPORT==== 20-Aug-2012::00:01:53 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:01:54 ===
+POST /request/edit/request-4 [helpdesk] 302 228ms
+
+=INFO REPORT==== 20-Aug-2012::00:01:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:01:54 ===
+GET /request/index [helpdesk] 200 216ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:08 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:09 ===
+GET /request/create [helpdesk] 200 209ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:10 ===
+POST /request/create [helpdesk] 302 233ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:11 ===
+GET /request/index [helpdesk] 200 210ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:16 ===
+GET /request/delete/request-4 [helpdesk] 302 280ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:16 ===
+GET /request/index [helpdesk] 200 208ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:17 ===
+GET /request/delete/request-5 [helpdesk] 302 227ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:17 ===
+GET /request/index [helpdesk] 200 211ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:58 ===
+GET /request/create [helpdesk] 200 203ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:59 ===
+POST /request/create [helpdesk] 302 220ms
+
+=INFO REPORT==== 20-Aug-2012::00:02:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:02:59 ===
+GET /request/index [helpdesk] 200 306ms
+
+=INFO REPORT==== 20-Aug-2012::00:03:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:03:05 ===
+GET /request/edit/request-6 [helpdesk] 200 217ms
+
+=INFO REPORT==== 20-Aug-2012::00:03:06 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:03:07 ===
+POST /request/edit/request-6 [helpdesk] 302 234ms
+
+=INFO REPORT==== 20-Aug-2012::00:03:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:03:07 ===
+GET /request/index [helpdesk] 200 211ms
+
+=INFO REPORT==== 20-Aug-2012::00:03:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:03:14 ===
+GET /request/index [helpdesk] 200 215ms
+
+=INFO REPORT==== 20-Aug-2012::00:04:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:14 ===
+GET /request/delete/request-6 [helpdesk] 302 239ms
+
+=INFO REPORT==== 20-Aug-2012::00:04:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:14 ===
+GET /request/index [helpdesk] 200 213ms
+
+=INFO REPORT==== 20-Aug-2012::00:04:15 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:16 ===
+GET /request/create [helpdesk] 200 213ms
+
+=INFO REPORT==== 20-Aug-2012::00:04:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:23 ===
+GET /request/index [helpdesk] 200 221ms
+
+=INFO REPORT==== 20-Aug-2012::00:04:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:24 ===
+GET /request/create [helpdesk] 200 208ms
+
+=INFO REPORT==== 20-Aug-2012::00:04:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:04:29 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:05:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 20-Aug-2012::00:05:24 ===
+** Generic server <0.76.0> terminating 
+** Last message in was {save_record,
+                           {request,id,undefined,undefined,"depart-2",
+                               undefined,undefined,
+                               {{2012,8,20},{0,5,24}},
+                               nill,
+                               {{2012,8,20},{0,5,24}},
+                               {{2012,8,20},{0,5,24}},
+                               {{2012,8,20},{0,5,24}},
+                               undefined}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.77.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_pgsql,pack_value,[nill]},
+                     {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                     {lists,foldl,3},
+                     {boss_db_adapter_pgsql,build_insert_query,1},
+                     {boss_db_adapter_pgsql,save_record,2},
+                     {boss_db_controller,handle_call,3},
+                     {gen_server,handle_msg,5},
+                     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:05:24 ===
+{{function_clause,[{boss_db_adapter_pgsql,pack_value,[nill]},
+                   {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                   {lists,foldl,3},
+                   {boss_db_adapter_pgsql,build_insert_query,1},
+                   {boss_db_adapter_pgsql,save_record,2},
+                   {boss_db_controller,handle_call,3},
+                   {gen_server,handle_msg,5},
+                   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.76.0>,
+              {save_record,{request,id,undefined,undefined,"depart-2",
+                                    undefined,undefined,
+                                    {{2012,8,20},{0,5,24}},
+                                    nill,
+                                    {{2012,8,20},{0,5,24}},
+                                    {{2012,8,20},{0,5,24}},
+                                    {{2012,8,20},{0,5,24}},
+                                    undefined}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::00:05:24 ===
+POST /request/create [helpdesk] 500 200ms
+
+=INFO REPORT==== 20-Aug-2012::00:05:35 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:05:35 ===
+GET /request/index [helpdesk] 200 213ms
+
+=INFO REPORT==== 20-Aug-2012::00:05:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:05:37 ===
+GET /request/create [helpdesk] 200 206ms
+
+=INFO REPORT==== 20-Aug-2012::00:05:38 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 20-Aug-2012::00:05:38 ===
+** Generic server <0.399.0> terminating 
+** Last message in was {save_record,
+                           {request,id,undefined,undefined,"depart-2",
+                               undefined,undefined,
+                               {{2012,8,20},{0,5,38}},
+                               nill,
+                               {{2012,8,20},{0,5,38}},
+                               {{2012,8,20},{0,5,38}},
+                               {{2012,8,20},{0,5,38}},
+                               undefined}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.400.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_pgsql,pack_value,[nill]},
+                     {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                     {lists,foldl,3},
+                     {boss_db_adapter_pgsql,build_insert_query,1},
+                     {boss_db_adapter_pgsql,save_record,2},
+                     {boss_db_controller,handle_call,3},
+                     {gen_server,handle_msg,5},
+                     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:05:38 ===
+{{function_clause,[{boss_db_adapter_pgsql,pack_value,[nill]},
+                   {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                   {lists,foldl,3},
+                   {boss_db_adapter_pgsql,build_insert_query,1},
+                   {boss_db_adapter_pgsql,save_record,2},
+                   {boss_db_controller,handle_call,3},
+                   {gen_server,handle_msg,5},
+                   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.399.0>,
+              {save_record,{request,id,undefined,undefined,"depart-2",
+                                    undefined,undefined,
+                                    {{2012,8,20},{0,5,38}},
+                                    nill,
+                                    {{2012,8,20},{0,5,38}},
+                                    {{2012,8,20},{0,5,38}},
+                                    {{2012,8,20},{0,5,38}},
+                                    undefined}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::00:05:38 ===
+POST /request/create [helpdesk] 500 204ms
+
+=INFO REPORT==== 20-Aug-2012::00:06:04 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:06:05 ===
+GET /request/index [helpdesk] 200 217ms
+
+=INFO REPORT==== 20-Aug-2012::00:06:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:06:06 ===
+GET /request/create [helpdesk] 200 207ms
+
+=INFO REPORT==== 20-Aug-2012::00:06:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 20-Aug-2012::00:06:07 ===
+** Generic server <0.333.0> terminating 
+** Last message in was {save_record,
+                           {request,id,undefined,undefined,"depart-2",
+                               undefined,undefined,
+                               {{2012,8,20},{0,6,7}},
+                               null,
+                               {{2012,8,20},{0,6,7}},
+                               {{2012,8,20},{0,6,7}},
+                               {{2012,8,20},{0,6,7}},
+                               undefined}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.334.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_pgsql,pack_value,[null]},
+                     {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                     {lists,foldl,3},
+                     {boss_db_adapter_pgsql,build_insert_query,1},
+                     {boss_db_adapter_pgsql,save_record,2},
+                     {boss_db_controller,handle_call,3},
+                     {gen_server,handle_msg,5},
+                     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:06:07 ===
+{{function_clause,[{boss_db_adapter_pgsql,pack_value,[null]},
+                   {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                   {lists,foldl,3},
+                   {boss_db_adapter_pgsql,build_insert_query,1},
+                   {boss_db_adapter_pgsql,save_record,2},
+                   {boss_db_controller,handle_call,3},
+                   {gen_server,handle_msg,5},
+                   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.333.0>,
+              {save_record,{request,id,undefined,undefined,"depart-2",
+                                    undefined,undefined,
+                                    {{2012,8,20},{0,6,7}},
+                                    null,
+                                    {{2012,8,20},{0,6,7}},
+                                    {{2012,8,20},{0,6,7}},
+                                    {{2012,8,20},{0,6,7}},
+                                    undefined}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::00:06:07 ===
+POST /request/create [helpdesk] 500 215ms
+
+=INFO REPORT==== 20-Aug-2012::00:06:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 20-Aug-2012::00:06:24 ===
+** Generic server <0.875.0> terminating 
+** Last message in was {save_record,
+                           {request,id,undefined,undefined,"depart-2",
+                               undefined,undefined,
+                               {{2012,8,20},{0,6,24}},
+                               null,
+                               {{2012,8,20},{0,6,24}},
+                               {{2012,8,20},{0,6,24}},
+                               {{2012,8,20},{0,6,24}},
+                               undefined}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.876.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,[{boss_db_adapter_pgsql,pack_value,[null]},
+                     {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                     {lists,foldl,3},
+                     {boss_db_adapter_pgsql,build_insert_query,1},
+                     {boss_db_adapter_pgsql,save_record,2},
+                     {boss_db_controller,handle_call,3},
+                     {gen_server,handle_msg,5},
+                     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:06:24 ===
+{{function_clause,[{boss_db_adapter_pgsql,pack_value,[null]},
+                   {boss_db_adapter_pgsql,'-build_insert_query/1-fun-0-',2},
+                   {lists,foldl,3},
+                   {boss_db_adapter_pgsql,build_insert_query,1},
+                   {boss_db_adapter_pgsql,save_record,2},
+                   {boss_db_controller,handle_call,3},
+                   {gen_server,handle_msg,5},
+                   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+             [<0.875.0>,
+              {save_record,{request,id,undefined,undefined,"depart-2",
+                                    undefined,undefined,
+                                    {{2012,8,20},{0,6,24}},
+                                    null,
+                                    {{2012,8,20},{0,6,24}},
+                                    {{2012,8,20},{0,6,24}},
+                                    {{2012,8,20},{0,6,24}},
+                                    undefined}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::00:06:24 ===
+POST /request/create [helpdesk] 500 210ms
+
+=INFO REPORT==== 20-Aug-2012::00:06:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:06:29 ===
+GET /request/index [helpdesk] 200 221ms
+
+=INFO REPORT==== 20-Aug-2012::00:07:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:07:17 ===
+GET /request/create [helpdesk] 200 214ms
+
+=INFO REPORT==== 20-Aug-2012::00:07:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:07:24 ===
+POST /request/create [helpdesk] 302 232ms
+
+=INFO REPORT==== 20-Aug-2012::00:07:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:07:24 ===
+GET /request/index [helpdesk] 200 209ms
+
+=INFO REPORT==== 20-Aug-2012::00:07:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:07:56 ===
+GET /request/index [helpdesk] 200 209ms
+
+=INFO REPORT==== 20-Aug-2012::00:07:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::00:07:57 ===
+GET /about [helpdesk] 200 213ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:02 ===
+GET /admin [cb_admin] 200 2ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:04 ===
+GET /admin/model/model [cb_admin] 200 22ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:05 ===
+GET /admin/model/model/request [cb_admin] 200 41ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:05 ===
+POST /admin/model/watch [cb_admin] 200 89ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:08 ===
+GET /admin/model/show/request-7 [cb_admin] 200 13ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:08 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:12 ===
+GET /admin/model/delete/request-7 [cb_admin] 200 17ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:13 ===
+POST /admin/model/delete/request-7 [cb_admin] 302 43ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:13 ===
+GET /admin/model/model/request [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:14 ===
+GET /admin/model/create/request [cb_admin] 200 5ms
+
+=ERROR REPORT==== 20-Aug-2012::00:08:24 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,error,<<"22007">>,
+              <<"invalid input syntax for type timestamp with time zone: \"\"">>,
+              [{position,<<"300">>}]},
+          undefined]},
+     {cb_admin_view_model_create_html,render_internal,4},
+     {cb_admin_view_model_create_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:08:24 ===
+POST /admin/model/create/request [cb_admin] 500 5ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:35 ===
+GET /admin/model/events/1345399685779549 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:08:38 ===
+GET /admin/model/events/1345399688278183 [cb_admin] 200 30000ms
+
+=ERROR REPORT==== 20-Aug-2012::00:08:44 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,error,<<"22007">>,
+              <<"invalid input syntax for type timestamp with time zone: \"\"">>,
+              [{position,<<"300">>}]},
+          undefined]},
+     {cb_admin_view_model_create_html,render_internal,4},
+     {cb_admin_view_model_create_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:08:44 ===
+POST /admin/model/create/request [cb_admin] 500 7ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:04 ===
+POST /admin/model/create/request [cb_admin] 302 51ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:04 ===
+GET /admin/model/show/request-8 [cb_admin] 200 5ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:04 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:06 ===
+GET /admin/model/edit/request-8 [cb_admin] 200 18ms
+
+=ERROR REPORT==== 20-Aug-2012::00:09:11 ===
+** Generic server <0.922.0> terminating 
+** Last message in was {save_record,
+                           {request,"request-8","qw","qw","qw","qw","qw",
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               "qw"}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.923.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{io_lib,format,["~2..0B",[3.0]]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:09:11 ===
+{{badarg,[{io_lib,format,["~2..0B",[3.0]]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.922.0>,
+              {save_record,{request,"request-8","qw","qw","qw","qw","qw",
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    "qw"}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::00:09:11 ===
+POST /admin/model/edit/request-8 [cb_admin] 500 6ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:34 ===
+GET /admin/model/events/1345399744055218 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:35 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:46 ===
+GET /admin/model/edit/request-8 [cb_admin] 200 5ms
+
+=ERROR REPORT==== 20-Aug-2012::00:09:51 ===
+** Generic server <0.969.0> terminating 
+** Last message in was {save_record,
+                           {request,"request-8","qw","qw","qw","qw","qw",
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               {{2012,8,19},{12,9,3.0}},
+                               "qw"}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.970.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{io_lib,format,["~2..0B",[3.0]]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 20-Aug-2012::00:09:51 ===
+{{badarg,[{io_lib,format,["~2..0B",[3.0]]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.969.0>,
+              {save_record,{request,"request-8","qw","qw","qw","qw","qw",
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    {{2012,8,19},{12,9,3.0}},
+                                    "qw"}},
+              30000]}}
+
+=ERROR REPORT==== 20-Aug-2012::00:09:51 ===
+POST /admin/model/edit/request-8 [cb_admin] 500 11ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:57 ===
+GET /admin/model/events/1345399744055218 [cb_admin] 200 22343ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:57 ===
+POST /admin/model/edit/request-8 [cb_admin] 302 45ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:57 ===
+GET /admin/model/show/request-8 [cb_admin] 200 7ms
+
+=INFO REPORT==== 20-Aug-2012::00:09:57 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:10:27 ===
+GET /admin/model/events/1345399797456544 [cb_admin] 200 30003ms
+
+=INFO REPORT==== 20-Aug-2012::00:10:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:10:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:10:57 ===
+GET /admin/model/events/1345399797629235 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:11:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:11:27 ===
+GET /admin/model/events/1345399827676693 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:11:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:11:57 ===
+GET /admin/model/events/1345399857721788 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:12:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:12:27 ===
+GET /admin/model/events/1345399887766112 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:12:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:12:57 ===
+GET /admin/model/events/1345399917807608 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:13:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:13:27 ===
+GET /admin/model/events/1345399947851866 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:13:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:13:57 ===
+GET /admin/model/events/1345399977897357 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:14:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:14:27 ===
+GET /admin/model/events/1345400007942105 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:14:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:14:58 ===
+GET /admin/model/events/1345400037984135 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:15:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:15:28 ===
+GET /admin/model/events/1345400068028295 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:15:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:15:58 ===
+GET /admin/model/events/1345400098071883 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:16:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:16:28 ===
+GET /admin/model/events/1345400128115655 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:16:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:16:58 ===
+GET /admin/model/events/1345400158159890 [cb_admin] 200 30002ms
+
+=INFO REPORT==== 20-Aug-2012::00:17:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:17:28 ===
+GET /admin/model/events/1345400188205389 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:17:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:17:58 ===
+GET /admin/model/events/1345400218252372 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:18:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:18:28 ===
+GET /admin/model/events/1345400248296122 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:18:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:18:58 ===
+GET /admin/model/events/1345400278340045 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:19:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:19:28 ===
+GET /admin/model/events/1345400308383997 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:19:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:19:58 ===
+GET /admin/model/events/1345400338427980 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:20:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:20:28 ===
+GET /admin/model/events/1345400368471823 [cb_admin] 200 30004ms
+
+=INFO REPORT==== 20-Aug-2012::00:20:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:20:58 ===
+GET /admin/model/events/1345400398515879 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:21:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:21:28 ===
+GET /admin/model/events/1345400428564020 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:21:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:21:58 ===
+GET /admin/model/events/1345400458610264 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:22:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:22:28 ===
+GET /admin/model/events/1345400488651571 [cb_admin] 200 30004ms
+
+=INFO REPORT==== 20-Aug-2012::00:22:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:22:58 ===
+GET /admin/model/events/1345400518695607 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:23:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:23:28 ===
+GET /admin/model/events/1345400548743670 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:23:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:23:58 ===
+GET /admin/model/events/1345400578787878 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:24:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:24:28 ===
+GET /admin/model/events/1345400608835266 [cb_admin] 200 30004ms
+
+=INFO REPORT==== 20-Aug-2012::00:24:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:24:58 ===
+GET /admin/model/events/1345400638879551 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:25:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:25:28 ===
+GET /admin/model/events/1345400668927512 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:25:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:25:59 ===
+GET /admin/model/events/1345400698971991 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:26:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:26:29 ===
+GET /admin/model/events/1345400729015817 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:26:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:26:59 ===
+GET /admin/model/events/1345400759062076 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:27:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:27:29 ===
+GET /admin/model/events/1345400789103949 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:27:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:27:59 ===
+GET /admin/model/events/1345400819147684 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:28:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:28:29 ===
+GET /admin/model/events/1345400849191572 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:28:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:28:59 ===
+GET /admin/model/events/1345400879235705 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:29:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:29:29 ===
+GET /admin/model/events/1345400909279659 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:29:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:29:59 ===
+GET /admin/model/events/1345400939325780 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:30:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:30:29 ===
+GET /admin/model/events/1345400969367824 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:30:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:30:59 ===
+GET /admin/model/events/1345400999413494 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:31:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:31:29 ===
+GET /admin/model/events/1345401029456652 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:31:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:31:59 ===
+GET /admin/model/events/1345401059499931 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 20-Aug-2012::00:32:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:32:29 ===
+GET /admin/model/events/1345401089543497 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:32:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:32:59 ===
+GET /admin/model/events/1345401119588212 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:33:27 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:33:29 ===
+GET /admin/model/events/1345401149634224 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 20-Aug-2012::00:33:57 ===
+POST /admin/model/heartbeat/4 [cb_admin] 200 0ms
+
+=INFO REPORT==== 20-Aug-2012::00:33:59 ===
+GET /admin/model/events/1345401179676458 [cb_admin] 200 30000ms

@@ -1,0 +1,41 @@
+
+=INFO REPORT==== 16-Aug-2012::21:32:28 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::21:32:28 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::21:32:28 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::21:32:28 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::21:32:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::21:32:33 ===
+GET /admin/model/model [cb_admin] 200 15ms
+
+=INFO REPORT==== 16-Aug-2012::21:32:34 ===
+GET /admin/model/model/request [cb_admin] 200 31ms
+
+=INFO REPORT==== 16-Aug-2012::21:32:35 ===
+GET /admin/model/create/request [cb_admin] 200 3ms
+
+=ERROR REPORT==== 16-Aug-2012::21:32:41 ===
+{function_clause,
+    [{erlydtl_runtime,init_counter_stats,
+         [{error,error,<<"42601">>,<<"syntax error at or near \"order\"">>,
+              [{position,<<"63">>}]},
+          undefined]},
+     {cb_admin_view_model_create_html,render_internal,4},
+     {cb_admin_view_model_create_html,render,2},
+     {boss_web_controller,render_view,6},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::21:32:41 ===
+POST /admin/model/create/request [cb_admin] 500 5ms

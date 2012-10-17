@@ -1,0 +1,18 @@
+
+=INFO REPORT==== 16-Aug-2012::18:18:32 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::18:18:33 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::18:18:33 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::18:18:33 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::18:18:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 16-Aug-2012::18:18:33 ===
+Can't load module that resides in sticky dir

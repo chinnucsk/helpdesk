@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %} View request {% endblock %}
+
+{% block content %}
+    <b> Список заданий по отделу : {{ depart.name }}</b> </br>
+    {% include "./request/list.form.html" %}
+{% endblock %}
+
+
+
+

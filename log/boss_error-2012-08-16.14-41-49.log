@@ -1,0 +1,57 @@
+
+=INFO REPORT==== 16-Aug-2012::14:41:49 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::14:41:49 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::14:41:49 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::14:41:49 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::14:41:49 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::14:41:54 ===
+GET /admin/model/model [cb_admin] 200 15ms
+
+=ERROR REPORT==== 16-Aug-2012::14:41:55 ===
+{undef,[{depart,id,[{depart,<<"qwwe">>}]},
+        {cb_admin_model_controller,'-model/3-fun-0-',1},
+        {lists,map,2},
+        {cb_admin_model_controller,model,4},
+        {boss_web_controller,execute_action,5},
+        {boss_web_controller,process_request,5},
+        {timer,tc,3},
+        {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::14:41:55 ===
+GET /admin/model/model/depart [cb_admin] 500 9ms
+
+=ERROR REPORT==== 16-Aug-2012::14:42:24 ===
+{undef,[{depart,id,[{depart,<<"qwwe">>}]},
+        {cb_admin_model_controller,'-model/3-fun-0-',1},
+        {lists,map,2},
+        {cb_admin_model_controller,model,4},
+        {boss_web_controller,execute_action,5},
+        {boss_web_controller,process_request,5},
+        {timer,tc,3},
+        {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::14:42:24 ===
+GET /admin/model/model/depart [cb_admin] 500 8ms
+
+=ERROR REPORT==== 16-Aug-2012::14:42:27 ===
+{undef,[{depart,id,[{depart,<<"qwwe">>}]},
+        {cb_admin_model_controller,'-model/3-fun-0-',1},
+        {lists,map,2},
+        {cb_admin_model_controller,model,4},
+        {boss_web_controller,execute_action,5},
+        {boss_web_controller,process_request,5},
+        {timer,tc,3},
+        {boss_web_controller,handle_request,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::14:42:27 ===
+GET /admin/model/model/depart [cb_admin] 500 8ms

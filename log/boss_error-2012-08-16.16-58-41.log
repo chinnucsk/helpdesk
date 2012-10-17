@@ -1,0 +1,608 @@
+
+=INFO REPORT==== 16-Aug-2012::16:58:41 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::16:58:41 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::16:58:41 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::16:58:41 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::16:58:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::16:58:44 ===
+GET /admin/model/edit/depart-2 [cb_admin] 200 391ms
+
+=INFO REPORT==== 16-Aug-2012::16:58:50 ===
+POST /admin/model/edit/depart-2 [cb_admin] 302 107ms
+
+=INFO REPORT==== 16-Aug-2012::16:58:50 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 66ms
+
+=INFO REPORT==== 16-Aug-2012::16:58:50 ===
+POST /admin/model/watch [cb_admin] 200 41ms
+
+=INFO REPORT==== 16-Aug-2012::16:58:54 ===
+GET /admin/model/model/depart [cb_admin] 200 65ms
+
+=INFO REPORT==== 16-Aug-2012::16:58:54 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:59:15 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::16:59:15 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::16:59:18 ===
+GET /admin/model/edit/depart-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::16:59:20 ===
+GET /admin/model/events/1345114730257041 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::16:59:24 ===
+GET /admin/model/events/1345114733985925 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::16:59:45 ===
+GET /admin/model/events/1345114755788523 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:07 ===
+POST /admin/model/edit/depart-2 [cb_admin] 302 25ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:07 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:07 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:10 ===
+GET /admin/model/model/depart [cb_admin] 200 5ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:10 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:20 ===
+GET /admin/lang/show [cb_admin] 200 21ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:22 ===
+GET /admin/model/model [cb_admin] 200 1ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:30 ===
+GET /admin/model/model [cb_admin] 200 2ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:31 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:31 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:37 ===
+GET /admin/model/events/1345114807469660 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:00:40 ===
+GET /admin/model/events/1345114810769708 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:01:01 ===
+GET /admin/model/events/1345114831494210 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:01:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:01:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:01:31 ===
+GET /admin/model/events/1345114831667269 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:02:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:02:01 ===
+GET /admin/model/events/1345114861676966 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:02:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:02:31 ===
+GET /admin/model/events/1345114891725416 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:03:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:03:01 ===
+GET /admin/model/events/1345114921772710 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:03:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:03:31 ===
+GET /admin/model/events/1345114951817357 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:04:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:04:01 ===
+GET /admin/model/events/1345114981862205 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:04:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:04:31 ===
+GET /admin/model/events/1345115011912900 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:05:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:05:02 ===
+GET /admin/model/events/1345115041961325 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:05:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:05:32 ===
+GET /admin/model/events/1345115072006632 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:06:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:06:02 ===
+GET /admin/model/events/1345115102054424 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:06:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:06:32 ===
+GET /admin/model/events/1345115132102004 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:07:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:07:02 ===
+GET /admin/model/events/1345115162149820 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:07:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:07:32 ===
+GET /admin/model/events/1345115192194175 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:08:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:08:02 ===
+GET /admin/model/events/1345115222241555 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:08:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:08:32 ===
+GET /admin/model/events/1345115252286033 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:09:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:09:02 ===
+GET /admin/model/events/1345115282333604 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:09:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:09:32 ===
+GET /admin/model/events/1345115312378037 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:10:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:10:02 ===
+GET /admin/model/events/1345115342426162 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:10:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:10:32 ===
+GET /admin/model/events/1345115372474376 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:11:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:11:02 ===
+GET /admin/model/events/1345115402522270 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:11:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:11:32 ===
+GET /admin/model/events/1345115432570149 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:12:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:12:02 ===
+GET /admin/model/events/1345115462618452 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:12:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:12:32 ===
+GET /admin/model/events/1345115492665795 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:13:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:13:02 ===
+GET /admin/model/events/1345115522710083 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:13:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:13:32 ===
+GET /admin/model/events/1345115552758186 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:14:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:14:02 ===
+GET /admin/model/events/1345115582805694 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:14:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:14:32 ===
+GET /admin/model/events/1345115612849261 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:15:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:15:02 ===
+GET /admin/model/events/1345115642895646 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:15:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:15:32 ===
+GET /admin/model/events/1345115672941981 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:16:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:16:03 ===
+GET /admin/model/events/1345115702989424 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:16:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:16:33 ===
+GET /admin/model/events/1345115733033686 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:17:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:17:03 ===
+GET /admin/model/events/1345115763077212 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:17:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:17:33 ===
+GET /admin/model/events/1345115793122167 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:18:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:18:03 ===
+GET /admin/model/events/1345115823168748 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:18:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:18:33 ===
+GET /admin/model/events/1345115853213443 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:19:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:19:03 ===
+GET /admin/model/events/1345115883256130 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:19:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:19:33 ===
+GET /admin/model/events/1345115913301525 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:20:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:20:03 ===
+GET /admin/model/events/1345115943345418 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:20:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:20:33 ===
+GET /admin/model/events/1345115973389007 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:21:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:21:03 ===
+GET /admin/model/events/1345116003433562 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:21:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:21:33 ===
+GET /admin/model/events/1345116033477931 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:22:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:22:03 ===
+GET /admin/model/events/1345116063522337 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:22:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:22:33 ===
+GET /admin/model/events/1345116093569367 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:23:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:23:03 ===
+GET /admin/model/events/1345116123613935 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:23:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:23:33 ===
+GET /admin/model/events/1345116153658754 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:24:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:24:03 ===
+GET /admin/model/events/1345116183705366 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:24:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:24:33 ===
+GET /admin/model/events/1345116213749918 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:25:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:25:03 ===
+GET /admin/model/events/1345116243793409 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:25:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:25:33 ===
+GET /admin/model/events/1345116273838024 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:26:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:26:03 ===
+GET /admin/model/events/1345116303890780 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:26:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:26:33 ===
+GET /admin/model/events/1345116333937620 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:27:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:27:04 ===
+GET /admin/model/events/1345116363981363 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:27:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:27:34 ===
+GET /admin/model/events/1345116394025287 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:28:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:28:04 ===
+GET /admin/model/events/1345116424069681 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:28:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:28:34 ===
+GET /admin/model/events/1345116454111814 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:29:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:29:04 ===
+GET /admin/model/events/1345116484254510 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:29:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:29:34 ===
+GET /admin/model/events/1345116514262536 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:01 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:04 ===
+GET /admin/model/events/1345116544305443 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:31 ===
+POST /admin/model/heartbeat/5 [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:32 ===
+GET /admin/model/model [cb_admin] 200 2ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:33 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:34 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:34 ===
+GET /admin/model/events/1345116574350140 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:35 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:35 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:30:45 ===
+GET /admin/model/edit/depart-2 [cb_admin] 200 3ms
+
+=ERROR REPORT==== 16-Aug-2012::17:30:51 ===
+** Generic server <0.73.0> terminating 
+** Last message in was {save_record,
+                           {depart,"depart-2",
+                               [208,158,209,130,208,180,208,181,208,187,32,
+                                208,152,208,162],
+                               [208,158,209,130,208,180,208,181,208,187,32,
+                                208,184,208,189,209,132,208,190,209,128,208,
+                                188,208,176,209,134,208,184,208,190,208,189,
+                                208,189,209,139,209,133,32,209,130,208,181,
+                                209,133,208,189,208,190,208,187,208,190,208,
+                                179,208,184,208,185],
+                               {{2012,8,16},{5,0,7.0}},
+                               {1345,116651,921842}}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.74.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{io_lib,format,["~2..0B",[7.0]]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 16-Aug-2012::17:30:51 ===
+{{badarg,[{io_lib,format,["~2..0B",[7.0]]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.73.0>,
+              {save_record,{depart,"depart-2",
+                                   [208,158,209,130,208,180,208,181,208,187,
+                                    32,208,152,208,162],
+                                   [208,158,209,130,208,180,208,181,208,187,
+                                    32,208,184,208,189,209,132,208,190,209,
+                                    128,208,188,208,176,209,134,208,184,208,
+                                    190,208,189,208,189,209,139,209,133,32,
+                                    209,130,208,181,209,133,208,189,208,190,
+                                    208,187,208,190,208,179,208,184,208,185],
+                                   {{2012,8,16},{5,0,7.0}},
+                                   {1345,116651,921842}}},
+              30000]}}
+
+=ERROR REPORT==== 16-Aug-2012::17:30:51 ===
+POST /admin/model/edit/depart-2 [cb_admin] 500 3ms
+
+=ERROR REPORT==== 16-Aug-2012::17:30:59 ===
+** Generic server <0.65.0> terminating 
+** Last message in was {save_record,
+                           {depart,"depart-2",
+                               [208,158,209,130,208,180,208,181,208,187,32,
+                                208,152,208,162],
+                               [208,158,209,130,208,180,208,181,208,187,32,
+                                208,184,208,189,209,132,208,190,209,128,208,
+                                188,208,176,209,134,208,184,208,190,208,189,
+                                208,189,209,139,209,133,32,209,130,208,181,
+                                209,133,208,189,208,190,208,187,208,190,208,
+                                179,208,184,208,185],
+                               {{2012,8,16},{5,0,7.0}},
+                               {1345,116659,514504}}}
+** When Server state == {state,boss_db_adapter_pgsql,<0.66.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {badarg,[{io_lib,format,["~2..0B",[7.0]]},
+            {erlydtl_dateformat,integer_to_list_zerofill,1},
+            {erlydtl_dateformat,tag_to_value,3},
+            {erlydtl_dateformat,replace_tags,5},
+            {boss_db_adapter_pgsql,pack_datetime,1},
+            {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+            {lists,foldl,3},
+            {boss_db_adapter_pgsql,build_update_query,1}]}
+
+=ERROR REPORT==== 16-Aug-2012::17:30:59 ===
+{{badarg,[{io_lib,format,["~2..0B",[7.0]]},
+          {erlydtl_dateformat,integer_to_list_zerofill,1},
+          {erlydtl_dateformat,tag_to_value,3},
+          {erlydtl_dateformat,replace_tags,5},
+          {boss_db_adapter_pgsql,pack_datetime,1},
+          {boss_db_adapter_pgsql,'-build_update_query/1-fun-0-',2},
+          {lists,foldl,3},
+          {boss_db_adapter_pgsql,build_update_query,1}]},
+ {gen_server,call,
+             [<0.65.0>,
+              {save_record,{depart,"depart-2",
+                                   [208,158,209,130,208,180,208,181,208,187,
+                                    32,208,152,208,162],
+                                   [208,158,209,130,208,180,208,181,208,187,
+                                    32,208,184,208,189,209,132,208,190,209,
+                                    128,208,188,208,176,209,134,208,184,208,
+                                    190,208,189,208,189,209,139,209,133,32,
+                                    209,130,208,181,209,133,208,189,208,190,
+                                    208,187,208,190,208,179,208,184,208,185],
+                                   {{2012,8,16},{5,0,7.0}},
+                                   {1345,116659,514504}}},
+              30000]}}
+
+=ERROR REPORT==== 16-Aug-2012::17:30:59 ===
+POST /admin/model/edit/depart-2 [cb_admin] 500 8ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:04 ===
+GET /admin/model/events/1345116633930287 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:05 ===
+GET /admin/model/events/1345116635122336 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:24 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 10ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:25 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:29 ===
+GET /admin/model/model/depart [cb_admin] 200 7ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:29 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:32 ===
+GET /admin/model/create/depart [cb_admin] 200 20ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:55 ===
+GET /admin/model/events/1345116684990886 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 16-Aug-2012::17:31:59 ===
+GET /admin/model/events/1345116689284765 [cb_admin] 200 30000ms

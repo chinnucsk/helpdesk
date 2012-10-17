@@ -1,33 +1,37 @@
 {% extends "base.html" %}
 
-{% block title %}Departs{% endblock %}
+{% block title %}Отделы{% endblock %}
+
+{% block left_submenu %}
+       <ul>
+           <li><a href="/depart/create">Добавить</a></li>
+       </ul>
+{% endblock %}
+
+{% block right_submenu %}<ul><li><a href="">Подсказка</a></li></ul>{% endblock %}
 
 {% block content %}
 
-<header>
-   <nav1>
-       <ul class="nav1">
-       Список отделов.
-           <li class="nav1"><a href="/depart/create">Добавить</a></li>
-       </ul>
-   </nav1>
 
-</header>
-          <table>
       {% if departs %}
+          <table class="list files">
+          <thead>
           <tr>
               <th>Наименование</th>
               <th>Описание</th>
               <th>Дата созд./измен.</th>
               <th>Пользователи</th>
               <th>Операции</th>
+              <th>Действия</th>
           </tr>
+          </thead>
+          <tbody>
           {% for depart in departs %}
-          <tr>
+          <tr class="{% cycle 'odd' 'even' %}">
               <td>{{depart.name}}</td>
               <td>{{depart.note}}</td>
-              <td>{{depart.creation_time|date:"j N Y, H:i" }}
-                  {{depart.change_time|date:"j N Y, H:i" }}</td>
+              <td>{% include "./main/date.txt" with date=depart.creation_time %}
+                  {% include "./main/date.txt" with date=depart.change_time %}</td>
               <td>
                  {% for user in depart.cl_users %}
                      {{ user.name }},
@@ -35,11 +39,16 @@
              </td>
               <td align="center">
                   <a href=/depart/show/{{depart.id}}>Показать</a>
-                  <a href=/depart/edit/{{depart.id}}>Изменить</a>
-                  <a href=/depart/delete/{{depart.id}}>Удалить</a></td>
+                 <!-- <a href=/depart/edit/{{depart.id}}>Изменить</a> -->
+                 <!-- <a href=/depart/delete/{{depart.id}}>Удалить</a> -->
+              </td>
+             </td>
+              <td align="center">
+                  <a href=/depart/request/{{depart.id}}>Задания</a>
+              </td>
           </tr>
           {% endfor %}
-         
+          </tbody>
       {% else %}
           <b> Список отделов пуст. </b>
       {% endif %}

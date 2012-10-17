@@ -1,0 +1,241 @@
+
+=INFO REPORT==== 30-Aug-2012::13:23:50 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 30-Aug-2012::13:23:50 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 30-Aug-2012::13:23:50 ===
+SSL:[]
+
+=INFO REPORT==== 30-Aug-2012::13:23:50 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+** Generic server boss_session_mock_sup terminating 
+** Last message in was {'EXIT',<0.856.0>,
+                               {{badmatch,ok},
+                                [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,tag_ast,4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,body_ast,3},
+                                 {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}}
+** When Server state == {state,
+                            {global,boss_session_mock_sup},
+                            one_for_one,
+                            [{child,<0.877.0>,session_mock_controller,
+                                 {boss_session_mock_controller,start_link,
+                                     [[]]},
+                                 permanent,2000,worker,
+                                 [boss_session_mock_controller]}],
+                            undefined,10,10,[],boss_session_mock_sup,[]}
+** Reason for termination == 
+** {{badmatch,ok},
+    [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,tag_ast,4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,body_ast,3},
+     {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+** Generic server boss_db_sup terminating 
+** Last message in was {'EXIT',<0.856.0>,
+                               {{badmatch,ok},
+                                [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,tag_ast,4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,body_ast,3},
+                                 {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}}
+** When Server state == {state,
+                            {local,boss_db_sup},
+                            one_for_one,
+                            [{child,<0.859.0>,db_controller,
+                                 {poolboy,start_link,
+                                     [[{name,{local,boss_db_pool}},
+                                       {worker_module,boss_db_controller},
+                                       {size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 permanent,2000,worker,
+                                 [poolboy]}],
+                            undefined,10,10,[],boss_db_sup,
+                            [{adapter,mysql},
+                             {cache_enable,false},
+                             {shards,[]},
+                             {is_master_node,true},
+                             {db_database,"helpdesk"},
+                             {db_password,"WzorIn4"},
+                             {db_username,"root"},
+                             {db_host,"localhost"},
+                             {db_port,3306}]}
+** Reason for termination == 
+** {{badmatch,ok},
+    [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,tag_ast,4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,body_ast,3},
+     {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+** Generic server boss_mq_sup terminating 
+** Last message in was {'EXIT',<0.856.0>,
+                               {{badmatch,ok},
+                                [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,tag_ast,4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,body_ast,3},
+                                 {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}}
+** When Server state == {state,
+                            {global,boss_mq_sup},
+                            one_for_one,
+                            [{child,<0.902.0>,mq_controller,
+                                 {boss_mq_controller,start_link,
+                                     [[{adapter,boss_mq_adapter_bmq}]]},
+                                 permanent,2000,worker,
+                                 [boss_mq_controller]}],
+                            undefined,10,10,[],boss_mq_sup,
+                            [{adapter,boss_mq_adapter_bmq}]}
+** Reason for termination == 
+** {{badmatch,ok},
+    [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,tag_ast,4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,body_ast,3},
+     {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+** Generic server boss_mail_sup terminating 
+** Last message in was {'EXIT',<0.856.0>,
+                               {{badmatch,ok},
+                                [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,tag_ast,4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,body_ast,3},
+                                 {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}}
+** When Server state == {state,
+                            {local,boss_mail_sup},
+                            one_for_one,
+                            [{child,<0.908.0>,mail_controller,
+                                 {boss_mail_controller,start_link,
+                                     [[{driver,boss_mail_driver_smtp}]]},
+                                 permanent,2000,worker,
+                                 [boss_mail_controller]}],
+                            undefined,10,10,[],boss_mail_sup,
+                            [{driver,boss_mail_driver_smtp}]}
+** Reason for termination == 
+** {{badmatch,ok},
+    [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,tag_ast,4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,body_ast,3},
+     {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+** Generic server boss_news_sup terminating 
+** Last message in was {'EXIT',<0.856.0>,
+                               {{badmatch,ok},
+                                [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,tag_ast,4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,body_ast,3},
+                                 {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}}
+** When Server state == {state,
+                            {global,boss_news_sup},
+                            one_for_one,
+                            [{child,<0.906.0>,news_controller,
+                                 {boss_news_controller,start_link,[[]]},
+                                 permanent,2000,worker,
+                                 [boss_news_controller]}],
+                            undefined,10,10,[],boss_news_sup,[]}
+** Reason for termination == 
+** {{badmatch,ok},
+    [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,tag_ast,4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,body_ast,3},
+     {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+** Generic server boss_session_sup terminating 
+** Last message in was {'EXIT',<0.856.0>,
+                               {{badmatch,ok},
+                                [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,tag_ast,4},
+                                 {lists,mapfoldl,3},
+                                 {lists,mapfoldl,3},
+                                 {erlydtl_compiler,body_ast,3},
+                                 {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}}
+** When Server state == {state,
+                            {local,boss_session_sup},
+                            one_for_one,
+                            [{child,<0.879.0>,session_controller,
+                                 {poolboy,start_link,
+                                     [[{name,{local,boss_session_pool}},
+                                       {worker_module,boss_session_controller},
+                                       {size,20},
+                                       {max_overflow,40},
+                                       {adapter,boss_session_adapter_mock},
+                                       {session_exp_time,525600},
+                                       {session_key,"_boss_session"}]]},
+                                 permanent,2000,worker,
+                                 [poolboy]}],
+                            undefined,10,10,[],boss_session_sup,
+                            [{adapter,boss_session_adapter_mock},
+                             {session_exp_time,525600},
+                             {session_key,"_boss_session"}]}
+** Reason for termination == 
+** {{badmatch,ok},
+    [{erlydtl_compiler,'-tag_ast/4-fun-0-',4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,tag_ast,4},
+     {lists,mapfoldl,3},
+     {lists,mapfoldl,3},
+     {erlydtl_compiler,body_ast,3},
+     {erlydtl_compiler,'-body_ast/3-fun-2-',3}]}
+
+=INFO REPORT==== 30-Aug-2012::13:23:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 30-Aug-2012::13:23:50 ===
+erlydtl_compiler:resolve_variable_ast unhandled: {number_literal,{15,67},"1"}

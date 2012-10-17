@@ -1,0 +1,48 @@
+
+=INFO REPORT==== 20-Aug-2012::23:18:37 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 20-Aug-2012::23:18:37 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 20-Aug-2012::23:18:37 ===
+SSL:[]
+
+=INFO REPORT==== 20-Aug-2012::23:18:37 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:18:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 20-Aug-2012::23:18:39 ===
+GET /admin/model/model [cb_admin] 200 15ms
+
+=ERROR REPORT==== 20-Aug-2012::23:18:42 ===
+{function_clause,[{lists,map,
+                         [#Fun<cb_admin_model_controller.0.33077844>,
+                          {error,{module_not_loaded,comment}}]},
+                  {cb_admin_model_controller,model,4},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3},
+                  {mochiweb_http,headers,5},
+                  {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::23:18:42 ===
+GET /admin/model/model/comment [cb_admin] 500 11ms
+
+=ERROR REPORT==== 20-Aug-2012::23:18:55 ===
+{function_clause,[{lists,map,
+                         [#Fun<cb_admin_model_controller.0.33077844>,
+                          {error,{module_not_loaded,comment}}]},
+                  {cb_admin_model_controller,model,4},
+                  {boss_web_controller,execute_action,5},
+                  {boss_web_controller,process_request,5},
+                  {timer,tc,3},
+                  {boss_web_controller,handle_request,3},
+                  {mochiweb_http,headers,5},
+                  {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 20-Aug-2012::23:18:55 ===
+GET /admin/model/model/comment [cb_admin] 500 5ms

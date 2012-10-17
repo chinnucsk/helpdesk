@@ -1,0 +1,992 @@
+
+=INFO REPORT==== 17-Aug-2012::16:41:33 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 17-Aug-2012::16:41:33 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 17-Aug-2012::16:41:33 ===
+SSL:[]
+
+=INFO REPORT==== 17-Aug-2012::16:41:33 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:41:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:41:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:41:37 ===
+POST /user/register [helpdesk] 200 153ms
+
+=INFO REPORT==== 17-Aug-2012::16:41:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:41:42 ===
+POST /user/register [helpdesk] 200 206ms
+
+=INFO REPORT==== 17-Aug-2012::16:42:22 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:42:22 ===
+POST /user/register [helpdesk] 200 168ms
+
+=INFO REPORT==== 17-Aug-2012::16:42:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:42:41 ===
+POST /user/register [helpdesk] 200 247ms
+
+=INFO REPORT==== 17-Aug-2012::16:42:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:42:46 ===
+POST /user/register [helpdesk] 200 171ms
+
+=INFO REPORT==== 17-Aug-2012::16:42:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:42:54 ===
+POST /user/register [helpdesk] 200 167ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:03 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:43:03 ===
+POST /user/register [helpdesk] 200 206ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:09 ===
+GET /admin [cb_admin] 200 10ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:10 ===
+GET /admin/model/model [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:12 ===
+GET /admin/model/model/cl_user [cb_admin] 200 19ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:12 ===
+POST /admin/model/watch [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:13 ===
+GET /admin/model/show/cl_user-17 [cb_admin] 200 9ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:14 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:15 ===
+GET /admin/model/delete/cl_user-17 [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:15 ===
+POST /admin/model/delete/cl_user-17 [cb_admin] 302 33ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:15 ===
+GET /admin/model/model/cl_user [cb_admin] 200 12ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:16 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:17 ===
+GET /admin/model/show/cl_user-16 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:17 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:18 ===
+GET /admin/model/delete/cl_user-16 [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:18 ===
+POST /admin/model/delete/cl_user-16 [cb_admin] 302 38ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:18 ===
+GET /admin/model/model/cl_user [cb_admin] 200 7ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:19 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:20 ===
+GET /admin/model/show/cl_user-15 [cb_admin] 200 7ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:20 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:21 ===
+GET /admin/model/delete/cl_user-15 [cb_admin] 200 2ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:21 ===
+POST /admin/model/delete/cl_user-15 [cb_admin] 302 32ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:22 ===
+GET /admin/model/model/cl_user [cb_admin] 200 11ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:22 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:22 ===
+GET /admin/model/show/cl_user-14 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:22 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:23 ===
+GET /admin/model/delete/cl_user-14 [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:24 ===
+POST /admin/model/delete/cl_user-14 [cb_admin] 302 28ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:24 ===
+GET /admin/model/model/cl_user [cb_admin] 200 7ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:24 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:25 ===
+GET /admin/model/show/cl_user-13 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:25 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:26 ===
+GET /admin/model/delete/cl_user-13 [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:27 ===
+POST /admin/model/delete/cl_user-13 [cb_admin] 302 37ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:27 ===
+GET /admin/model/model/cl_user [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:27 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:30 ===
+GET /admin/model/show/cl_user-12 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:30 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:31 ===
+GET /admin/model/delete/cl_user-12 [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:32 ===
+POST /admin/model/delete/cl_user-12 [cb_admin] 302 184ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:32 ===
+GET /admin/model/model/cl_user [cb_admin] 200 13ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:32 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:33 ===
+GET /admin/model/show/cl_user-11 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:33 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:34 ===
+GET /admin/model/delete/cl_user-11 [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:35 ===
+POST /admin/model/delete/cl_user-11 [cb_admin] 302 27ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:35 ===
+GET /admin/model/model/cl_user [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:42 ===
+GET /admin/model/events/1345200192273404 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:44 ===
+GET /admin/model/events/1345200193893662 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:46 ===
+GET /admin/model/events/1345200195981766 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:47 ===
+GET /admin/model/events/1345200197058088 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:49 ===
+GET /admin/model/events/1345200198873281 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:50 ===
+GET /admin/model/events/1345200200132953 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:52 ===
+GET /admin/model/events/1345200201997462 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:52 ===
+GET /admin/model/events/1345200202789482 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:54 ===
+GET /admin/model/events/1345200204492033 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:55 ===
+GET /admin/model/events/1345200205372058 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::16:43:57 ===
+GET /admin/model/events/1345200207428480 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:00 ===
+GET /admin/model/events/1345200210447384 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:02 ===
+GET /admin/model/events/1345200212464162 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:03 ===
+GET /admin/model/events/1345200213428375 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:10 ===
+GET / [helpdesk] 200 173ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:12 ===
+GET /user/register [helpdesk] 200 169ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:21 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:21 ===
+POST /user/register [helpdesk] 200 187ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:30 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:30 ===
+POST /user/register [helpdesk] 200 198ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:32 ===
+GET /user/login [helpdesk] 200 171ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:40 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:40 ===
+POST /user/login [helpdesk] 200 173ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:50 ===
+POST /user/login [helpdesk] 302 167ms
+
+=INFO REPORT==== 17-Aug-2012::16:44:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:44:51 ===
+GET / [helpdesk] 200 166ms
+
+=INFO REPORT==== 17-Aug-2012::16:52:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:52:54 ===
+GET / [helpdesk] 200 193ms
+
+=INFO REPORT==== 17-Aug-2012::16:52:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:52:56 ===
+GET /user/logout [helpdesk] 302 166ms
+
+=INFO REPORT==== 17-Aug-2012::16:52:56 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:52:56 ===
+GET / [helpdesk] 200 166ms
+
+=INFO REPORT==== 17-Aug-2012::16:52:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:52:59 ===
+GET /user/login [helpdesk] 200 188ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:01 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:01 ===
+POST /user/login [helpdesk] 200 172ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:08 ===
+POST /user/login [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:18 ===
+POST /user/login [helpdesk] 200 177ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:22 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:22 ===
+POST /user/login [helpdesk] 200 176ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:28 ===
+POST /user/login [helpdesk] 302 182ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:28 ===
+GET / [helpdesk] 200 173ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:32 ===
+GET /user/logout [helpdesk] 302 171ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:32 ===
+GET / [helpdesk] 200 171ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:40 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:40 ===
+GET /user/login [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:43 ===
+POST /user/login [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:45 ===
+GET /about [helpdesk] 200 198ms
+
+=INFO REPORT==== 17-Aug-2012::16:53:45 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:53:45 ===
+GET / [helpdesk] 200 179ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:06 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:07 ===
+GET / [helpdesk] 200 200ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:08 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:09 ===
+GET /about [helpdesk] 200 197ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:11 ===
+GET /user/register [helpdesk] 200 194ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:14 ===
+GET /user/login [helpdesk] 200 194ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:20 ===
+GET /user/logout [helpdesk] 302 171ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:20 ===
+GET / [helpdesk] 200 170ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:21 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:22 ===
+GET /user/login [helpdesk] 200 175ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:23 ===
+POST /user/login [helpdesk] 200 176ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:28 ===
+POST /user/login [helpdesk] 302 174ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:28 ===
+GET / [helpdesk] 200 169ms
+
+=INFO REPORT==== 17-Aug-2012::16:55:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:55:32 ===
+GET / [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::16:56:19 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:56:20 ===
+GET /aa [helpdesk] 200 187ms
+
+=INFO REPORT==== 17-Aug-2012::16:57:26 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:57:26 ===
+GET /aa [helpdesk] 200 190ms
+
+=INFO REPORT==== 17-Aug-2012::16:57:39 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:57:39 ===
+GET / [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::16:59:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:59:37 ===
+GET /about [helpdesk] 200 195ms
+
+=INFO REPORT==== 17-Aug-2012::16:59:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::16:59:54 ===
+GET /about [helpdesk] 200 189ms
+
+=INFO REPORT==== 17-Aug-2012::17:00:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:00:51 ===
+GET /about [helpdesk] 200 189ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:04 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:04 ===
+GET /about [helpdesk] 200 192ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:11 ===
+GET /about [helpdesk] 200 174ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:12 ===
+GET / [helpdesk] 200 199ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:20 ===
+GET /user/login [helpdesk] 200 195ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:22 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:22 ===
+POST /user/login [helpdesk] 200 178ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:27 ===
+POST /user/login [helpdesk] 302 169ms
+
+=INFO REPORT==== 17-Aug-2012::17:05:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:05:27 ===
+GET / [helpdesk] 200 168ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:05 ===
+GET / [helpdesk] 200 177ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:06 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:06 ===
+GET /about [helpdesk] 200 171ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:07 ===
+GET /user/register [helpdesk] 200 192ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:08 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:08 ===
+GET /user/login [helpdesk] 200 174ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:10 ===
+GET /user/logout [helpdesk] 302 170ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:10 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:10 ===
+GET / [helpdesk] 200 169ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:20 ===
+GET /user/register [helpdesk] 200 174ms
+
+=INFO REPORT==== 17-Aug-2012::17:09:26 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:09:26 ===
+POST /user/register [helpdesk] 200 175ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:13 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:10:14 ===
+POST /user/register [helpdesk] 200 173ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:10:24 ===
+POST /user/register [helpdesk] 200 175ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:30 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:10:31 ===
+POST /user/register [helpdesk] 200 203ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:37 ===
+GET /admin [cb_admin] 200 1ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:38 ===
+GET /admin/model/model [cb_admin] 200 2ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:39 ===
+GET /admin/model/model/cl_user [cb_admin] 200 10ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:40 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:42 ===
+GET /admin/model/show/cl_user-4 [cb_admin] 200 9ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:42 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:43 ===
+GET /admin/model/delete/cl_user-4 [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:44 ===
+POST /admin/model/delete/cl_user-4 [cb_admin] 302 38ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:44 ===
+GET /admin/model/model/cl_user [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:45 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:46 ===
+GET /admin/ [cb_admin] 200 1ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:47 ===
+GET /admin/model/model [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:49 ===
+GET /admin/model/model/depart [cb_admin] 200 14ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:49 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:10:51 ===
+GET /admin/ [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:11:07 ===
+GET / [helpdesk] 200 177ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:10 ===
+GET /admin/model/events/1345201839916219 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:11:12 ===
+GET /admin/model/events/1345201842631382 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:12 ===
+GET /user/login [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:15 ===
+GET /admin/model/events/1345201844905326 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:15 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:11:15 ===
+POST /user/login [helpdesk] 200 181ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:19 ===
+GET /admin/model/events/1345201849005858 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:19 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:11:20 ===
+POST /user/login [helpdesk] 302 176ms
+
+=INFO REPORT==== 17-Aug-2012::17:11:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:11:20 ===
+GET / [helpdesk] 200 176ms
+
+=INFO REPORT==== 17-Aug-2012::17:12:27 ===
+GET /admin [cb_admin] 200 2ms
+
+=INFO REPORT==== 17-Aug-2012::17:12:28 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:12:30 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:12:30 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:12:32 ===
+GET /doc/depart [helpdesk] 200 311ms
+
+=ERROR REPORT==== 17-Aug-2012::17:12:32 ===
+GET /doc/stylesheet.css [helpdesk] 404 0ms
+
+=ERROR REPORT==== 17-Aug-2012::17:12:32 ===
+GET /doc/erlang.png [helpdesk] 404 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:13:00 ===
+GET /admin/model/events/1345201950309133 [cb_admin] 200 30004ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:16 ===
+GET /admin [cb_admin] 200 2ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:17 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:18 ===
+GET /admin/routes/index [cb_admin] 200 22ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:19 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:20 ===
+GET /admin/model/model/cl_user [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:20 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:21 ===
+GET /admin/model/create/cl_user [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:27 ===
+POST /admin/model/create/cl_user [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:51 ===
+GET /admin/model/events/1345202060803689 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:14:51 ===
+POST /admin/model/create/cl_user [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:19 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:22 ===
+GET /admin/model/model/cl_user [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:22 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:25 ===
+GET /admin/model/show/cl_user-3 [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:25 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:28 ===
+GET /admin/model/edit/cl_user-3 [cb_admin] 200 7ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:31 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:37 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:52 ===
+GET /admin/model/events/1345202122103360 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:15:55 ===
+GET /admin/model/events/1345202125752015 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:07 ===
+GET /admin/model/events/1345202125752015 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:07 ===
+POST /admin/model/heartbeat/22 [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:37 ===
+POST /admin/model/heartbeat/22 [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:37 ===
+GET /admin/model/events/1345202137457228 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:37 ===
+GET /admin/model/edit/cl_user-3 [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:43 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:46 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:50 ===
+GET /admin/model/show/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:50 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:51 ===
+GET /admin/model/model/cl_user [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:51 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:55 ===
+GET /admin/model/show/cl_user-2 [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:55 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:16:57 ===
+GET /admin/model/edit/cl_user-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:17:01 ===
+POST /admin/model/edit/cl_user-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:17:07 ===
+GET /admin/model/events/1345202167472305 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:17:07 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:17:20 ===
+GET /admin/model/events/1345202210379796 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:17:21 ===
+GET /admin/model/events/1345202211821973 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:17:25 ===
+GET /admin/model/events/1345202215089003 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:12 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:12 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:14 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:14 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:17 ===
+GET /admin/model/model/depart [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:17 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:19 ===
+GET /admin/model/model/cl_user [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:19 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:27 ===
+GET /admin/model/show/cl_user-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:27 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:28 ===
+GET /admin/model/edit/cl_user-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:29 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:31 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:32 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:32 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:32 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:33 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:33 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:33 ===
+POST /admin/model/edit/cl_user-3 [cb_admin] 200 7ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:35 ===
+GET /admin/model/show/cl_user-3 [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:35 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:36 ===
+GET /admin/model/model/cl_user [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:36 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:42 ===
+GET /admin/model/events/1345202292405576 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:44 ===
+GET /admin/model/events/1345202294261909 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:47 ===
+GET /admin/model/events/1345202297337009 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:49 ===
+GET /admin/model/events/1345202299253134 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:18:57 ===
+GET /admin/model/events/1345202307804565 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:05 ===
+GET /admin/model/events/1345202315226700 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:06 ===
+POST /admin/model/heartbeat/32 [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:06 ===
+GET /admin/model/events/1345202316142265 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:14 ===
+GET /admin/model/csv/cl_user [cb_admin] 200 16ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:18 ===
+GET /admin/model/model/depart [cb_admin] 200 10ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:18 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 17-Aug-2012::17:19:19 ===
+{badarg,[{erlang,integer_to_list,[14.0]},
+         {erlydtl_dateformat,integer_to_list_zerofill,1},
+         {erlydtl_dateformat,replace_tags,5},
+         {cb_admin_model_lib,encode_csv_value,1},
+         {cb_admin_model_controller,'-csv/3-fun-1-',2},
+         {lists,foldr,3},
+         {cb_admin_model_controller,'-csv/3-fun-2-',1},
+         {lists,map,2}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:19:19 ===
+GET /admin/model/csv/depart [cb_admin] 500 4ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:24 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:25 ===
+GET /admin/model/model/operator [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:27 ===
+GET /admin/model/model/request [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:27 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 17-Aug-2012::17:19:29 ===
+{badarg,[{erlang,integer_to_list,[36.0]},
+         {erlydtl_dateformat,integer_to_list_zerofill,1},
+         {erlydtl_dateformat,replace_tags,5},
+         {cb_admin_model_lib,encode_csv_value,1},
+         {cb_admin_model_controller,'-csv/3-fun-1-',2},
+         {lists,foldr,3},
+         {cb_admin_model_controller,'-csv/3-fun-2-',1},
+         {lists,map,2}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:19:29 ===
+GET /admin/model/csv/request [cb_admin] 500 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:30 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:36 ===
+GET /admin/model/model/cl_user [cb_admin] 200 6ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:36 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:36 ===
+GET /admin/model/events/1345202316328422 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:37 ===
+GET /admin/model/csv/cl_user [cb_admin] 200 2ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:48 ===
+GET /admin/model/events/1345202358732710 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:54 ===
+GET /admin/model/events/1345202358732710 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:19:57 ===
+GET /admin/model/events/1345202367765766 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:20:00 ===
+GET /admin/model/events/1345202367765766 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:20:06 ===
+POST /admin/model/heartbeat/37 [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:20:06 ===
+GET /admin/model/events/1345202376006310 [cb_admin] 200 30001ms

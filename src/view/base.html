@@ -2,49 +2,66 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>{% block title %}Help desk.{% endblock %}</title>
+<!--
+    <title>HD:semia - {% block title %}{% endblock %}</title>
+-->
     <meta name="description" content="">
 
     <meta name="viewport" content="width=device-width">
 
     <link href="{{ _base_url }}/static/stylesheets/application.css?1298394796" media="all" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/static/css/style1.css" type="text/css" charset="utf-8" />
-
+    <!-- <link rel="stylesheet" href="/static/css/style1.css" type="text/css" charset="utf-8" /> -->
+    {% block meta_scripts %}{% endblock %}
 
 </head>
 <body>
-<header><h3>HD:semia</h3>
-{% if cl_user %}
-Текущий пользователь: {{ cl_user.name }}
-{% endif %}
-{% if ip %}
-, ваш адресс: {{ ip }}
-{% endif %}
+    <div id="wrapper">
+        <div id="wrapper2">
+	    <div id="top-menu">
+		    <div id="account">
+			{% block right_submenu %}{% endblock %}
+		    </div>
+		    {% block left_submenu %}{% endblock %}
+	    </div>
+	    <div id="header">
+		<div id="quick-search">
+		{% if cl_user %}
+		    Текущий пользователь: {{ cl_user.name }}
+		{% endif %}
+		{% if ip %}
+		    , ваш адресс: {{ ip }}
+		{% endif %}
+		</div>
+	    <h1>HD:semia - {% block title %}{% endblock %}</h1>
+		<div id="main-menu">
+		    {% include "_main_menu.html" %}
+		</div>
+	    </div>
+	    <div id="main" class="">
+		<div id="sidebar">
+		    {% include "_sidebar.html" %}
+		</div>
+		<div id="content">
+		    {% include "_alerts.html" %}
+                    <div class="contextual">{% block contextual %}{% endblock %}</div>
+		    <div class="wiki">
+			{% block content %}{% endblock %}
+		    </div>
+		    <div style="clear:both;"></div>
+		</div>
+	    </div>
+	    <div id="ajax-indicator" style="display:none;">
+		<span>Загрузка...</span>
+	    </div>
 
-</header>
-<nav>
-  <ul>
-        <li><a href="/">Home</a></li>
-    {% if cl_user %}
-        <li><a href="/main/depart_request">Задания отдела</a></li>
-        <li><a href="/main/user_request">Мои задания</a></li>
-        {% if cl_user.name == "admin" %}
-            <li><a href="/depart/index">Отделы</a></li>
-            <li><a href="/request/index">Задания</a></li>
-            <li><a href="/about">О прогамме</a></li>
-            <li><a href="/user/register">Регистрация</a></li>
-            <li><a href="/request/report01">Отчет 01</a></li>
-        {% endif %}
-    {% else %}
-        <li><a href="/user/login">Login</a></li>
-    {% endif %}
-    {% if cl_user %}
-        <li><a href="/user/logout">выйти</a></li>
-    {% endif %}
-
-  </ul>
-</nav>
-{% block content %}{% endblock %}
+	    <div id="footer">
+		<div class="bgl">
+		    <div class="bgr">
+			Powered by Chicago Boss, Erlang.
+		    </div>
+		</div>
+	    </div>
+        </div>
+    </div>
 </body>
 </html>

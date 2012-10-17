@@ -1,0 +1,18 @@
+
+=INFO REPORT==== 30-Aug-2012::13:20:50 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 30-Aug-2012::13:20:50 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 30-Aug-2012::13:20:50 ===
+SSL:[]
+
+=INFO REPORT==== 30-Aug-2012::13:20:50 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:20:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 30-Aug-2012::13:20:51 ===
+erlydtl_compiler:resolve_variable_ast unhandled: {number_literal,{15,55},"1"}

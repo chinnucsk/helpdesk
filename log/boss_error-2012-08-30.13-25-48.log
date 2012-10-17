@@ -1,0 +1,123 @@
+
+=INFO REPORT==== 30-Aug-2012::13:25:48 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 30-Aug-2012::13:25:48 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 30-Aug-2012::13:25:48 ===
+SSL:[]
+
+=INFO REPORT==== 30-Aug-2012::13:25:48 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:25:48 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:25:58 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:25:58 ===
+GET / [helpdesk] 200 142ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:00 ===
+GET /user/login [helpdesk] 200 118ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:07 ===
+POST /user/login [helpdesk] 200 262ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:11 ===
+POST /user/login [helpdesk] 302 135ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:11 ===
+GET / [helpdesk] 200 117ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:12 ===
+GET /main/user_request [helpdesk] 200 176ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:15 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:15 ===
+GET /main/user_request/tag_order/1 [helpdesk] 200 138ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:19 ===
+GET /main/user_request/tag_order/1 [helpdesk] 200 137ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:19 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:19 ===
+GET /main/user_request/tag_order/1 [helpdesk] 200 141ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:20 ===
+GET /main/user_request/tag_order/1 [helpdesk] 200 151ms
+
+=INFO REPORT==== 30-Aug-2012::13:26:21 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 30-Aug-2012::13:26:21 ===
+GET /main/user_request/tag_order/1 [helpdesk] 200 141ms
+
+=INFO REPORT==== 30-Aug-2012::13:29:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 30-Aug-2012::13:29:55 ===
+** Generic server <0.83.0> terminating 
+** Last message in was {find,request,
+                             [{cl_user_id,equals,"cl_user-20"}],
+                             all,0,"1",ascending}
+** When Server state == {state,boss_db_adapter_mysql,<0.84.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {function_clause,
+       [{boss_db_adapter_mysql,find,
+            [<0.84.0>,request,
+             [{cl_user_id,equals,"cl_user-20"}],
+             all,0,"1",ascending]},
+        {boss_db_controller,handle_call,3},
+        {gen_server,handle_msg,5},
+        {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 30-Aug-2012::13:29:55 ===
+{{function_clause,
+     [{boss_db_adapter_mysql,find,
+          [<0.84.0>,request,
+           [{cl_user_id,equals,"cl_user-20"}],
+           all,0,"1",ascending]},
+      {boss_db_controller,handle_call,3},
+      {gen_server,handle_msg,5},
+      {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,
+     [<0.83.0>,
+      {find,request,[{cl_user_id,equals,"cl_user-20"}],all,0,"1",ascending},
+      30000]}}
+
+=ERROR REPORT==== 30-Aug-2012::13:29:55 ===
+GET /main/user_request/tag_order/1 [helpdesk] 500 110ms

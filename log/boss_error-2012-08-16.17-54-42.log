@@ -1,0 +1,153 @@
+
+=INFO REPORT==== 16-Aug-2012::17:54:42 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 16-Aug-2012::17:54:42 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 16-Aug-2012::17:54:42 ===
+SSL:[]
+
+=INFO REPORT==== 16-Aug-2012::17:54:42 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 16-Aug-2012::17:54:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 16-Aug-2012::17:54:46 ===
+** Generic server <0.65.0> terminating 
+** Last message in was {count,person,[]}
+** When Server state == {state,boss_db_adapter_pgsql,<0.66.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,{error,{error,error,<<"42P01">>,
+                            <<"relation \"people\" does not exist">>,
+                            [{position,<<"31">>}]}}},
+    [{boss_db_adapter_pgsql,count,3},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::17:54:46 ===
+{{{badmatch,{error,{error,error,<<"42P01">>,
+                          <<"relation \"people\" does not exist">>,
+                          [{position,<<"31">>}]}}},
+  [{boss_db_adapter_pgsql,count,3},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,[<0.65.0>,{count,person,[]},30000]}}
+
+=ERROR REPORT==== 16-Aug-2012::17:54:46 ===
+GET /admin/model/model/person [cb_admin] 500 4ms
+
+=INFO REPORT==== 16-Aug-2012::17:55:37 ===
+GET /admin/model/model/depart [cb_admin] 200 42ms
+
+=INFO REPORT==== 16-Aug-2012::17:55:37 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 16-Aug-2012::17:55:38 ===
+GET /admin/model/create/depart [cb_admin] 200 3ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:07 ===
+GET /admin/model/events/1345118137375139 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:12 ===
+POST /admin/model/create/depart [cb_admin] 302 16ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:12 ===
+GET /admin/model/show/depart-3 [cb_admin] 200 13ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:12 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:14 ===
+GET /admin/model/model/depart [cb_admin] 200 10ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:14 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 16-Aug-2012::17:56:18 ===
+** Generic server <0.76.0> terminating 
+** Last message in was {count,person,[]}
+** When Server state == {state,boss_db_adapter_pgsql,<0.77.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,{error,{error,error,<<"42P01">>,
+                            <<"relation \"people\" does not exist">>,
+                            [{position,<<"31">>}]}}},
+    [{boss_db_adapter_pgsql,count,3},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::17:56:18 ===
+{{{badmatch,{error,{error,error,<<"42P01">>,
+                          <<"relation \"people\" does not exist">>,
+                          [{position,<<"31">>}]}}},
+  [{boss_db_adapter_pgsql,count,3},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,[<0.76.0>,{count,person,[]},30000]}}
+
+=ERROR REPORT==== 16-Aug-2012::17:56:18 ===
+GET /admin/model/model/person [cb_admin] 500 1ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:20 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:25 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=ERROR REPORT==== 16-Aug-2012::17:56:26 ===
+** Generic server <0.79.0> terminating 
+** Last message in was {count,person,[]}
+** When Server state == {state,boss_db_adapter_pgsql,<0.80.0>,[],
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               false,60,db,0}
+** Reason for termination == 
+** {{badmatch,{error,{error,error,<<"42P01">>,
+                            <<"relation \"people\" does not exist">>,
+                            [{position,<<"31">>}]}}},
+    [{boss_db_adapter_pgsql,count,3},
+     {boss_db_controller,handle_call,3},
+     {gen_server,handle_msg,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 16-Aug-2012::17:56:26 ===
+{{{badmatch,{error,{error,error,<<"42P01">>,
+                          <<"relation \"people\" does not exist">>,
+                          [{position,<<"31">>}]}}},
+  [{boss_db_adapter_pgsql,count,3},
+   {boss_db_controller,handle_call,3},
+   {gen_server,handle_msg,5},
+   {proc_lib,init_p_do_apply,3}]},
+ {gen_server,call,[<0.79.0>,{count,person,[]},30000]}}
+
+=ERROR REPORT==== 16-Aug-2012::17:56:26 ===
+GET /admin/model/model/person [cb_admin] 500 1ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:42 ===
+GET /admin/model/events/1345118172341481 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:44 ===
+GET /admin/model/events/1345118174607104 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 16-Aug-2012::17:56:50 ===
+GET /admin/model/events/1345118174607104 [cb_admin] 200 30000ms

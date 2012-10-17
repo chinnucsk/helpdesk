@@ -1,0 +1,667 @@
+
+=INFO REPORT==== 17-Aug-2012::17:21:21 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 17-Aug-2012::17:21:21 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 17-Aug-2012::17:21:21 ===
+SSL:[]
+
+=INFO REPORT==== 17-Aug-2012::17:21:21 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:21:22 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:21:26 ===
+GET /admin/model/model/depart [cb_admin] 200 48ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:26 ===
+POST /admin/model/watch [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:27 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 15ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:28 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:30 ===
+GET /admin/model/edit/depart-2 [cb_admin] 200 23ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:34 ===
+GET /admin/model/events/1345202487928050 [cb_admin] 200 6455ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:34 ===
+GET /admin/model/events/1345202486088331 [cb_admin] 200 8313ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:34 ===
+POST /admin/model/edit/depart-2 [cb_admin] 302 40ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:34 ===
+GET /admin/model/show/depart-2 [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:34 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:36 ===
+GET /admin/model/model/depart [cb_admin] 200 8ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:37 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=ERROR REPORT==== 17-Aug-2012::17:21:38 ===
+{badarg,[{erlang,integer_to_list,[34.0]},
+         {erlydtl_dateformat,integer_to_list_zerofill,1},
+         {erlydtl_dateformat,replace_tags,5},
+         {cb_admin_model_lib,encode_csv_value,1},
+         {cb_admin_model_controller,'-csv/3-fun-1-',2},
+         {lists,foldr,3},
+         {cb_admin_model_controller,'-csv/3-fun-2-',1},
+         {lists,map,2}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:21:38 ===
+GET /admin/model/csv/depart [cb_admin] 500 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:53 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:55 ===
+GET /admin/model/model/cl_user [cb_admin] 200 12ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:55 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:21:58 ===
+GET /admin/model/model/operator [cb_admin] 200 9ms
+
+=ERROR REPORT==== 17-Aug-2012::17:21:59 ===
+{{badmatch,[]},
+ [{cb_admin_model_controller,csv,4},
+  {boss_web_controller,execute_action,5},
+  {boss_web_controller,process_request,5},
+  {timer,tc,3},
+  {boss_web_controller,handle_request,3},
+  {mochiweb_http,headers,5},
+  {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:21:59 ===
+GET /admin/model/csv/operator [cb_admin] 500 2ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:04 ===
+GET /admin/model/events/1345202494605921 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:05 ===
+GET /admin/model/model/request [cb_admin] 200 5ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:05 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:07 ===
+GET /admin/model/events/1345202496885724 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:10 ===
+GET /admin/routes/index [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:13 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:14 ===
+GET /admin/ [cb_admin] 200 4ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:23 ===
+GET /admin/model/events/1345202496885724 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:25 ===
+GET /admin/model/events/1345202515213515 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:35 ===
+GET /admin/model/events/1345202525583720 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:22:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:22:57 ===
+GET / [helpdesk] 200 152ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:02 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:02 ===
+GET /user/login [helpdesk] 200 177ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:08 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:09 ===
+POST /user/login [helpdesk] 302 166ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:09 ===
+GET / [helpdesk] 200 174ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:12 ===
+GET /about [helpdesk] 200 182ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:17 ===
+GET /user/logout [helpdesk] 302 169ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:17 ===
+GET / [helpdesk] 200 167ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:23 ===
+GET /user/login [helpdesk] 200 173ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:29 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:30 ===
+POST /user/login [helpdesk] 302 180ms
+
+=INFO REPORT==== 17-Aug-2012::17:23:30 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:23:30 ===
+GET / [helpdesk] 200 165ms
+
+=INFO REPORT==== 17-Aug-2012::17:26:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:26:44 ===
+GET /about [helpdesk] 200 171ms
+
+=INFO REPORT==== 17-Aug-2012::17:26:55 ===
+GET /admin/routes/index [cb_admin] 200 2ms
+
+=INFO REPORT==== 17-Aug-2012::17:26:56 ===
+GET /admin/model/model [cb_admin] 200 3ms
+
+=INFO REPORT==== 17-Aug-2012::17:26:57 ===
+GET /admin/model/model/cl_user [cb_admin] 200 10ms
+
+=INFO REPORT==== 17-Aug-2012::17:26:57 ===
+POST /admin/model/watch [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:27:27 ===
+POST /admin/model/heartbeat/7 [cb_admin] 200 0ms
+
+=INFO REPORT==== 17-Aug-2012::17:27:27 ===
+GET /admin/model/events/1345202817555810 [cb_admin] 200 30000ms
+
+=INFO REPORT==== 17-Aug-2012::17:27:29 ===
+GET /admin/lang/show [cb_admin] 200 21ms
+
+=INFO REPORT==== 17-Aug-2012::17:27:57 ===
+GET /admin/model/events/1345202817843526 [cb_admin] 200 30001ms
+
+=INFO REPORT==== 17-Aug-2012::17:30:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:30:55 ===
+GET / [helpdesk] 200 190ms
+
+=INFO REPORT==== 17-Aug-2012::17:30:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:30:57 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart",
+                  {1,1},
+                  {8,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     {"referer",{'Referer',"http://localhost:8001/"},nil,nil},
+                     nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:30:57 ===
+GET /depart [helpdesk] 500 166ms
+
+=INFO REPORT==== 17-Aug-2012::17:31:00 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:31:00 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart",
+                  {1,1},
+                  {8,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     {"referer",{'Referer',"http://localhost:8001/"},nil,nil},
+                     nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:31:00 ===
+GET /depart [helpdesk] 500 163ms
+
+=INFO REPORT==== 17-Aug-2012::17:31:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:31:18 ===
+GET /user/logout [helpdesk] 302 167ms
+
+=INFO REPORT==== 17-Aug-2012::17:31:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:31:18 ===
+GET / [helpdesk] 200 164ms
+
+=INFO REPORT==== 17-Aug-2012::17:31:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:31:20 ===
+GET /user/login [helpdesk] 200 186ms
+
+=INFO REPORT==== 17-Aug-2012::17:31:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:31:24 ===
+POST /user/login [helpdesk] 302 169ms
+
+=INFO REPORT==== 17-Aug-2012::17:31:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:31:25 ===
+GET / [helpdesk] 200 163ms
+
+=INFO REPORT==== 17-Aug-2012::17:32:05 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:32:05 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart",
+                  {1,1},
+                  {8,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     {"referer",{'Referer',"http://localhost:8001/"},nil,nil},
+                     nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:32:05 ===
+GET /depart [helpdesk] 500 164ms
+
+=INFO REPORT==== 17-Aug-2012::17:32:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:32:10 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart",
+                  {1,1},
+                  {8,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     {"referer",{'Referer',"http://localhost:8001/"},nil,nil},
+                     nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:32:10 ===
+GET /depart [helpdesk] 500 167ms
+
+=INFO REPORT==== 17-Aug-2012::17:32:40 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:32:40 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart",
+                  {1,1},
+                  {8,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     {"referer",{'Referer',"http://localhost:8001/"},nil,nil},
+                     nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:32:40 ===
+GET /depart [helpdesk] 500 162ms
+
+=INFO REPORT==== 17-Aug-2012::17:32:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:32:44 ===
+GET / [helpdesk] 200 194ms
+
+=INFO REPORT==== 17-Aug-2012::17:32:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:32:47 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart/index",
+                  {1,1},
+                  {8,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     {"referer",{'Referer',"http://localhost:8001/"},nil,nil},
+                     nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:32:47 ===
+GET /depart/index [helpdesk] 500 164ms
+
+=INFO REPORT==== 17-Aug-2012::17:34:31 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 17-Aug-2012::17:34:31 ===
+{undef,
+    [{user_lib,check_user,
+         [{simple_bridge_request_wrapper,mochiweb_request_bridge,
+              {mochiweb_request,#Port<0.13797>,'GET',"/depart",
+                  {1,1},
+                  {7,
+                   {"host",
+                    {'Host',"localhost:8001"},
+                    {"accept",
+                     {'Accept',
+                         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},
+                     nil,
+                     {"accept-language",
+                      {'Accept-Language',
+                          "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                      {"accept-encoding",
+                       {'Accept-Encoding',"gzip, deflate"},
+                       nil,nil},
+                      {"connection",
+                       {'Connection',"keep-alive"},
+                       nil,
+                       {"cookie",
+                        {'Cookie',
+                            "_boss_session=83bc3c31ac6dbe1cae8bfe357f6ebb30c1971965; cl_user_id=cl_user-3; session_id=051648f404b4cc24ef74ecf6fe58882c"},
+                        nil,nil}}}},
+                    {"user-agent",
+                     {'User-Agent',
+                         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                     nil,nil}}}},
+              false,[],[],none}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 17-Aug-2012::17:34:31 ===
+GET /depart [helpdesk] 500 168ms
+
+=INFO REPORT==== 17-Aug-2012::17:35:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:35:12 ===
+GET /depart [helpdesk] 200 236ms
+
+=INFO REPORT==== 17-Aug-2012::17:35:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:35:17 ===
+GET / [helpdesk] 200 171ms
+
+=INFO REPORT==== 17-Aug-2012::17:35:19 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:35:19 ===
+GET /depart/index [helpdesk] 200 174ms
+
+=INFO REPORT==== 17-Aug-2012::17:35:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:35:32 ===
+GET /depart/edit/depart-2 [helpdesk] 200 174ms
+
+=INFO REPORT==== 17-Aug-2012::17:35:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:35:41 ===
+GET /user/login [helpdesk] 200 191ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:27 ===
+GET /main [helpdesk] 200 191ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:29 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:29 ===
+GET /user/login [helpdesk] 200 193ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:34 ===
+POST /user/login [helpdesk] 302 159ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:34 ===
+GET / [helpdesk] 200 172ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:37 ===
+GET /depart/index [helpdesk] 200 243ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:41 ===
+GET /user/logout [helpdesk] 302 169ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:41 ===
+GET / [helpdesk] 200 172ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:42 ===
+GET /user/logout [helpdesk] 302 171ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:42 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:42 ===
+GET / [helpdesk] 200 177ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:44 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:44 ===
+GET /user/login [helpdesk] 200 169ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:55 ===
+POST /user/login [helpdesk] 302 163ms
+
+=INFO REPORT==== 17-Aug-2012::17:41:55 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::17:41:55 ===
+GET / [helpdesk] 200 165ms

@@ -1,0 +1,82 @@
+
+=INFO REPORT==== 17-Aug-2012::12:46:19 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 17-Aug-2012::12:46:20 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 17-Aug-2012::12:46:20 ===
+SSL:[]
+
+=INFO REPORT==== 17-Aug-2012::12:46:20 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::12:46:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 17-Aug-2012::12:46:22 ===
+GET /admin/model/model [cb_admin] 200 12ms
+
+=INFO REPORT==== 17-Aug-2012::12:46:24 ===
+GET /admin/model/model/operator [cb_admin] 200 22ms
+
+=INFO REPORT==== 17-Aug-2012::12:46:25 ===
+GET /admin/model/create/operator [cb_admin] 200 4ms
+
+=ERROR REPORT==== 17-Aug-2012::12:46:29 ===
+{function_clause,[{proplists,get_value,[limit,1,all]},
+                  {boss_db,find,3},
+                  {operator,'-validation_tests/0-fun-2-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,validate_record,1},
+                  {boss_db,save_record,1},
+                  {cb_admin_model_controller,create,4}]}
+
+=ERROR REPORT==== 17-Aug-2012::12:46:29 ===
+POST /admin/model/create/operator [cb_admin] 500 0ms
+
+=ERROR REPORT==== 17-Aug-2012::12:47:30 ===
+{function_clause,[{proplists,get_value,[limit,1,all]},
+                  {boss_db,find,3},
+                  {operator,'-validation_tests/0-fun-2-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,validate_record,1},
+                  {boss_db,save_record,1},
+                  {cb_admin_model_controller,create,4}]}
+
+=ERROR REPORT==== 17-Aug-2012::12:47:30 ===
+POST /admin/model/create/operator [cb_admin] 500 1ms
+
+=ERROR REPORT==== 17-Aug-2012::12:47:34 ===
+{function_clause,[{proplists,get_value,[limit,1,all]},
+                  {boss_db,find,3},
+                  {operator,'-validation_tests/0-fun-2-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,validate_record,1},
+                  {boss_db,save_record,1},
+                  {cb_admin_model_controller,create,4}]}
+
+=ERROR REPORT==== 17-Aug-2012::12:47:34 ===
+POST /admin/model/create/operator [cb_admin] 500 0ms
+
+=INFO REPORT==== 17-Aug-2012::12:47:37 ===
+GET /admin/model/model/operator [cb_admin] 200 7ms
+
+=INFO REPORT==== 17-Aug-2012::12:47:39 ===
+GET /admin/model/create/operator [cb_admin] 200 3ms
+
+=ERROR REPORT==== 17-Aug-2012::12:47:49 ===
+{function_clause,[{proplists,get_value,[limit,1,all]},
+                  {boss_db,find,3},
+                  {operator,'-validation_tests/0-fun-2-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,'-validate_record/1-lc$^0/1-0-',1},
+                  {boss_db,validate_record,1},
+                  {boss_db,save_record,1},
+                  {cb_admin_model_controller,create,4}]}
+
+=ERROR REPORT==== 17-Aug-2012::12:47:49 ===
+POST /admin/model/create/operator [cb_admin] 500 1ms

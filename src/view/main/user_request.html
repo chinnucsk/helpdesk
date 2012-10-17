@@ -1,16 +1,23 @@
 {% extends "base.html" %}
 
-{% block title %}Request{% endblock %}
+{% block title %}Мои задания.{% endblock %}
+
+{% block left_submenu %}
+<ul>
+<li><a href="/request/create">Добавить</a></li>
+</ul>
+{% endblock %}
+{% block right_submenu %}<ul><li><a href="">Подсказка</a></li></ul>{% endblock %}
 
 {% block content %}
 
-           <li class="nav1"><a href="/request/create">Добавить</a></li>
          {% if requests %}
               Количество заданий - {{count_user_request}}, не закрытых - {{count_user_request_noclose}}, новых - {{count_user_request_new}}.
          {% endif %}
 
-          <table>
+          <table class="list files">
       {% if requests %}
+          <thead>
           <tr>
               <th><a href="{% url action="user_request" tag_order="depart_id" %}">Отдел</a></th>
               <th><a href="{% url action="user_request" tag_order="status" %}">Статус</a></th>
@@ -23,8 +30,10 @@
               <th><a href="{% url action="user_request" tag_order="note" %}">Описание</a></th>
               <th>Операции</th>
           </tr>
+          </thead>
+          <tbody>
           {% for request in requests %}
-          <tr>
+          <tr class="{% cycle 'odd' 'event' %}">
               <td>{{request.depart.name}}</td>
               <td>{% if request.status == "Discarded" %}
                      <font color="red">Отвергнуто</font>
@@ -49,6 +58,7 @@
                   <a href=/request/show/{{request.id}}>Показать</a>
           </tr>
           {% endfor %}
+          <tbody>
          
       {% else %}
           <b> Заданий нет. </b>

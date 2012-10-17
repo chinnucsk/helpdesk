@@ -1,0 +1,156 @@
+
+=INFO REPORT==== 26-Aug-2012::19:15:17 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 26-Aug-2012::19:15:17 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 26-Aug-2012::19:15:17 ===
+SSL:[]
+
+=INFO REPORT==== 26-Aug-2012::19:15:17 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:17 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:25 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:25 ===
+GET / [helpdesk] 200 327ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:27 ===
+GET / [helpdesk] 200 369ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:29 ===
+GET /chat [helpdesk] 200 333ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:30 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:30 ===
+GET /chat/live/public [helpdesk] 200 339ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:35 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:35 ===
+GET /chat/login/12 [helpdesk] 200 331ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:35 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:36 ===
+GET /chat/receive_chat/public/0 [helpdesk] 200 406ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:36 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:38 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:38 ===
+GET /chat/receive_chat/public/1345986936153388 [helpdesk] 200 2600ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:38 ===
+POST /chat/send_message/public [helpdesk] 200 330ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:38 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:40 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:41 ===
+GET /chat/receive_chat/public/1345986938841924 [helpdesk] 200 2301ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:41 ===
+POST /chat/send_message/public [helpdesk] 200 347ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 26-Aug-2012::19:15:43 ===
+{function_clause,
+    [{helpdesk_main_controller,nope,
+         ['DELETE',[],
+          {helpdesk_main_controller,
+              {simple_bridge_request_wrapper,mochiweb_request_bridge,
+                  {mochiweb_request,#Port<0.31039>,'DELETE',"/login/12",
+                      {1,1},
+                      {9,
+                       {"host",
+                        {'Host',"localhost:8001"},
+                        {"accept",
+                         {'Accept',"*/*"},
+                         nil,
+                         {"accept-language",
+                          {'Accept-Language',
+                              "ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3"},
+                          {"accept-encoding",
+                           {'Accept-Encoding',"gzip, deflate"},
+                           nil,nil},
+                          {"connection",
+                           {'Connection',"keep-alive"},
+                           nil,
+                           {"cookie",
+                            {'Cookie',
+                                "_boss_session=5bfdb15f4d1e6700fb563f5206b459f76ada23ba"},
+                            nil,nil}}}},
+                        {"user-agent",
+                         {'User-Agent',
+                             "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1"},
+                         {"referer",
+                          {'Referer',"http://localhost:8001/chat/live/public"},
+                          nil,nil},
+                         {"x-requested-with",
+                          {"X-Requested-With","XMLHttpRequest"},
+                          nil,nil}}}}},
+                  false,[],[],none}}]},
+     {boss_web_controller,execute_action,5},
+     {boss_web_controller,process_not_found,5},
+     {boss_web_controller,process_request,5},
+     {timer,tc,3},
+     {boss_web_controller,handle_request,3},
+     {mochiweb_http,headers,5},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 26-Aug-2012::19:15:43 ===
+DELETE /login/12 [helpdesk] 500 420ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:45 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:45 ===
+GET /user/login [helpdesk] 200 343ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:52 ===
+POST /user/login [helpdesk] 302 681ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:52 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:52 ===
+GET / [helpdesk] 200 374ms
+
+=INFO REPORT==== 26-Aug-2012::19:15:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 26-Aug-2012::19:15:55 ===
+GET /main/depart_request [helpdesk] 200 391ms

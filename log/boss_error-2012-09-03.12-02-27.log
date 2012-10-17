@@ -1,0 +1,978 @@
+
+=INFO REPORT==== 3-Sep-2012::12:02:27 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 3-Sep-2012::12:02:27 ===
+Starting master services on 'helpdesk@simba-Aspire-4920'
+
+=INFO REPORT==== 3-Sep-2012::12:02:28 ===
+SSL:[]
+
+=INFO REPORT==== 3-Sep-2012::12:02:28 ===
+Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::12:02:28 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:04:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:04:34 ===
+GET / [helpdesk] 200 125ms
+
+=INFO REPORT==== 3-Sep-2012::13:04:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:04:37 ===
+GET /user/login [helpdesk] 200 127ms
+
+=INFO REPORT==== 3-Sep-2012::13:04:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:04:43 ===
+POST /user/login [helpdesk] 302 121ms
+
+=INFO REPORT==== 3-Sep-2012::13:04:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:04:43 ===
+GET / [helpdesk] 200 119ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:07 ===
+GET /main/depart_request [helpdesk] 200 191ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:11 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:11 ===
+GET /main/user_request [helpdesk] 200 243ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:12 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:12 ===
+GET /main/user_request [helpdesk] 200 141ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:13 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:13 ===
+GET /main/user_request [helpdesk] 200 145ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:16 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:16 ===
+GET /request/create [helpdesk] 200 134ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:20 ===
+POST /request/create [helpdesk] 302 211ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:20 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:20 ===
+GET /main/user_request [helpdesk] 200 139ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:24 ===
+GET /main/depart_request [helpdesk] 200 175ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:27 ===
+GET /request/set_worker/request-37 [helpdesk] 200 142ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:34 ===
+POST /request/set_worker/request-37 [helpdesk] 302 244ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:34 ===
+GET /main/depart_request [helpdesk] 200 169ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:43 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:44 ===
+GET /main/user_request [helpdesk] 200 139ms
+
+=INFO REPORT==== 3-Sep-2012::13:20:47 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:20:47 ===
+GET /request/show/request-37 [helpdesk] 200 143ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:01 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:01 ===
+GET /main/user_request [helpdesk] 200 142ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:04 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:04 ===
+GET /request/show/request-37 [helpdesk] 200 148ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:07 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:08 ===
+GET /main/user_request [helpdesk] 200 145ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:14 ===
+GET /main/depart_request [helpdesk] 200 167ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:18 ===
+GET /request/show/request-36 [helpdesk] 200 149ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:24 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:25 ===
+GET /main/depart_request [helpdesk] 200 171ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:31 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:31 ===
+GET /request/set_complit/request-37 [helpdesk] 200 135ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:33 ===
+POST /request/set_complit/request-37 [helpdesk] 302 215ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:33 ===
+GET /main/depart_request [helpdesk] 200 172ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:34 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:34 ===
+GET /main/user_request [helpdesk] 200 151ms
+
+=INFO REPORT==== 3-Sep-2012::13:22:37 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:22:37 ===
+GET /request/set_discarded/request-37 [helpdesk] 200 280ms
+
+=INFO REPORT==== 3-Sep-2012::13:23:32 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:23:33 ===
+POST /request/set_discarded/request-37 [helpdesk] 302 208ms
+
+=INFO REPORT==== 3-Sep-2012::13:23:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:23:33 ===
+GET /main/depart_request [helpdesk] 200 168ms
+
+=INFO REPORT==== 3-Sep-2012::13:23:38 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:23:38 ===
+GET /request/show/request-37 [helpdesk] 200 149ms
+
+=INFO REPORT==== 3-Sep-2012::13:23:51 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:23:52 ===
+GET /request/show/request-37 [helpdesk] 200 144ms
+
+=INFO REPORT==== 3-Sep-2012::13:23:57 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:23:58 ===
+GET /main/user_request [helpdesk] 200 144ms
+
+=INFO REPORT==== 3-Sep-2012::13:23:59 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:23:59 ===
+GET /main/depart_request [helpdesk] 200 172ms
+
+=INFO REPORT==== 3-Sep-2012::13:25:38 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:25:38 ===
+GET /main/depart_request [helpdesk] 200 281ms
+
+=INFO REPORT==== 3-Sep-2012::13:27:22 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:27:22 ===
+GET /main/depart_request [helpdesk] 200 168ms
+
+=INFO REPORT==== 3-Sep-2012::13:28:33 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:28:33 ===
+GET /main/depart_request [helpdesk] 200 144ms
+
+=INFO REPORT==== 3-Sep-2012::13:28:41 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:28:42 ===
+GET /main/depart_request [helpdesk] 200 286ms
+
+=INFO REPORT==== 3-Sep-2012::13:28:46 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 3-Sep-2012::13:28:47 ===
+GET /main/status [helpdesk] 404 256ms
+
+=INFO REPORT==== 3-Sep-2012::13:29:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=ERROR REPORT==== 3-Sep-2012::13:29:24 ===
+GET /main/status [helpdesk] 404 254ms
+
+=INFO REPORT==== 3-Sep-2012::13:29:26 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:29:26 ===
+GET /main/depart_request [helpdesk] 200 289ms
+
+=INFO REPORT==== 3-Sep-2012::13:29:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:29:27 ===
+GET /main/depart_request/tag_order/status [helpdesk] 200 176ms
+
+=INFO REPORT==== 3-Sep-2012::13:29:38 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:29:38 ===
+GET /main/depart_request/tag_order/status [helpdesk] 200 180ms
+
+=INFO REPORT==== 3-Sep-2012::13:29:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:29:50 ===
+GET /main/depart_request/tag_order/cl_user_id [helpdesk] 200 172ms
+
+=INFO REPORT==== 3-Sep-2012::13:29:54 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::13:29:55 ===
+GET /main/depart_request/tag_order/status [helpdesk] 200 173ms
+
+=INFO REPORT==== 3-Sep-2012::15:44:58 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:44:58 ===
+GET /request/show/request-36 [helpdesk] 200 153ms
+
+=INFO REPORT==== 3-Sep-2012::15:45:02 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:45:02 ===
+GET /request/show/request-37 [helpdesk] 200 152ms
+
+=INFO REPORT==== 3-Sep-2012::15:45:09 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:45:09 ===
+GET / [helpdesk] 200 134ms
+
+=INFO REPORT==== 3-Sep-2012::15:47:14 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:47:14 ===
+GET /main/depart_request [helpdesk] 200 175ms
+
+=INFO REPORT==== 3-Sep-2012::15:47:18 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:47:18 ===
+GET /main/user_request [helpdesk] 200 144ms
+
+=INFO REPORT==== 3-Sep-2012::15:47:50 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:47:50 ===
+GET /main/depart_request [helpdesk] 200 294ms
+
+=INFO REPORT==== 3-Sep-2012::15:47:52 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:47:52 ===
+GET /main/depart_request/tag_order/status [helpdesk] 200 175ms
+
+=INFO REPORT==== 3-Sep-2012::15:48:19 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:48:19 ===
+GET /main/depart_request/tag_order/status [helpdesk] 200 291ms
+
+=INFO REPORT==== 3-Sep-2012::15:49:23 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:49:23 ===
+GET /request/show/request-18 [helpdesk] 200 151ms
+
+=INFO REPORT==== 3-Sep-2012::15:49:27 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:49:27 ===
+GET /main/depart_request [helpdesk] 200 178ms
+
+=INFO REPORT==== 3-Sep-2012::15:50:31 ===
+Loading routes from "/home/simba/hacking/erlang/helpdesk/priv/helpdesk.routes" ....
+
+=INFO REPORT==== 3-Sep-2012::15:50:31 ===
+GET / [helpdesk] 200 134ms
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** State machine boss_db_pool terminating 
+** Last message in was {'EXIT',<0.71.0>,shutdown}
+** When State == ready
+**      Data  == {state,{[<0.77.0>,<0.71.0>,<0.86.0>,<0.83.0>],[<0.80.0>]},
+                        <0.70.0>,
+                        {[],[]},
+                        [],5,0,10,#Fun<poolboy.0.67742198>,
+                        #Fun<poolboy.1.84040303>}
+** Reason for termination = 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,handle_info,3},
+     {gen_fsm,handle_msg,7},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.70.0> terminating 
+** Last message in was {'EXIT',<0.69.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,handle_info,3},
+                             {gen_fsm,handle_msg,7},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.70.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,handle_info,3},
+     {gen_fsm,handle_msg,7},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.492.0> terminating 
+** Last message in was {'EXIT',<0.491.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.492.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.497.0> terminating 
+** Last message in was {'EXIT',<0.496.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.497.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.502.0> terminating 
+** Last message in was {'EXIT',<0.501.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.502.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.507.0> terminating 
+** Last message in was {'EXIT',<0.506.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.507.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.512.0> terminating 
+** Last message in was {'EXIT',<0.511.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.512.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.517.0> terminating 
+** Last message in was {'EXIT',<0.516.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.517.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.522.0> terminating 
+** Last message in was {'EXIT',<0.521.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.522.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.527.0> terminating 
+** Last message in was {'EXIT',<0.526.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.527.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 3-Sep-2012::17:34:43 ===
+** Generic server <0.532.0> terminating 
+** Last message in was {'EXIT',<0.531.0>,
+                           {{badmatch,
+                                {error,
+                                    {{badmatch,{error,connect_failed}},
+                                     [{boss_db_controller,init,1},
+                                      {gen_server,init_it,6},
+                                      {proc_lib,init_p_do_apply,3}]}}},
+                            [{poolboy,new_worker,2},
+                             {poolboy,prepopulate,4},
+                             {poolboy,init,2},
+                             {gen_fsm,init_it,6},
+                             {proc_lib,init_p_do_apply,3}]}}
+** When Server state == {state,
+                            {<0.532.0>,poolboy_sup},
+                            simple_one_for_one,
+                            [{child,undefined,boss_db_controller,
+                                 {boss_db_controller,start_link,
+                                     [[{size,5},
+                                       {max_overflow,10},
+                                       {adapter,mysql},
+                                       {cache_enable,false},
+                                       {shards,[]},
+                                       {is_master_node,true},
+                                       {db_database,"helpdesk"},
+                                       {db_password,"WzorIn4"},
+                                       {db_username,"root"},
+                                       {db_host,"localhost"},
+                                       {db_port,3306}]]},
+                                 temporary,brutal_kill,worker,
+                                 [boss_db_controller]}],
+                            {set,0,16,16,8,80,48,
+                                {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                 []},
+                                {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                  [],[]}}},
+                            0,1,[],poolboy_sup,
+                            {boss_db_controller,
+                                [{size,5},
+                                 {max_overflow,10},
+                                 {adapter,mysql},
+                                 {cache_enable,false},
+                                 {shards,[]},
+                                 {is_master_node,true},
+                                 {db_database,"helpdesk"},
+                                 {db_password,"WzorIn4"},
+                                 {db_username,"root"},
+                                 {db_host,"localhost"},
+                                 {db_port,3306}]}}
+** Reason for termination == 
+** {{badmatch,{error,{{badmatch,{error,connect_failed}},
+                      [{boss_db_controller,init,1},
+                       {gen_server,init_it,6},
+                       {proc_lib,init_p_do_apply,3}]}}},
+    [{poolboy,new_worker,2},
+     {poolboy,prepopulate,4},
+     {poolboy,init,2},
+     {gen_fsm,init_it,6},
+     {proc_lib,init_p_do_apply,3}]}
